@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.trip__block-main {
+  margin-bottom: 80px;
+}
+.trip__block-main .trip__block-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.trip__block-main .trip__block-headers .trip__btn-more-placeses {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.trip__block-main .trip__block-placeses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box {
+  width: 31.33%;
+  padding: 16px;
+  border-radius: 16px;
+  /* Cards Shadow */
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  /* Neutrals */
+  background: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-places-image {
+  margin-right: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place {
+  display: flex;
+  flex-direction: column;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block {
+  /* Montserrat/Semibold/16px */
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description {
+  display: flex;
+  flex-direction: row;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places {
+  /* Montserrat/Medium/14px */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places:not(:last-child) {
+  margin-right: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places ::before {
+  content: "•";
+}/*# sourceMappingURL=trip.css.map */

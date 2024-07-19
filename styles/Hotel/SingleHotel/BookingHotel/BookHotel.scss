@@ -1,0 +1,919 @@
+@use "./../../../vars/mixins" as inst;
+@import "./../../../vars/colors";
+
+.book-hotel {
+  margin: 80px 0px 300px 0px;
+  .book-hotel__main-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .book-hotel__block-interactive {
+      width: 62%;
+      .book-hotel__block-room-ticket {
+        margin-bottom: 50px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+        background: rgb(255, 255, 255);
+        padding: 40px 30px;
+        .book-hotel__block-type-room {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 30px;
+          .book-hotel__description-type {
+            /* TradeGothic/Bold/24px */
+            color: rgb(17, 34, 17);
+            font-family: "Trade Gothic LT Std", sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+          .book-hotel__description-price {
+            /* [object Object] */
+            color: rgb(255, 134, 130);
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0%;
+            text-align: right;
+            span {
+              /* [object Object] */
+              color: rgb(255, 134, 130);
+              font-family: "Montserrat", sans-serif;
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 25px;
+              letter-spacing: 0%;
+              text-align: right;
+            }
+          }
+        }
+        .book-hotel__block-info-hotel {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          box-sizing: border-box;
+          border: 0.5px solid rgb(141, 211, 187);
+          border-radius: 8px;
+          background: rgb(255, 255, 255);
+          padding: 20px 40px;
+          margin-bottom: 50px;
+          .book-hotel__image-logo {
+            margin-right: 30px;
+          }
+          .book-hotel__block-name-location {
+            display: flex;
+            flex-direction: column;
+            .book-hotel__name-hotel {
+              /* Montserrat/Semibold/24px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 26px;
+              font-weight: 600;
+              line-height: 29px;
+              letter-spacing: 0%;
+              text-align: left;
+              margin-bottom: 10px;
+            }
+            .book-hotel__block-location-hotel {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              .book-hotel__icon-location {
+                margin-right: 10px;
+              }
+              .book-hotel__location-name {
+                /* Montserrat/Medium/14px */
+                color: rgb(17, 34, 17);
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+          }
+        }
+        .book-hotel__block-date-checking {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          .book-hotel__block-check-in {
+            margin-bottom: 10px;
+            .book-hotel__date-check-in {
+              /* Montserrat/Semibold/20px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 0%;
+              text-align: left;
+            }
+            .book-hotel__description-check {
+              /* Montserrat/Medium/14px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 17px;
+              letter-spacing: 0%;
+              text-align: left;
+              opacity: 0.6;
+            }
+          }
+          .book-hotel__block-image {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .book-hotel__hr-first {
+              border-bottom: 1px solid #000;
+              width: 45px;
+              height: 1px;
+            }
+            .book-hotel__icon-hotel {
+              margin: 0px 30px;
+            }
+            .book-hotel__hr-second {
+              border-bottom: 1px solid #000;
+              width: 45px;
+              height: 1px;
+            }
+          }
+          .book-hotel__block-check-out {
+            .book-hotel__description-date-check-out {
+              /* Montserrat/Semibold/20px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 0%;
+              text-align: left;
+              margin-bottom: 10px;
+            }
+            .book-hotel__description-check-out {
+              /* Montserrat/Medium/14px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 17px;
+              letter-spacing: 0%;
+              text-align: left;
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+      .book__block-pay-options {
+        .book__block-uu {
+          margin-bottom: 50px;
+          border-radius: 12px;
+          box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+          background: rgb(255, 255, 255);
+          padding: 25px;
+          .book__block-select-auto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 12px;
+            background: rgb(141, 211, 187);
+            padding: 25px;
+            height: 95px;
+            margin-bottom: 25px;
+            .book__block-seelct-inside {
+              .book__header-option {
+                /* TradeGothic/Bold/16px */
+                color: rgb(17, 34, 17);
+                font-family: "Trade Gothic LT Std", sans-serif;
+                font-family: "Montserrat", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-bottom: 10px;
+              }
+              .book__description-option {
+                /* Montserrat/Regular/14px */
+                color: rgb(17, 34, 17);
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+            .book__select-option-type {
+            }
+          }
+          .book__block-unselect-auto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            /* border-radius: 12px; */
+            /* background: rgb(141, 211, 187); */
+            padding: 25px;
+            height: 110px;
+            .book__block-unselect-inside {
+              .book__header-option-unselect {
+                /* TradeGothic/Bold/16px */
+                color: rgb(17, 34, 17);
+                font-family: "Trade Gothic LT Std", sans-serif;
+                font-family: "Montserrat", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-bottom: 15px;
+              }
+              .book__description-option-unselect {
+                /* Montserrat/Regular/14px */
+                color: rgb(17, 34, 17);
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-bottom: 20px;
+                width: 65%;
+              }
+              .book__more-info {
+                color: rgb(17, 34, 17);
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-decoration-line: underline;
+              }
+            }
+            .book__select-option-type-unselect {
+            }
+          }
+        }
+      }
+      .book__block-log-to-booking {
+        border-radius: 12px;
+        box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+        background: rgb(255, 255, 255);
+        padding: 35px;
+        .book__log-header {
+          /* TradeGothic/Bold/20px */
+          color: rgb(17, 34, 17);
+          font-family: "Trade Gothic LT Std", sans-serif;
+          font-family: "Montserrat", sans-serif;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 25px;
+          letter-spacing: 0%;
+          text-align: left;
+          margin-bottom: 20px;
+        }
+        form {
+          .book__block-input {
+            position: relative;
+            margin-bottom: 20px;
+            .book__block-input-field {
+              width: 100%;
+              @include inst.input_form;
+            }
+            .book__label-for-field {
+              @include inst.label_form;
+            }
+            .book__block-input-field:focus + .book__label-for-field,
+            .book__block-input-field:valid + .book__label-for-field {
+              top: -10px;
+              background-color: #fff;
+              font-size: 18px;
+              color: $primary_black;
+              opacity: 1;
+            }
+            .book__block-input-field:valid + .book__label-for-field {
+              color: orange;
+            }
+          }
+          .book__description-field {
+            /* [object Object] */
+            color: rgb(17, 34, 17);
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 20px;
+          }
+          .login__btn-submit {
+            height: 56px;
+            margin-bottom: 20px;
+            color: rgb(17, 34, 17);
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: left;
+            padding: 15px 15px;
+            width: 100%;
+            text-align: center;
+            border-radius: 4px;
+            background: rgb(141, 211, 187);
+            margin-bottom: 35px;
+          }
+          .login__instructions-create-account {
+            /* [object Object] */
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-bottom: 45px;
+            .login__btn-sign {
+              color: rgb(255, 134, 130);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 17px;
+              letter-spacing: 0%;
+              text-align: right;
+              margin-left: 10px;
+            }
+          }
+          .login__block-options-login-with {
+            margin-bottom: 45px;
+            margin-bottom: 35px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            hr {
+              height: 2px;
+              position: absolute;
+              top: 8px;
+              /* background: red; */
+              width: 100%;
+              background-color: #000;
+              opacity: 0.25;
+            }
+            .login__login-with {
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 17px;
+              letter-spacing: 0%;
+              text-align: left;
+              z-index: 200;
+              /* display: flex; */
+              position: relative;
+              text-align: center;
+              /* width: 70%; */
+              padding: 0px 10px;
+              background: #fff;
+            }
+          }
+          .login__block-options-log {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+            .login__block-facebook {
+              align-items: center;
+              width: 31.33%;
+              display: flex;
+              justify-content: center;
+              padding: 15px 25px;
+              height: 60px;
+              box-sizing: border-box;
+              border: 1px solid rgb(141, 211, 187);
+              border-radius: 4px;
+            }
+            .login__block-google {
+              width: 31.33%;
+              align-items: center;
+              display: flex;
+              justify-content: center;
+              padding: 15px 25px;
+              height: 60px;
+              box-sizing: border-box;
+              border: 1px solid rgb(141, 211, 187);
+              border-radius: 4px;
+            }
+            .login__block-apple {
+              width: 31.33%;
+              display: flex;
+              justify-content: center;
+              padding: 15px 25px;
+              align-items: center;
+              height: 60px;
+              box-sizing: border-box;
+              border: 1px solid rgb(141, 211, 187);
+              border-radius: 4px;
+            }
+          }
+          .book__btn-log-email {
+            border: 1px solid rgb(141, 211, 187);
+            border-radius: 4px;
+            width: 100%;
+            height: 56px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 25px;
+            height: 60px;
+            .book__icon-email {
+            }
+            .book__description-email-log {
+              /* Montserrat/Medium/16px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: 0%;
+              text-align: left;
+              margin-left: 25px;
+            }
+          }
+        }
+      }
+      .sec_adds-block-main {
+        .adds {
+          .adds__block-main {
+            @extend %back_font;
+            padding: 15px 25px 15px 25px;
+            margin-bottom: 25px;
+            .adds__block-select-card-active {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 25px;
+              border-radius: 12px;
+              background: $color_3;
+              padding: 25px;
+              .adds__block-info-card {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .adds__image-logo-card {
+                  margin-right: 40px;
+                }
+                .adds__description-card-num {
+                  margin-right: 10px;
+                  /* TradeGothic/Bold/16px */
+                  color: $primary_black;
+                  @extend %l_700;
+                  font-size: 18px;
+                  line-height: 20px;
+                }
+                .adds__description-date-num {
+                  /* Montserrat/Regular/14px */
+                  color: $primary_black;
+                  @extend %m_400;
+                  font-size: 16px;
+                  line-height: 17px;
+                  text-align: left;
+                }
+              }
+              .adds__input {
+              }
+            }
+            .adds__block-add-new-card {
+              width: 100%;
+              box-sizing: border-box;
+              border: 2px dashed $color_3;
+              border-radius: 15px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              height: 230px;
+              .adds__image-add-card {
+                margin-bottom: 15px;
+              }
+              .adds__description-add-card {
+                /* Montserrat/Medium/12px */
+                color: $primary_black;
+                @extend %m_500;
+                font-size: 16px;
+                line-height: 15px;
+                text-align: left;
+              }
+            }
+          }
+          .card-active__btn-pay-product {
+            .card-active__btn-pay-success {
+              border-radius: 4px;
+              background: rgb(141, 211, 187);
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 16px 20px;
+              width: 100%;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 500;
+              justify-content: center;
+              font-size: 18px;
+            }
+            .card-active__btn-pay-disabled {
+              border-radius: 4px;
+              background: rgb(141, 211, 187);
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 16px 20px;
+              width: 100%;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 500;
+              justify-content: center;
+              font-size: 18px;
+              opacity: 0.45;
+            }
+          }
+        }
+        .adds__block-uu-modal {
+          .create__block-main {
+            border-radius: 12px;
+            position: fixed;
+            top: 30%;
+            box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+            background: $primary_fff;
+            z-index: 100;
+            left: 25%;
+            width: 800px;
+            padding: 75px;
+            .create__block-image {
+              display: flex;
+              justify-content: flex-end;
+              flex-direction: row;
+              .create__image-close {
+              }
+            }
+            .create__block-form-add-credit-card {
+              .create__header-modal {
+                color: $color_1;
+                @extend %l_700;
+                font-size: 42px;
+                line-height: 51px;
+                text-align: left;
+                margin-bottom: 56px;
+              }
+              form {
+                .create__block-main-fileds-card {
+                  .create__block-form-field {
+                    position: relative;
+                    margin-bottom: 30px;
+                    .create__input-field {
+                      width: 100%;
+                      @extend %input_form;
+                    }
+                    .create__label-field {
+                      @extend %label_form;
+                    }
+                    .create__input-field:focus + .create__label-field,
+                    .create__input-field:valid + .create__label-field {
+                      top: -10px;
+                      background-color: $primary_fff;
+                      font-size: 18px;
+                      color: $primary_black;
+                      opacity: 1;
+                    }
+                    .create__input-field:valid + .create__label-field {
+                      color: orange;
+                    }
+                    .create__image-open-country-list-item {
+                      position: absolute;
+                      top: 16px;
+                      width: 30px;
+                      height: 30px;
+                      right: 10px;
+                    }
+                  }
+                  .create__block-two-field {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    margin-bottom: 30px;
+                    .create__block-field-date {
+                      position: relative;
+                      width: 44%;
+                      .create__block-uu-fields {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .create__input-field {
+                          width: 100%;
+                          @extend %input_form;
+                          margin-right: 10px;
+                        }
+                        .create__input-field-second {
+                          width: 100%;
+                          @extend %input_form;
+                        }
+                      }
+                      .create__label-field {
+                        @extend %label_form;
+                      }
+                      .create__input-field:focus + .create__label-field,
+                      .create__input-field:valid + .create__label-field {
+                        top: -10px;
+                        background-color: $primary_fff;
+                        font-size: 18px;
+                        color: $primary_black;
+                        opacity: 1;
+                      }
+                      .create__input-field:valid + .create__label-field {
+                        color: orange;
+                      }
+                    }
+                    .create__block-field-cvc {
+                      position: relative;
+                      width: 48%;
+                      .create__input-field {
+                        width: 100%;
+                        @extend %input_form;
+                      }
+                      .create__label-field {
+                        @extend %label_form;
+                      }
+                      .create__input-field:focus + .create__label-field,
+                      .create__input-field:valid + .create__label-field {
+                        top: -10px;
+                        background-color: $primary_fff;
+                        font-size: 18px;
+                        color: $primary_black;
+                        opacity: 1;
+                      }
+                      .create__input-field:valid + .create__label-field {
+                        color: orange;
+                      }
+                    }
+                  }
+                }
+                .create__block-agree {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  margin-bottom: 50px;
+                  .create__input-agree {
+                    margin-right: 15px;
+                  }
+                  .create__description-agree {
+                    /* Montserrat/Medium/14px */
+                    color: $primary_black;
+                    @extend %m_500;
+                    font-size: 16px;
+                    line-height: 17px;
+                    text-align: left;
+                  }
+                }
+                .create__btn-add-card {
+                  margin-bottom: 20px;
+                  border-radius: 4px;
+                  background: $color_3;
+                  height: 56px;
+                  padding: 15px 25px;
+                  width: 100%;
+                  /* Montserrat/Semibold/14px */
+                  color: $primary_black;
+                  @extend %m_600;
+                  font-size: 16px;
+                  line-height: 17px;
+                  text-align: center;
+                }
+              }
+              .create__description-footer {
+                /* Montserrat/Regular/12px */
+                color: $primary_black;
+                @extend %m_400;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+    .book__block-final-information {
+      width: 30%;
+      border-radius: 12px;
+      box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+      /* Neutrals */
+      width: 34%;
+      height: max-content;
+      padding: 40px;
+      background: rgb(255, 255, 255);
+      .book__blockinfo-plane {
+        height: 150px;
+        width: 150px;
+        /* border-radius: 15px; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /* padding-bottom: 0px; */
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(215, 226, 238);
+        margin-bottom: 20px;
+        .book__image-mini-logo {
+          height: 100%;
+          background-size: cover;
+          border-radius: 15px;
+          width: 150px;
+          margin-right: 30px;
+        }
+        .book__block-uus {
+          display: flex;
+          flex-direction: column;
+          border-block-end-width: 100%;
+          align-items: start;
+          width: 100%;
+          .book__inf-plane {
+            width: 100%;
+            margin-bottom: 25px;
+            .book__description-name-company-plane {
+              /* Montserrat/Medium/16px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: 0%;
+              text-align: left;
+              opacity: 0.6;
+              margin-bottom: 10px;
+            }
+            .book__description-name-plane {
+              /* Montserrat/Semibold/20px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 24px;
+              letter-spacing: 0%;
+              text-align: left;
+            }
+          }
+          .book__block-review-description {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .book__review-avarge {
+              /* Montserrat/Medium/12px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 15px;
+              letter-spacing: 0%;
+              text-align: left;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              box-sizing: border-box;
+              border: 1px solid rgb(141, 211, 187);
+              border-radius: 4px;
+              padding: 15px 20px;
+              margin-right: 15px;
+            }
+            .book__description-avarge {
+              /* [object Object] */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 15px;
+              letter-spacing: 0%;
+              text-align: left;
+              span {
+                /* [object Object] */
+                color: rgb(17, 34, 17);
+                font-family: "Montserrat", sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 15px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+      .book__protected-description {
+        /* [object Object] */
+        color: rgb(17, 34, 17);
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(215, 226, 238);
+        span {
+          /* [object Object] */
+          color: rgb(17, 34, 17);
+          font-family: "Montserrat", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+      .book__block-jkj {
+        .book__block-price-list {
+          padding-bottom: 20px;
+          border-bottom: 1px solid rgb(215, 226, 238);
+          margin-bottom: 20px;
+          .book__header-price {
+            /* TradeGothic/Bold/16px */
+            color: rgb(17, 34, 17);
+            font-family: "Trade Gothic LT Std", sans-serif;
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 20px;
+          }
+          .book__block-list-item-prices {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .book__name-prices {
+              /* Montserrat/Medium/16px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: 0%;
+              text-align: left;
+            }
+            .book__description-count-price {
+              /* Montserrat/Semibold/16px */
+              color: rgb(17, 34, 17);
+              font-family: "Montserrat", sans-serif;
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 20px;
+              letter-spacing: 0%;
+              text-align: left;
+            }
+          }
+        }
+        .book__total-count-price {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          .book__name-total-price {
+            color: rgb(17, 34, 17);
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+          .book__total-price {
+            color: rgb(17, 34, 17);
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

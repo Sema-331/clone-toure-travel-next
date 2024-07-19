@@ -1,0 +1,131 @@
+/********vars***************/
+
+@import './../vars/colors';
+
+/*********vars**************/
+
+@import './../Landing/header.scss';
+@import './../Landing/hero.scss';
+@import './../Landing/trip.scss';
+@import './../Landing/options.scss';
+@import './../Landing/reviews.scss'; 
+@import './../Landing/footer.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std?styles=16688,30109');
+// @import "../node_modules/normalize.css/normalize.css";
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+a {
+  text-decoration: none !important;
+  text-align: left;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: Cera Pro;
+  color: var(--mine-shaft);
+  background-color: var(--white);
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1570px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+hr {
+  margin: 0px !important;
+}
+.css-1jqq78o-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  /* color: rgb(17, 34, 17); */
+  font-weight: 400;
+}
+.css-13cymwt-control {
+  height: 56px;
+}
+.date__select {
+  padding: 2px 8px;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  height: 56px;
+  &::placeholder {
+    color: hsl(0, 0%, 50%);
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+.css-13cymwt-control {
+  height: 56px;
+}
+.css-1dimb5e-singleValue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+}
+.css-t3ipsp-control {
+  height: 56px;
+}
+.date__select {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  /* color: rgb(17, 34, 17); */
+  font-weight: 400;
+}

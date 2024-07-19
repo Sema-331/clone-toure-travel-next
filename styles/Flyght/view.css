@@ -1,0 +1,227 @@
+/*Main fonts*/
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__description-reviews span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class .view__choose-class-list-item .view__description-name-class-choose, .view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__describe-rate, .view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-desc .view__description-location {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__description-reviews {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.view__block .view__block-main .view__block-info .view__gallery-image .view__header-gallery-hint, .view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__header-gallery, .view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__name-plane {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.view__block {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__name-plane {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-desc .view__icon-location {
+  margin-right: 10px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-desc .view__description-location {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__describe-rate {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__description-reviews {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__block-detailed-location-inside .view__block-ratings .view__description-reviews span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+  margin-right: 10px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__options .view__price-plane-ticket {
+  margin-bottom: 20px;
+  /* Montserrat/Bold/32px */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__options .view__block-utint {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__options .view__block-utint .fly-res__favourites-btn {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__options .view__block-utint .view__share-links {
+  margin-right: 20px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.view__block .view__block-main .view__block-info .view__info-plane .view__options .view__block-utint .view__book-ticket {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  padding: 15px 25px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  width: 150px;
+  text-align: center;
+}
+.view__block .view__block-main .view__block-info .view__block-Imge-font {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 50px;
+}
+.view__block .view__block-main .view__block-info .view__block-Imge-font .view__image-font {
+  width: 100%;
+  height: 100%;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__header-gallery {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class .view__choose-class-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class .view__choose-class-list-item:not(:last-child) {
+  margin-right: 35px;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class .view__choose-class-list-item .view__checkbox-agree {
+  margin-right: 10px;
+  accent-color: rgb(141, 211, 187);
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-gallery-image-insides .view__choose-class .view__choose-class-list-item .view__description-name-class-choose {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__header-gallery-hint {
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-main-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: wrap;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-main-gallery .view__image-gallery {
+  width: 150px;
+  height: 150px;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-main-gallery-active {
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: wrap;
+}
+.view__block .view__block-main .view__block-info .view__gallery-image .view__block-main-gallery-active .view__image-gallery {
+  width: 150px;
+  height: 150px;
+}/*# sourceMappingURL=view.css.map */

@@ -1,0 +1,2199 @@
+@charset "UTF-8";
+/********vars***************/
+/*********vars**************/
+/*Main fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/trade-gothic-lt-std?styles=16688,30109");
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__submit, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__descr-fly, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-log {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__description-txt-operation-error, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__description-txt-operation, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__descriprion-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside, .reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__description-variants, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-sign-up, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__description-stop-search, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__description-fly-search {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::placeholder, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__head-name, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__header-subscribe, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header, .search__block-uu .serach .search__description-headers, .search__block-uu .serach .search__header-first, .search__block-uu .serach .search__header-sec {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__name-nav {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__link {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__label-forms {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel, .options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight, .options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight {
+  color: #fff;
+  letter-spacing: 0%;
+  font-family: "Trade Gothic LT Std", sans-serif;
+}
+
+header .head__block-uu .images {
+  z-index: -1;
+  height: 600px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.65);
+  border-radius: 24px;
+}
+header .head__block-uu .head__nav {
+  margin-top: 20px;
+  padding: 27px 32px;
+  margin-bottom: 55px;
+}
+header .head__block-uu .head__nav .head__block-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly {
+  display: flex;
+  margin-right: 32px;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__image-search {
+  margin-right: 5px;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__description-fly-search {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__image-search-stop {
+  margin-right: 5px;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__description-stop-search {
+  color: #fff;
+  font-size: 16px;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-authorization {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-log {
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  margin-right: 32px;
+}
+header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-sign-up {
+  color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__favourites-block {
+  position: relative;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 20px;
+  margin-right: 40px;
+  border-right: 3px solid #fff;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__favourites-block .change-description__length-favourites-item {
+  position: absolute;
+  top: -18%;
+  right: 80%;
+  z-index: 1000;
+  color: #fff;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__favourites-block .change-comp__image-favourites {
+  margin-right: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__favourites-block .change-comp__description-fav {
+  /* Montserrat/Semibold/14px */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__block-main-modal {
+  position: absolute;
+  background: #fff;
+  z-index: 10000;
+  top: 100%;
+  right: 50%;
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__block-main-modal .change-comp__block-descriptions .change-comp__header-description {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__block-main-modal .change-comp__block-descriptions .change-comp__description-navigation-user {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__block-main-modal .change-comp__block-descriptions .change-comp__link-for-search {
+  border-radius: 4px;
+  background: rgb(255, 134, 130);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__block-favourites-outside .change-comp__block-main-modal .change-comp__block-with-image .change-comp__image-null-products {
+  width: 100px;
+  height: 100px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__user-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__user-block .change-comp__block-images {
+  position: relative;
+  margin-right: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__user-block .change-comp__block-images .change-comp__image-main {
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #ebebeb;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 134, 130);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__user-block .change-comp__block-images .change-comp__image-secondary {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .change-comp__user-block .change-comp__description-userName {
+  /* Montserrat/Semibold/14px */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal {
+  position: absolute;
+  background: #fff;
+  z-index: 10000;
+  top: 100%;
+  right: 0%;
+  display: flex;
+  /* flex-direction: row; */
+  width: 340px;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  width: 380px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-short-info {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-short-info .header-fly__modal-image-profile {
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #ebebeb;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 134, 130);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-short-info .header-fly__block-description-short-info .header-fly__description-user-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-short-info .header-fly__block-description-short-info .header-fly__description-online-query {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params {
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user:not(:last-child) {
+  margin-bottom: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-name-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-name-option .header-fly__image-option {
+  margin-right: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-name-option .header-fly__description-option {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options {
+  position: absolute;
+  width: 161px;
+  right: -160px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-single-option:not(:last-child) {
+  margin-bottom: 15px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-single-option a {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-single-option .header-fly__description-not-avaible {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-list-box-options .header-fly__block-single-option:not(:last-child) {
+  margin-bottom: 15px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-list-box-options .header-fly__block-single-option a {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-params .header-fly__block-option-user .header-fly__block-modal-insides-options .header-fly__block-list-box-options .header-fly__block-single-option .header-fly__description-not-avaible {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support:not(:last-child) {
+  margin-bottom: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-support-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-support-inside .header-fly__icon-option {
+  margin-right: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-support-inside .header-fly__description-name-option {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-modal-insides-options {
+  position: absolute;
+  width: 161px;
+  right: -120px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-modal-insides-options .header-fly__block-single-option:not(:last-child) {
+  margin-bottom: 15px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-modal-insides-options .header-fly__block-single-option a {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support .header-fly__block-modal-insides-options .header-fly__block-single-option .header-fly__description-not-avaible {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support-logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support-logout:not(:last-child) {
+  margin-bottom: 20px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support-logout .header-fly__block-support-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support-logout .header-fly__block-support-inside .header-fly__icon-option {
+  margin-right: 10px;
+}
+header .head__block-uu .head__nav .head__block-main .change-comp__main-block .header-fly__block-main-modal .header-fly__block-logout .header-fly__block-support-logout .header-fly__block-support-inside .header-fly__description-name-option {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/*Main fonts*/
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__submit, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__descr-fly, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-log {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__description-txt-operation-error, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__description-txt-operation, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__descriprion-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside, .reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__description-variants, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__description-fly-search, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__description-stop-search, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-sign-up {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::placeholder, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__head-name, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__header-subscribe, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header, .search__block-uu .serach .search__description-headers, .search__block-uu .serach .search__header-first, .search__block-uu .serach .search__header-sec {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__name-nav {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__link {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__label-forms {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel, .options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight, .options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight {
+  color: #fff;
+  letter-spacing: 0%;
+  font-family: "Trade Gothic LT Std", sans-serif;
+}
+
+.search__block-uu {
+  margin-bottom: 80px;
+}
+.search__block-uu .serach {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+.search__block-uu .serach .search__header-sec {
+  color: #fff;
+  font-size: 45px;
+  line-height: 57px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.search__block-uu .serach .search__header-first {
+  color: #fff;
+  font-size: 80px;
+  line-height: 101px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.search__block-uu .serach .search__description-headers {
+  font-size: 20px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+}
+.search__block-uu .search__block-form-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 60px 32px 60px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 12px 0px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid rgb(228, 228, 228);
+  padding-right: 30px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active {
+  height: 100%;
+  border-bottom: 4px solid rgb(141, 211, 187);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__image-fly {
+  margin-right: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__descr-fly {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform: translateY(-2px);
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__image-fly {
+  margin-right: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__descr-fly {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+  align-items: center;
+  margin-left: 30px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  width: 89px;
+  border-bottom: 4px solid rgb(141, 211, 187);
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__image-stay {
+  margin-right: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__descr-stays {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays {
+  display: flex;
+  flex-direction: row;
+  transform: translateY(-2px);
+  align-items: center;
+  height: 100%;
+  width: 89px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__image-stay {
+  margin-right: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__descr-stays {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 18%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .css-13cymwt-control {
+  margin-right: 20px;
+  width: 100%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__image-swap {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 18%;
+  padding-right: 30px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms .css-b62m3t-container {
+  padding-right: 30px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms .css-b62m3t-container .css-13cymwt-control {
+  margin-right: 20px;
+  width: 100%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__image-swap {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+  position: relative;
+  margin-right: 30px;
+  width: 18%;
+  padding-right: 30px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__label-forms .css-b62m3t-container {
+  padding-right: 30px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__image-arrows {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t {
+  margin-right: 15px;
+  width: 18%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  opacity: 1;
+  color: rgb(17, 34, 17);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__image-dates {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo {
+  display: flex;
+  width: 23%;
+  position: relative;
+  flex-direction: column;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  top: -10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__image-ticket {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo {
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 30px 32px 30px;
+  position: absolute;
+  top: 137%;
+  timeline-scope: 20%;
+  right: 10%;
+  border: 1px solid #c7c7c7;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .lucide-x {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  margin-right: 20px;
+  height: 50px !important;
+  border-color: hsl(0, 0%, 80%);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  padding: 15px 16px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 50px;
+  font-size: 16px;
+  width: 80px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 16px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__image-variants {
+  margin-right: 5px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__description-variants {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(228, 228, 228);
+  padding-right: 35px;
+  margin-right: 35px;
+  width: 27%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .check__form-danger {
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__image-swap {
+  right: 12%;
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+  position: relative;
+  width: 22%;
+  margin-right: 15px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 31px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .date__select {
+  width: 95%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-right: 35px;
+  padding-right: 35px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  opacity: 1;
+  color: rgb(17, 34, 17);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 33px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .date__select {
+  width: 107%;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo {
+  display: flex;
+  width: 27%;
+  position: relative;
+  flex-direction: column;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff:focus + .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  top: -10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__image-ticket {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo {
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 30px 32px 30px;
+  position: absolute;
+  top: 119%;
+  timeline-scope: 20%;
+  right: 22%;
+  border: 1px solid #c7c7c7;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .lucide-x {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  margin-right: 20px;
+  height: 50px !important;
+  border-color: hsl(0, 0%, 80%);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  padding: 15px 16px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 50px;
+  font-size: 16px;
+  width: 80px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__btn-show-variants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 16px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__btn-show-variants .search__image-variants {
+  margin-right: 5px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search__btn-show-variants .search__description-variants {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.options__user-room {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.options__user-room img {
+  margin-right: 15px;
+}
+.options__user-room p {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.trip__block-main {
+  margin-bottom: 80px;
+}
+.trip__block-main .trip__block-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.trip__block-main .trip__block-headers .trip__btn-more-placeses {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.trip__block-main .trip__block-placeses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box {
+  width: 31.33%;
+  padding: 16px;
+  border-radius: 16px;
+  /* Cards Shadow */
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  /* Neutrals */
+  background: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-places-image {
+  margin-right: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place {
+  display: flex;
+  flex-direction: column;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block {
+  /* Montserrat/Semibold/16px */
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description {
+  display: flex;
+  flex-direction: row;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places {
+  /* Montserrat/Medium/14px */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places:not(:last-child) {
+  margin-right: 20px;
+}
+.trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places ::before {
+  content: "•";
+}
+
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel, .options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight, .options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight {
+  color: #fff;
+  letter-spacing: 0%;
+  font-family: "Trade Gothic LT Std", sans-serif;
+}
+
+.options {
+  margin-bottom: 80px;
+}
+.options .options__block-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.options .options__block-main .options__flights-block {
+  position: relative;
+  height: 560px;
+  width: 48.5%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.options .options__block-main .options__flights-block .option__image-fight {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 24px 24px 24px 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(18, 18, 18, 0.75) 48.674%);
+  filter: brightness(0.75);
+  z-index: -1;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 51px;
+  margin-bottom: 10px;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content .option__btn-fligth {
+  height: 56px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content .option__btn-fligth .option__btn-flight-inside {
+  margin-right: 8px;
+}
+.options .options__block-main .options__flights-block .option__flight-block-content .option__btn-fligth .option__btn-fligth-name {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.options .options__block-main .options__hotels-block {
+  position: relative;
+  height: 560px;
+  width: 48.5%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.options .options__block-main .options__hotels-block .option__image-hotel {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 24px 24px 24px 24px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(18, 18, 18, 0.75) 48.674%);
+  filter: brightness(0.75);
+  z-index: -1;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 51px;
+  margin-bottom: 10px;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__btn-hotel {
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 20px;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__btn-hotel .option__btn-hotel-inside {
+  margin-right: 8px;
+}
+.options .options__block-main .options__hotels-block .option__hotel-block-content .option__btn-hotel .option__btn-hotel-name {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/*Main fonts*/
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__submit, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-log, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__description-txt-operation-error, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__description-txt-operation, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__descriprion-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside, .reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__description-fly-search, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__description-stop-search, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-sign-up, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__description-variants, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::placeholder, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__head-name, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__header-subscribe, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header, .search__block-uu .serach .search__header-sec, .search__block-uu .serach .search__header-first, .search__block-uu .serach .search__description-headers {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__name-nav {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__link {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight, .options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel {
+  color: #fff;
+  letter-spacing: 0%;
+  font-family: "Trade Gothic LT Std", sans-serif;
+}
+
+.reviews {
+  margin-bottom: 300px;
+}
+.reviews .reviews__block-main .reviews__block-see {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header {
+  /* Montserrat/Semibold/32px */
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  /* Montserrat/Regular/16px */
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 20px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 17px;
+  box-sizing: border-box;
+  /* Mint Green */
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+.reviews .reviews__block-main .reviews__block-feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box {
+  width: 30.33%;
+  box-shadow: 35px 35px 8px 0px rgba(141, 211, 187, 0.35);
+  border-radius: 16px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside {
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  background: #fff;
+  padding: 30px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 25px;
+  opacity: 0.5;
+  margin-bottom: 16px;
+  flex-basis: 130px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user {
+  margin-bottom: 45px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user {
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  opacity: 0.5;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-image {
+  margin-right: 10px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name {
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  opacity: 0.4;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .image_place {
+  width: 100%;
+}
+
+/*Main fonts*/
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__submit, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-log, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights-active .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-first .search__block-flights .search__descr-fly, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays-active .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .search__block-icons-options .search__block-options-uu .search__block-options-inside-second .search__block-stays .search__descr-stays, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__description-txt-operation-error, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__description-txt-operation, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__descriprion-name, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-fly .head__description-fly-search, header .head__block-uu .head__nav .head__block-main .head__block-search .head__block-search-stop .head__description-stop-search, header .head__block-uu .head__nav .head__block-main .head__block-authorization .head__btn-authorization-sign-up, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search__btn-show-variants .search__description-variants, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::placeholder, .reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__head-name, footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__header-subscribe, .search__block-uu .serach .search__header-sec, .search__block-uu .serach .search__header-first, .search__block-uu .serach .search__description-headers, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__name-nav {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__link {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-ff .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_landing-select .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-f .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-s .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-t .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .search__block-uu .search__block-form-main .search__block-form .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.trip__block-main .trip__block-headers .trip__block-headers-inside .trip__header-block, .trip__block-main .trip__block-headers .trip__block-headers-inside .trip__description-block, .trip__block-main .trip__block-headers .trip__btn-more-placeses, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__header-places-block, .trip__block-main .trip__block-placeses .trip__block-places-list-box .trip__block-description-place .trip__block-lis-box-description .trip__description-places {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.options .options__block-main .options__flights-block .option__flight-block-content .option__header-flight, .options .options__block-main .options__flights-block .option__flight-block-content .option__description-flight, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__header-hotel, .options .options__block-main .options__hotels-block .option__hotel-block-content .option__description-hotel {
+  color: #fff;
+  letter-spacing: 0%;
+  font-family: "Trade Gothic LT Std", sans-serif;
+}
+
+footer {
+  background: rgb(141, 211, 187);
+}
+footer .footer__block-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 65px;
+}
+footer .footer__block-main .footer__block-uu {
+  transform: translateY(-145px);
+  height: 264px;
+  width: 100%;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main {
+  display: flex;
+  background: blue;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(205, 234, 225);
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block {
+  padding: 24px 0px 30px 24px;
+  width: 60%;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__header-subscribe {
+  width: 40%;
+  margin-bottom: 30px;
+  color: rgb(17, 34, 17);
+  font-size: 44px;
+  line-height: 54px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block {
+  margin-bottom: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__head-name {
+  margin-bottom: 10px;
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 20px;
+  line-height: 25px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__description-name-block .footer__descriprion-name {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking {
+  width: 70%;
+  margin-right: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  height: 56px;
+  padding: 8px 0px 8px 16px;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::-moz-placeholder {
+  /* Montserrat/Regular/16px */
+  color: rgb(28, 27, 31);
+  font-size: 16px;
+  line-height: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-checking .footer__input-mail::placeholder {
+  /* Montserrat/Regular/16px */
+  color: rgb(28, 27, 31);
+  font-size: 16px;
+  line-height: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__submit {
+  background: rgb(0, 0, 0);
+  height: 56px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* Montserrat/Semibold/14px */
+  color: #fff;
+  font-size: 16px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  height: 56px;
+  border-radius: 5px;
+  background: rgba(0, 197, 0, 0.3098039216);
+  margin-left: 20px;
+  position: absolute;
+  width: 300px;
+  right: 28%;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__pop-up-successful {
+  margin-right: 10px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout .footer__description-txt-operation {
+  color: green;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  height: 56px;
+  border-radius: 5px;
+  background: rgb(255, 134, 130);
+  margin-left: 20px;
+  position: absolute;
+  width: 300px;
+  right: 28%;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__pop-up-successful-error {
+  margin-right: 10px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__description-block .footer__block-input .footer__block-pup-up-uu .footer__pop-up-timout-error .footer__description-txt-operation-error {
+  color: red;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__subscribe-block-image {
+  display: flex;
+  align-items: center;
+  padding: 0px 24px 0px 0px;
+}
+footer .footer__block-main .footer__block-uu .footer__subscribe-main .footer__subscribe-block-image .footer__image-subscribe {
+  height: 100%;
+}
+footer .footer__block-main .footer__blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .footer__block-main .footer__blocks .footer__block-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer__block-main .footer__blocks .footer__block-logo .footer__logo-image {
+  margin-bottom: 30px;
+}
+footer .footer__block-main .footer__blocks .footer__block-logo .footer__block-icons-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer__block-main .footer__blocks .footer__block-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 74%;
+}
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__name-nav {
+  margin-bottom: 20px;
+}
+footer .footer__block-main .footer__blocks .footer__block-navigation .footer__block-list-item .footer__link {
+  margin-bottom: 15px;
+}
+
+.check__form-danger {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+a {
+  text-decoration: none !important;
+  text-align: left;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  font-family: Cera Pro;
+  color: var(--mine-shaft);
+  background-color: var(--white);
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1570px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+hr {
+  margin: 0px !important;
+}
+
+.css-1jqq78o-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  /* color: rgb(17, 34, 17); */
+  font-weight: 400;
+}
+
+.css-13cymwt-control {
+  height: 56px;
+}
+
+.date__select {
+  padding: 2px 8px;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  height: 56px;
+}
+.date__select::-moz-placeholder {
+  color: hsl(0, 0%, 50%);
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.date__select::placeholder {
+  color: hsl(0, 0%, 50%);
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.css-13cymwt-control {
+  height: 56px;
+}
+
+.css-1dimb5e-singleValue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+}
+
+.css-t3ipsp-control {
+  height: 56px;
+}
+
+.date__select {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  /* color: rgb(17, 34, 17); */
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

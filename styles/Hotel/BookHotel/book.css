@@ -1,0 +1,684 @@
+/*Main fonts*/
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__total-count-price .book-hotel__total-price, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__block-list-item-prices .book-hotel__description-count-price, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__description-avarge span, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__inf-plane .book-hotel__description-name-plane, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__btn-submit, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info .book__block-description-modal .book__modal-header-more-info, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-out .book-hotel__description-date-check-out, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-in .book-hotel__date-check-in, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__name-hotel, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-price span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__total-count-price .book-hotel__name-total-price, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__block-list-item-prices .book-hotel__name-prices, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__review-avarge, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__inf-plane .book-hotel__description-name-company-plane, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__btn-log-email .book__description-email-log, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__description-field, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info .book__block-description-modal .book__modal-description-more-info, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__more-info, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-out .book-hotel__description-check-out, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-in .book-hotel__description-check, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__block-location-hotel .book-hotel__location-name, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__protected-description, .book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__description-avarge, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-login-with .login__login-with, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp-active .book__block-description-var-second .book__description-option-unselect, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp .book__block-description-var-second .book__description-option-unselect, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto .book__block-seelct-inside .book__description-option, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto-active .book__block-seelct-inside .book__description-option {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__header-price, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking .book__log-header, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto .book__block-seelct-inside .book__header-option, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto-active .book__block-seelct-inside .book__header-option, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-type {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+}
+
+/**Btn**/
+/*Main fonts*/
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__label-for-field {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.book-hotel {
+  margin: 80px 0px 300px 0px;
+}
+.book-hotel .book-hotel__main-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive {
+  width: 62%;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket {
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+  margin-bottom: 50px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-type {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 30px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-price {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-type-room .book-hotel__description-price span {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-size: 26px;
+  line-height: 30px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel {
+  display: flex;
+  margin-bottom: 45px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 8px;
+  background: #fff;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__image-logo {
+  margin-right: 30px;
+  border: 1px dotted rgb(141, 211, 187);
+  border-radius: 12px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__name-hotel {
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__block-location-hotel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__block-location-hotel .book-hotel__icon-location {
+  margin-right: 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-info-hotel .book-hotel__block-name-location .book-hotel__block-location-hotel .book-hotel__location-name {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-in .book-hotel__date-check-in {
+  /* Montserrat/Semibold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-in .book-hotel__description-check {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  opacity: 0.5;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-image .book-hotel__hr-first {
+  border-top: 1px solid rgb(17, 34, 17);
+  width: 40px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-image .book-hotel__icon-hotel {
+  margin: 0px 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-image .book-hotel__hr-second {
+  border-top: 1px solid rgb(17, 34, 17);
+  width: 40px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-out .book-hotel__description-date-check-out {
+  /* Montserrat/Semibold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book-hotel__block-room-ticket .book-hotel__block-date-checking .book-hotel__block-check-out .book-hotel__description-check-out {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  opacity: 0.5;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu {
+  margin-bottom: 50px;
+  height: 320px;
+  padding: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto-active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: rgb(141, 211, 187);
+  padding: 25px;
+  height: 95px;
+  margin-bottom: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto-active .book__block-seelct-inside .book__header-option {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto-active .book__block-seelct-inside .book__description-option {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background: #fff;
+  padding: 25px;
+  height: 95px;
+  margin-bottom: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto .book__block-seelct-inside .book__header-option {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-select-auto .book__block-seelct-inside .book__description-option {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 12px; */
+  /* background: rgb(141, 211, 187); */
+  height: 110px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp .book__block-description-var-second .book__header-option-unselect {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp .book__block-description-var-second .book__description-option-unselect {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  width: 65%;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp-active {
+  display: flex;
+  border-radius: 12px;
+  flex-direction: row;
+  padding: 25px;
+  margin-bottom: 30px;
+  background-color: rgb(141, 211, 187);
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp-active .book__block-description-var-second .book__header-option-unselect {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-uu-inp-active .book__block-description-var-second .book__description-option-unselect {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  width: 65%;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu {
+  width: 120px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__more-info {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  padding-left: 25px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+  width: 350px;
+  position: absolute;
+  z-index: 100;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info .book__block-icon-modal {
+  margin-right: 30px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info .book__block-description-modal .book__modal-header-more-info {
+  margin-bottom: 15px;
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-pay-options .book__block-uu .book__block-unselect-auto .book__block-unselect-inside .book__block-modal-uu .book__modal-more-info .book__block-description-modal .book__modal-description-more-info {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking {
+  padding: 35px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking .book__log-header {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field {
+  width: 100%;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field:focus + .book__label-for-field, .book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field:valid + .book__label-for-field {
+  top: -10px;
+  background-color: #fff;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__block-input .book__block-input-field:valid + .book__label-for-field {
+  color: orange;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__description-field {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__btn-submit {
+  height: 56px;
+  margin-bottom: 20px;
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  margin-bottom: 35px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__instructions-create-account {
+  /* [object Object] */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__instructions-create-account .login__btn-sign {
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-left: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-login-with {
+  margin-bottom: 45px;
+  margin-bottom: 35px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-login-with hr {
+  height: 2px;
+  position: absolute;
+  top: 8px;
+  /* background: red; */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-login-with .login__login-with {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  z-index: 200;
+  /* display: flex; */
+  position: relative;
+  text-align: center;
+  /* width: 70%; */
+  padding: 0px 10px;
+  background: #fff;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-log .login__block-facebook {
+  align-items: center;
+  width: 31.33%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-log .login__block-google {
+  width: 31.33%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .login__block-options-log .login__block-apple {
+  width: 31.33%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  align-items: center;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__btn-log-email {
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-interactive .book__block-log-to-booking form .book__btn-log-email .book__description-email-log {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information {
+  width: 30%;
+  /* Neutrals */
+  width: 34%;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 40px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane {
+  height: 150px;
+  width: 150px;
+  /* border-radius: 15px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  /* padding-bottom: 0px; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__image-mini-logo {
+  height: 100%;
+  background-size: cover;
+  border-radius: 15px;
+  width: 150px;
+  margin-right: 30px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus {
+  display: flex;
+  flex-direction: column;
+  border-block-end-width: 100%;
+  align-items: start;
+  width: 100%;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__inf-plane {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__inf-plane .book-hotel__description-name-company-plane {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__inf-plane .book-hotel__description-name-plane {
+  /* Montserrat/Semibold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__review-avarge {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-right: 15px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__description-avarge {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__blockinfo-plane .book-hotel__block-uus .book-hotel__block-review-description .book-hotel__description-avarge span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  text-align: left;
+  margin-right: 10px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__protected-description {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__protected-description span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__header-price {
+  /* TradeGothic/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__block-list-item-prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__block-list-item-prices .book-hotel__name-prices {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__block-price-list .book-hotel__block-list-item-prices .book-hotel__description-count-price {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__total-count-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__total-count-price .book-hotel__name-total-price {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.book-hotel .book-hotel__main-block .book-hotel__block-final-information .book-hotel__block-jkj .book-hotel__total-count-price .book-hotel__total-price {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}/*# sourceMappingURL=book.css.map */

@@ -1,0 +1,107 @@
+
+
+@import './../vars/colors';
+@import './../vars/mixins';
+
+
+header {
+    .header-account {
+        margin-bottom: 60px;
+        .header-account__nav {
+            padding: 25px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .header-account__block-options {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .header-account__block-user {
+                    margin-right: 40px;
+                    .header-account__link-user {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .header-account__image-user {
+                            margin-right: 8px;
+                        }
+                        .header-account__descripion-user {
+                            /* Montserrat/Semibold/14px */
+                            color: $primary_black;
+                            @extend %m_600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            text-align: left;
+                        }
+                    }
+                }
+                .header-account__block-hotel {
+                    .header-account__hotel-link {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .header-account__image-hotel {
+                            margin-right: 8px;
+                        }
+                        .header-account__descritpion-hotel {
+                            color: $primary_black;
+                            @extend %m_600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .header-account__logo {
+                .header-account__main-logo {
+
+                }
+            }
+            .header-account__block-user {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .header-account__block-favourites-item {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-right: 35px;
+                    border-right: 3px solid $color_1;
+                    .header-account__image-favourites {
+                        margin-right: 10px;
+                    }
+                    .header-account__name-favourites {
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                    }
+                }
+                .header-account__block-user-image {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-left: 35px;
+                    .header-account__image-user {
+                        width: 45px;
+                        height: 45px;
+                        padding: 9px;
+                        border-radius: 50px;
+                        background: #ebebeb;
+                        margin-right: 10px;
+                    }
+                    .header-account__user-name {
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

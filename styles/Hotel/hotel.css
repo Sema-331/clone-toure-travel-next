@@ -1,0 +1,3196 @@
+@charset "UTF-8";
+/*Main fonts*/
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register span, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login span, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__description-recommended, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__header-recommended, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__header-fav-list, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort .fly-res__btn-sort-option .fly-res__name-description-sort, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__label-txt, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__label-forms, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__label-forms {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__header-places-block, .recent__block-main .recent__btn-more-placeses, .recent__block-main .recent__block-headers .recent__description-block, .recent__block-main .recent__block-headers .recent__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.hotel__block {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.hotel__block .hotel__image-font {
+  width: 600px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+}
+
+.hotel__main-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.hotel__main-block .hotel__headers-name {
+  margin-bottom: 190px;
+}
+.hotel__main-block .hotel__headers-name .hotel__header {
+  color: #fff;
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 30%;
+  margin-bottom: 10px;
+}
+.hotel__main-block .hotel__headers-name .hotel__description {
+  /* Montserrat/Medium/20px */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel__main-block .hotel__block-forms {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 60px 48px 60px;
+}
+.hotel__main-block .hotel__block-forms .hotel__header-form {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+.hotel__main-block .form_hotel .search__block-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(228, 228, 228);
+  padding-right: 35px;
+  margin-right: 35px;
+  width: 27%;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff:focus + .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .check__form-danger {
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__image-swap {
+  right: 12%;
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-s {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+  position: relative;
+  width: 22%;
+  margin-right: 15px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff:focus + .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 31px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-s .date__select {
+  width: 95%;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-t {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-right: 35px;
+  padding-right: 35px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff:focus + .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  opacity: 1;
+  color: rgb(17, 34, 17);
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 33px;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-t .date__select {
+  width: 107%;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-fo {
+  display: flex;
+  width: 27%;
+  position: relative;
+  flex-direction: column;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:focus + .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  top: -10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__image-ticket {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo {
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 30px 32px 30px;
+  position: absolute;
+  top: 119%;
+  width: 420px;
+  right: 8%;
+  border: 1px solid #c7c7c7;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .lucide-x {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  margin-right: 20px;
+  height: 50px !important;
+  border-color: hsl(0, 0%, 80%);
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  padding: 15px 16px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 50px;
+  font-size: 16px;
+  width: 80px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__btn-show-variants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 16px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__btn-show-variants .search__image-variants {
+  margin-right: 5px;
+}
+.hotel__main-block .form_hotel .seacrh__block-options-users .search__btn-show-variants .search__description-variants {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__header-places-block, .recent__block-main .recent__btn-more-placeses, .recent__block-main .recent__block-headers .recent__description-block, .recent__block-main .recent__block-headers .recent__header-block {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.recent__block-main {
+  margin-bottom: 80px;
+}
+.recent__block-main .recent__block-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.recent__block-main .recent__block-headers .recent__header-block {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+}
+.recent__block-main .recent__block-headers .recent__description-block {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.recent__block-main .recent__btn-more-placeses {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  padding: 12px 18px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+
+.recent__block-placeses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.recent__block-placeses .recent__block-places-list-box {
+  width: 24.33%;
+  padding: 16px;
+  border-radius: 16px;
+  /* Cards Shadow */
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  /* Neutrals */
+  background: rgb(255, 255, 255);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-places-image {
+  margin-right: 20px;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place {
+  display: flex;
+  flex-direction: column;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__header-places-block {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  /* Montserrat/Semibold/16px */
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places {
+  /* Montserrat/Medium/14px */
+  /* Montserrat/Regular/12px */
+  color: rgb(17, 34, 17);
+  opacity: 0.6;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places:not(:last-child) {
+  margin-right: 20px;
+}
+.recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places ::before {
+  content: "•";
+}
+
+/**searchHotel**/
+/*Main fonts*/
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register span, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login span, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__description-recommended, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__header-recommended, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__header-fav-list, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort .fly-res__btn-sort-option .fly-res__name-description-sort, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__label-txt, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.recent__block-main .recent__block-headers .recent__header-block, .recent__block-main .recent__block-headers .recent__description-block, .recent__block-main .recent__btn-more-placeses, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__header-places-block, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.hotel {
+  margin-bottom: 300px;
+}
+.hotel .hotel__block {
+  padding: 40px 30px;
+  margin-top: 50px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  margin-bottom: 40px;
+}
+.hotel .hotel__block .form_hotel {
+  width: 100%;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-bottom: 35px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(228, 228, 228);
+  padding-right: 35px;
+  margin-right: 35px;
+  width: 27%;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff:focus + .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .check__form-danger {
+  position: absolute;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__image-swap {
+  right: 12%;
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+  position: relative;
+  width: 22%;
+  margin-right: 15px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff:focus + .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 31px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .date__select {
+  width: 95%;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin-right: 35px;
+  padding-right: 35px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff:focus + .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  opacity: 1;
+  color: rgb(17, 34, 17);
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__image-dates {
+  position: absolute;
+  top: 48%;
+  width: 28px;
+  height: 28px;
+  right: 33px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .date__select {
+  width: 107%;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo {
+  display: flex;
+  width: 27%;
+  position: relative;
+  flex-direction: column;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:focus + .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  top: -10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+.hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__image-ticket {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+.hotel .hotel__block .form_hotel .hotel__search-btn {
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  width: 65px;
+  margin-left: 30px;
+  height: 56px;
+}
+.hotel .hotel__main-block-search-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results {
+  width: 27%;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 25px 30px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-header {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-price .hotel__first-slide {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-price .hotel__first-slide .hotel__block-name-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-price .hotel__first-slide .hotel__block-name-content .hotel__description-content-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-price .hotel__first-slide .hotel__block-name-content .hotel__close-content {
+  height: 18px;
+  width: 18px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-price .hotel__first-slide .hotel__min-price {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-time .hotel__first-slide {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-time .hotel__first-slide .hotel__block-name-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-time .hotel__first-slide .hotel__block-name-content .hotel__description-content-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__filter-time .hotel__first-slide .hotel__min-price {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-inside-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-inside-name .hotel__rat-header {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-inside-name .hotel__image-rat {
+  width: 18px;
+  height: 18px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-class-lane {
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-class-lane .hotel__btn-lane-value {
+  box-sizing: border-box;
+  outline: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 10px 16px;
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-class-lane .hotel__btn-lane-value:not(:last-child) {
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-class-lane .hotel__btn-lane-value-active {
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 16px;
+  /* Montserrat/Medium/12px */
+  color: #fff;
+  background-color: rgb(141, 211, 187);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-rat .hotel__block-class-lane .hotel__btn-lane-value-active:not(:last-child) {
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-name .hotel__name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-name .hotel__image-airlines-name {
+  width: 18px;
+  height: 18px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-option-name-company {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-option-name-company .hotel__block-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-option-name-company .hotel__block-list-item input[type=checkbox] {
+  accent-color: rgb(141, 211, 187);
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-option-name-company .hotel__block-list-item .hotel__input-option-name {
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-company-lane .hotel__block-option-name-company .hotel__block-list-item .hotel__name-airlines-select {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-trips {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-trips .hotel__trips {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-trips .hotel__image-trips {
+  width: 18px;
+  height: 18px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-option-trips .hotel__block-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-option-trips .hotel__block-list-item input[type=checkbox] {
+  accent-color: rgb(141, 211, 187);
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-option-trips .hotel__block-list-item .hotel__input-option-trips {
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-option-trips .hotel__block-list-item .hotel__trips-airlines-select {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-search-results .hotel__block-search-results-inside .hotel__block-main-trips .hotel__block-option-trips .hotel__description-other-options {
+  /* Montserrat/Bold/14px */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb {
+  width: 70%;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results {
+  margin-bottom: 35px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  /* padding: 30px; */
+  margin-bottom: 30px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content-active {
+  padding-right: 30px;
+  /* border-right: 1px solid red; */
+  width: 400px;
+  /* margin-right: 40px; */
+  border-bottom: 4px solid rgb(141, 211, 187);
+  /* padding-bottom: 30px; */
+  /* padding: 30px; */
+  padding: 30px 0px 30px 30px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content-active .hotel__uu-blocks {
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content-active .hotel__uu-blocks .hotel__name-list-item {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content-active .hotel__uu-blocks .hotel__description-time {
+  opacity: 0.4;
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content-active .hotel__uu-blocks .hotel__description-time span {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content {
+  padding-right: 30px;
+  height: 110px;
+  /* border-right: 1px solid red; */
+  width: 400px;
+  /* margin-right: 40px; */
+  /* padding-bottom: 30px; */
+  /* padding: 30px; */
+  padding: 30px 0px 30px 30px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content .hotel__uu-blocks {
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content .hotel__uu-blocks .hotel__name-list-item {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content .hotel__uu-blocks .hotel__description-time {
+  opacity: 0.4;
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-list-item-content .hotel__uu-blocks .hotel__description-time span {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-another-sorts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-another-sorts .hotel__uu-blocks .hotel__image-menu-sort {
+  margin-right: 15px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-optimal-time-fly-list-box .hotel__block-another-sorts .hotel__uu-blocks .hotel__description-another-sorts {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-length-content-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-length-content-inside .hotel__description-content {
+  /* Montserrat/Semibold/14px */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-length-content-inside span {
+  /* Montserrat/Semibold/14px */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 134, 130);
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals {
+  position: relative;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .hotel__block-sort-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .hotel__block-sort-by .hotel__description-sorts {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-right: 15px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .hotel__block-sort-by .hotel__description-sorts span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .hotel__block-sort-by .hotel__image-uu {
+  width: 18px;
+  height: 18px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  width: 200px;
+  position: absolute;
+  z-index: 100;
+  right: 0%;
+  /* bottom: 100%; */
+  top: 160%;
+  height: 150px;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort:not(:last-child) {
+  margin-bottom: 15px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort .fly-res__btn-sort-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 24px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort .fly-res__btn-sort-option .fly-res__name-description-sort {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: right;
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy:not(:last-child) {
+  margin-bottom: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket {
+  width: 33%;
+  height: 330px;
+  position: relative;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images {
+  z-index: 100;
+  position: absolute;
+  right: 6%;
+  padding: 10px;
+  top: 6%;
+  color: rgb(17, 34, 17);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.5);
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__main-image-ticket {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket {
+  width: 75%;
+  padding: 30px 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__header-name {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info .hotel__loaction-image {
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info .hotel__location-description {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-stars-rat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-stars-rat .hotel__description-count-stars {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__image-coffee {
+  margin-right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main span {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 5px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__block-float-count-rat {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 5px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-startig-from {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 5px 0px 5px 0px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel span {
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-tax {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: right;
+  opacity: 0.6;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__favourites-btn {
+  padding: 15px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .hotel__favourites-btn {
+  padding: 15px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .hotel__btn-view-detailed {
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 15px 26px;
+  width: 100%;
+  text-align: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__favourites-btn {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth {
+  position: fixed;
+  padding: 30px 50px;
+  top: 50%;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+  z-index: 101;
+  width: 415px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__close-icon-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__header-fav-list {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav {
+  margin-bottom: 25px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login span {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register span {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-login {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 26px;
+  width: 100%;
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-register {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 26px;
+  width: 100%;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__show-more-res {
+  /* Montserrat/Semibold/14px */
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 15px 25px;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  height: 56px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__image-sad-smile {
+  margin-right: 20px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__image-sad-smile .hotel__image-sad {
+  width: 100px;
+  height: 100px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__header-recommended {
+  margin-bottom: 10px;
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+}
+.hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__description-recommended {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  margin: 100px;
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 10px;
+}
+
+.example-track.example-track-0 {
+  background: green;
+}
+
+.example-track.example-track-1 {
+  background: red;
+}
+
+.example-track.example-track-2 {
+  background: grey;
+}
+
+.horizontal-slider .example-thumb {
+  top: 1px;
+  width: 50px;
+  height: 48px;
+  line-height: 38px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 5px solid gray;
+  box-sizing: border-box;
+}
+
+/* Styles for the slider component */
+.slider {
+  height: 3px;
+  width: 100%;
+  /* Blackish Green */
+  background: rgb(17, 34, 17);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* Styles for the slider thumb */
+.slider .thumb {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  /* Mint Green */
+  background: rgb(141, 211, 187);
+  cursor: grab;
+}
+
+/* Styles for the slider active state */
+.slider .thumb.active {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.thumb-0 {
+  bottom: -10px;
+}
+
+.thumb-1 {
+  bottom: -10px;
+}
+
+#maxPrice {
+  text-align: end;
+  min-width: 23px;
+  width: 23px;
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.swiper {
+  border-radius: 8px 0px 0px 8px;
+  height: 100%;
+}
+.swiper .swiper-wrapper {
+  padding-bottom: 50px;
+}
+.swiper .swiper-pagination {
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  bottom: 0;
+}
+.swiper .swiper-pagination-bullet {
+  width: 100%;
+  border-radius: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: transparent;
+}
+.swiper .swiper-pagination-bullet::before {
+  position: absolute;
+  bottom: 0;
+  /* color: black; */
+  background-color: rgba(217, 217, 217, 0.4196078431);
+  content: "";
+  width: 100%;
+  height: 6px;
+}
+.swiper .swiper-pagination-bullet::after {
+  content: "";
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.swiper .swiper-pagination-none {
+  opacity: 0;
+}
+
+/**singleHotel**/
+.single-hotel .single-hotel__main-block .single-hotel__block-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-uu .single-hotel__header-block {
+  margin-right: 15px;
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-uu .single-hotel__block-stars-hotel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-uu .single-hotel__block-stars-hotel .single-hotel__description-count-star {
+  margin-left: 10px;
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-location .single-hotel__image-geo {
+  margin-right: 10px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-location .single-hotel__description-geo {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-rat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-rat .single-hotel__float-count {
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 20px;
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-rat .single-hotel__description-reviews {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-info-selected-hotel .single-hotel__block-rat .single-hotel__description-reviews span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-price {
+  margin-bottom: 25px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-price .single-hotel__price-count {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-price .single-hotel__price-count span {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-options {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-options .single-hotel__favourites {
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 17px;
+  margin-right: 20px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-options .single-hotel__share-link {
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 17px;
+  margin-right: 20px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-inside .single-hotel__block-price-selected-hotel .single-hotel__block-options .single-hotel__book {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 17px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-single-image {
+  width: 49.5%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-single-image .single-hotel__image-main {
+  width: 100%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-single-image-active {
+  width: 49.5%;
+  margin-bottom: 13px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-single-image-active .single-hotel__image-main {
+  width: 100%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image {
+  width: 49.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image .image_gallery {
+  width: 49%;
+  margin-bottom: 8px;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image .single-hotel__image-gallery {
+  width: 49%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image .single-hotel__block-interactive-view-full-gallery {
+  width: 49%;
+  position: relative;
+  /* width: 100%; */
+  height: 100%;
+  align-items: flex;
+  height: 271px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image .single-hotel__block-interactive-view-full-gallery .single-hotel__image-image-gallery-font {
+  z-index: -1;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-mini-gallery-image .single-hotel__block-interactive-view-full-gallery .single-hotel__btn-imteractive {
+  border-radius: 4px;
+  padding: 15px 25px;
+  background: rgb(141, 211, 187);
+  height: 56px;
+  margin: 0px 15px 15px 0px;
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-full-images {
+  width: 49.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-full-images .single-hotel__image-gallery {
+  width: 49%;
+}
+.single-hotel .single-hotel__main-block .single-hotel__block-view-image .single-hotel__block-full-images .single-hotel__image-gallery {
+  width: 49%;
+}
+
+.alls .alls__block-main .alls__block-uu {
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview {
+  margin-bottom: 40px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview .alls__header-block-overview {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview .alls__description-main {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews {
+  border-radius: 12px;
+  margin-right: 25px;
+  background: rgb(141, 211, 187);
+  width: 180px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 64px 16px 16px;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__description-float-count {
+  /* TradeGothic/Bold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__block-uu-float .alls__description-mark-overview {
+  /* Montserrat/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__block-uu-float .alls__description-total-count-review {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 12px;
+  width: 180px;
+  padding: 16px 64px 16px 16px;
+  height: 155px;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview:not(:last-child) {
+  margin-right: 25px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview .alls__description-overview {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 70px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__header-avaible {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms {
+  display: flex;
+  flex-direction: column;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms:not(:last-child) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 25px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room .alls__image-room {
+  width: 70px;
+  height: 70px;
+  margin-right: 25px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room .alls__description-room {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__description-final-price {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 70px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__description-final-price span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__btn-detailed-info {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  width: 165px;
+  text-align: center;
+}
+
+.location .location__block-main .location__main-block-uu {
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.location .location__block-main .location__main-block-uu .location__block-uu-sec {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.location .location__block-main .location__main-block-uu .location__block-uu-sec .location__description-block {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.location .location__block-main .location__main-block-uu .location__block-uu-sec .location__btn-google-maps {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 4px;
+  padding: 15px 25px;
+  background: rgb(141, 211, 187);
+}
+.location .location__block-main .location__main-block-uu .location__block-image-map .location__image-map {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 15px;
+}
+.location .location__block-main .location__main-block-uu .location__block-image-map .location__block-map-hotel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.location .location__block-main .location__main-block-uu .location__block-image-map .location__block-map-hotel .lovation__image-geo {
+  margin-right: 10px;
+}
+.location .location__block-main .location__main-block-uu .location__block-image-map .location__block-map-hotel .location__description-name-place {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.location .location__block-main .location__block-amenities {
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.location .location__block-main .location__block-amenities .location__header-name {
+  margin-bottom: 40px;
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.location .location__block-main .location__block-amenities .location__block-list-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.location .location__block-main .location__block-amenities .location__block-list-box .location__block-list-item-amenities {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.location .location__block-main .location__block-amenities .location__block-list-box .location__block-list-item-amenities:not(:nth-last-child(2)) {
+  margin-bottom: 30px;
+}
+.location .location__block-main .location__block-amenities .location__block-list-box .location__block-list-item-amenities .location__image-amenities {
+  margin-right: 10px;
+}
+.location .location__block-main .location__block-amenities .location__block-list-box .location__block-list-item-amenities .location__description-name-amenities {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.location .location__block-main .location__block-amenities .location__amenities-more-block {
+  width: 50%;
+}
+.location .location__block-main .location__block-amenities .location__amenities-more-block .location__more-amenitites-count {
+  /* Montserrat/Semibold/16px */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/*Main fonts*/
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login span, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-results .hotel__block-show-content-length .hotel__block-uu-modals .fly-res__block-modal-sorts .fly-res__block-btn-sort .fly-res__btn-sort-option .fly-res__name-description-sort, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__header-fav-list, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__instructions-for-add-fav .fly-res__description-go-to-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-login, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__block-modal-uu .fly-res__block-modal-need-auth .fly-res__block-btn-for-auth .fly-res__btn-register, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__header-recommended, .hotel .hotel__main-block-search-results .hotel__block-uu-blb .hotel__block-failed-search .hotel__description-recommended-by-failed .hotel__description-recommended {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__input-ff::placeholder, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__input-ff::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__label-txt, .hotel__main-block .form_hotel .search__block-form-field .search__label-f .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel__main-block .form_hotel .search__block-form-field .search__label-fo .search__label-forms, .hotel__main-block .form_hotel .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-f .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-s .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-t .search__label-forms, .hotel .hotel__block .form_hotel .search__block-form-field .search__label-fo .search__label-forms {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.recent__block-main .recent__block-headers .recent__header-block, .recent__block-main .recent__block-headers .recent__description-block, .recent__block-main .recent__btn-more-placeses, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__header-places-block, .recent__block-placeses .recent__block-places-list-box .recent__block-description-place .recent__description-places {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0%;
+  color: rgb(17, 34, 17);
+}
+
+.comment {
+  margin-bottom: 300px;
+}
+.comment .comment__block-main .comment__block-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.comment .comment__block-main .comment__block-header .comment__header-block {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__btn-add-your-review {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 20px;
+  height: 56px;
+  width: 180px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review {
+  position: fixed;
+  right: 30%;
+  top: 20%;
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.6);
+  padding: 35px 25px;
+  background: #fff;
+  z-index: 100;
+  border-radius: 5px;
+  width: 800px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__btn-close-modal {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers {
+  margin-bottom: 25px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers .comment__header-block {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers .comment__description-step-count {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info {
+  margin-bottom: 35px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-rate-hotel {
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill {
+  height: 46px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill {
+  height: 150px;
+  resize: none;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill {
+  height: 46px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 11px 25px;
+  height: 49px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside .comment__image-arrow-left {
+  margin-right: 10px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside .comment__description-name-back {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-submit-modal {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in {
+  position: fixed;
+  right: 30%;
+  top: 20%;
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  z-index: 100;
+  border-radius: 5px;
+  width: 800px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside {
+  position: relative;
+  padding: 35px 25px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__btn-image-close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__header-need-sign {
+  margin-bottom: 25px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content {
+  margin-right: 50px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__description-options-for-user {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__mid-description {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__btn-log-in-user {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content span {
+  margin: 0px 15px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__btn-sign-in-for-user {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-float-count-mark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-main-mark {
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-main-mark .comment__description-mark {
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-uu-inside .comment__description-short-review {
+  /* Montserrat/Semibold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-uu-inside .comment__description-count-review {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-image-user {
+  margin-right: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark .comment__description-mark {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark hr {
+  border-right: 2px solid #000;
+  height: 17px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark .comment__description-main-review {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__main-secr {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 92%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-interactive-review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__arrow-left {
+  margin-right: 15px;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__active-page {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__arrow-right {
+  margin-left: 15px;
+}
+
+.check__form-danger {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+}
+
+/**booking**/
+.reservation {
+  margin-top: 60px;
+  margin-bottom: 300px;
+}
+.reservation .reservation__main-block .reservation_info-block {
+  margin-bottom: 35px;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-info-plane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-info-plane .reservation__header-name-plane {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-info-plane .reservation__description-price-ticket {
+  /* Montserrat/Bold/32px */
+  color: rgb(255, 134, 130);
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-location .reservation__image-geo {
+  margin-right: 10px;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-location .reservation__description-location-geo {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-interactive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-interactive .reservation__share-btn {
+  padding: 15px 20px;
+  height: 56px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.reservation .reservation__main-block .reservation_info-block .reservation__block-uu-options .reservation__block-interactive .reservation__download-ticket {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 56px;
+  padding: 15px 25px;
+  width: 165px;
+  text-align: center;
+}
+.reservation .reservation__main-block .reservation__main-ticket {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time {
+  background: rgb(235, 246, 242);
+  padding: 35px;
+  width: 25%;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(234, 234, 234); */
+  /* border-radius: 16px; */
+  /* background: rgb(255, 255, 255); */
+  border-radius: 16px 0px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-time-inside .reservation__time-fly {
+  margin-bottom: 20px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-time-inside .reservation__time-fly .reservation__description-time {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-time-inside .reservation__time-fly .reservation__description-name {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-image-plane {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-image-plane .reservation__image-vector-first {
+  margin-bottom: 10px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__block-image-plane .reservation__image-vector-second {
+  margin-top: 10px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__time-fly {
+  margin-top: 20px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__time-fly .reservation__description-time {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-time .reservation__time-fly .reservation__description-name {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user {
+  width: 50%;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(141, 211, 187);
+  padding: 35px;
+  border-radius: 0px 16px 0px 0px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__block-user-image-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__block-user-image-name .reservation__image-user-default {
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #fff;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 134, 130);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__block-user-image-name .reservation__image-user {
+  margin-right: 20px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__block-user-image-name .reservation__block-uu-description .reservation__description-user-name {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__block-user-image-name .reservation__block-uu-description .reservation__description-user-num {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__block-info-user .reservation__description-class-ticket {
+  /* TradeGothic/Bold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket {
+  padding: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 16px 0px 16px 0px;
+  background: rgb(255, 255, 255);
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-detailed-info-ticket-inside {
+  display: flex;
+  margin-bottom: 40px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-detailed-info-ticket-inside .reservation__list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-detailed-info-ticket-inside .reservation__list-item .reservation__image-icon {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-detailed-info-ticket-inside .reservation__list-item .reservation__inf-ticket-user .reservation__description-name {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-detailed-info-ticket-inside .reservation__list-item .reservation__inf-ticket-user .reservation__description-value {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-barcode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-barcode .reservation__block-description-barcode .reservation__description-name-barcode {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__blockinfo-ticket-with-user .reservation__detailed-info-ticket .reservation__block-barcode .reservation__block-description-barcode .reservation__description-value-barcode {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images {
+  width: 25%;
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 35px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-hight {
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  flex-direction: row;
+  z-index: 30000;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-hight .reservation__block-user-uu .reservation__block-lnl {
+  position: absolute;
+  top: -83px;
+  right: -56px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-hight .reservation__block-user-uu .reservation__block-lnl .reservation__image-ellips {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-hight .reservation__block-user-uu .reservation__block-lnl .reservation__image-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-low {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  z-index: 100;
+  align-items: center;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-low .reservation__block-user-uu .reservation__block-lnl {
+  position: absolute;
+  position: absolute;
+  top: -46px;
+  left: -37px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-low .reservation__block-user-uu .reservation__block-lnl .reservation__image-ellips {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.reservation .reservation__main-block .reservation__main-ticket .reservation__block-fly-images .reservation__block-low .reservation__block-user-uu .reservation__block-lnl .reservation__image-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__header-term {
+  margin-bottom: 40px;
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__block-descr {
+  margin-bottom: 40px;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__block-descr .reservation__header-block-description {
+  margin-bottom: 20px;
+  /* Montserrat/Medium/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__block-descr .reservation__list-box {
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__block-descr .reservation__list-box .reservation__list-item {
+  list-style-type: disc !important;
+  margin-bottom: 10px;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-terms .reservation__block-descr .reservation__list-box .reservation__list-item .reservation__description-main-term {
+  width: 80%;
+  line-height: 20px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-contacts .reservation__header-block-contact {
+  margin-bottom: 20px;
+  /* Montserrat/Medium/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-contacts .reservation__description-contact {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.reservation .reservation__main-block .reservation__block-uul .reservation__block-contacts .reservation__description-contact:not(:last-child) {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=hotel.css.map */

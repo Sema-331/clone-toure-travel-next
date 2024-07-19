@@ -1,0 +1,174 @@
+/*Main fonts*/
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__btn-submit, .main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__description .verify__description-uu, .main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .verify .verify__block-main .verify__block-content .payment__block-go-back .verify__description-name, .main_cl-login .container .verify .verify__block-main .verify__block-content .payment__description-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info .login__description-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info .login__name-header {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.main_cl-login {
+  height: 100%;
+}
+.main_cl-login .container {
+  height: 100%;
+}
+.main_cl-login .container .verify {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main_cl-login .container .verify .verify__block-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content {
+  width: 50%;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__image-logo {
+  margin-bottom: 70px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .payment__description-name {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .payment__block-go-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .payment__block-go-back .verify__description-name {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .payment__block-go-back .payment__icon-back {
+  margin-right: 10px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info .login__name-header {
+  /* TradeGothic/Bold/40px */
+  color: rgb(0, 0, 0);
+  font-size: 44px;
+  line-height: 51px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info .login__description-name {
+  margin-bottom: 55px;
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 55px;
+  opacity: 0.7;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__block-form-field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__block-form-field .verify__input-value {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 60px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__block-form-field .verify__input-value::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__block-form-field .verify__input-value::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__block-form-field .verify__label-form {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__description {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__description .verify__description-uu {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  color: rgb(255, 134, 130);
+  margin-left: 10px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__block-content .verify__block-header-info form .verify__btn-submit {
+  height: 56px;
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  margin-bottom: 60px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__image-slider {
+  width: 40%;
+  border-radius: 35px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__image-slider .swiper-pagination-bullet-active {
+  border-radius: 5px;
+  background: rgb(141, 211, 187) !important;
+  opacity: 1;
+  width: 32px;
+}
+.main_cl-login .container .verify .verify__block-main .verify__image-slider .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+}
+.main_cl-login .container .verify .verify__block-main .verify__image-slider .verify__image-swipe {
+  width: 100%;
+}/*# sourceMappingURL=verify.css.map */

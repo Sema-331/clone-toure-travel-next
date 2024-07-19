@@ -1,0 +1,800 @@
+@import './../vars/colors';
+
+header {
+    .header__block-uu-our {
+        margin: 0px;
+        box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+        background: rgb(255, 255, 255);
+        .header-fly {
+            padding: 27px 32px;
+            .header-fly__nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 60px;
+                align-items: flex-start;
+                .header-fly__block-uu-options {
+                    .header-fly__block-options {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: baseline;
+                        margin-bottom: 20px;
+                        .header-fly__block-fly-active {
+                            margin-right: 40px;
+                            height: 96%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            border-bottom: 5px solid $color_3;
+                            padding-bottom: 10px;
+                            .header-fly__link-fly {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                height: 100%;
+                                .header-fly__image-fly {
+                                    margin-right: 8px;
+                                }
+                                .header-fly__descripion-fly {
+                                    /* Montserrat/Semibold/14px */
+                                    color: $primary_black;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .header-fly__block-fly {
+                            margin-right: 40px;
+                            height: 96%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .header-fly__link-fly {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                height: 100%;
+                                .header-fly__image-fly {
+                                    margin-right: 8px;
+                                }
+                                .header-fly__descripion-fly {
+                                    /* Montserrat/Semibold/14px */
+                                    color: $primary_black;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .header-fly__block-hotel-active {
+                            height: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            border-bottom: 5px solid $color_3;
+                            padding-bottom: 10px;
+                            .header-fly__hotel-link {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .header-fly__image-hotel {
+                                    margin-right: 8px;
+                                }
+                                .header-fly__descritpion-hotel {
+                                    color: $primary_black;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .header-fly__block-hotel {
+                            height: 100%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .header-fly__hotel-link {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .header-fly__image-hotel {
+                                    margin-right: 8px;
+                                }
+                                .header-fly__descritpion-hotel {
+                                    color: $primary_black;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                    .head__btn-change-city {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .head__icon-location {
+                            margin-right: 25px;
+                        }
+                        .head__name-selected-city {
+                            font-family: "Montserrat", sans-serif;
+                            font-weight: 500;
+                            font-size: 16px;
+                            color: #000;
+                        }
+                    }
+                    .head__block-modal-search-city {
+                        box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+                        background: $primary_fff;
+                        z-index: 100;
+                        position: fixed;
+                        background: #fff;
+                        width: 70%;
+                        padding: 55px;
+                        border-radius: 10px;
+                        .head__block-inside-modal {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .head__block-image-search {
+                                width: 45%;
+                                .head__image-search {
+                                    width: 100%;
+                                    height: 450px;
+                                }
+                            }
+                            .head__block-main-searching {
+                                width: 45%;
+                                .head__description-header {
+                                    display: inline-block;
+                                    opacity: 0.5;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 20px;
+                                    color: $primary_black;
+                                    font-weight: 400;
+                                    line-height: 17px;
+                                    letter-spacing: 2%;
+                                    text-align: left;
+                                    margin-bottom: 10px !important;
+                                }
+                                .head__block-searching-input {
+                                    margin-bottom: 40px;
+                                    .head__input-searching {
+                                        width: 100%;
+                                        font-family: "Montserrat", sans-serif;
+                                        font-size: 18px;
+                                        color: $primary_black;
+                                        font-weight: 400;
+                                        line-height: 25px;
+                                        padding: 10px 20px;
+                                        height: 45px;
+                                        border: 1px solid hsl(0, 0%, 80%);
+                                        border-radius: 4px;
+                                        background: $primary_fff;
+                                        &::placeholder {
+                                            color: rgb(121, 116, 126);
+                                            font-size: 18px;
+                                        }
+                                    }
+                                    .head__list-box-res {
+                                        .head__list-item-res {
+                                            padding: 10px 20px;
+                                            /* height: 45px; */
+                                            border: 1px solid hsl(0, 0%, 80%);
+                                            border-radius: 4px;
+                                            background: #fff;
+                                            .head__main-block-res {
+                                                display: flex;
+                                                flex-direction: column;
+                                                .head__block-name-res-city {
+                                                    margin-bottom: 10px;
+                                                    .head__description-name {
+                                                        opacity: 1;
+                                                        font-family: "Montserrat", sans-serif;
+                                                        font-size: 18px;
+                                                        color: $primary_black;
+                                                        font-weight: 400;
+                                                        line-height: 17px;
+                                                    }
+                                                }
+                                                .head__block-more-info-object {
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    align-items: center;
+                                                    .head__header-uu {
+                                                        margin-right: 10px;
+                                                        opacity: 0.5;
+                                                        font-family: "Montserrat", sans-serif;
+                                                        font-size: 16px;
+                                                        color: $primary_black;
+                                                        font-weight: 400;
+                                                        line-height: 17px;
+                                                    }
+                                                    .head__description-variaty {
+                                                        opacity: 0.5;
+                                                        font-family: "Montserrat", sans-serif;
+                                                        font-size: 16px;
+                                                        color: $primary_black;
+                                                        font-weight: 400;
+                                                        line-height: 17px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .head__block-cities-population-more {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    .head__name-city {
+                                        width: 30.33%;
+                                        margin-bottom: 15px;
+                                        line-height: 24px;
+                                        font-family: "Montserrat", sans-serif;
+                                        font-size: 16px;
+                                        color: $primary_black;
+                                        font-weight: 400;
+                                        line-height: 20px;
+                                        text-align: left;
+                                        // &:nth-child(3n) {
+                                        //     text-align: right;
+                                        // }
+                                    }
+                                }
+                            }
+                        }
+                        .head__close-modal-searching {
+                            position: absolute;
+                            right: 0;
+                            width: 30px;
+                            height: 30px;
+                            top: 0;
+                            .head__image-searching-closes {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+                .header-fly__logo {
+                    .header-fly__main-logo {
+    
+                    }
+                }
+                .header-fly__block-log {
+                    .header-fly__authorization-log {
+                        color: $primary_black;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-right: 40px;
+                    }
+                    .header-fly__authorization-sign-up {
+                        color: $primary_fff;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        padding: 15px 25px;
+                        background: #000;
+                        color: #fff;
+                        border-radius: 5px;
+                    }
+                }
+                .change-comp__main-block {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 100%;
+                    position: relative;
+                    .change-comp__block-favourites-outside-active {
+                        display: flex;
+                        flex-direction: row;
+                        height: 100%;
+                        align-items: center;
+                        border-bottom: 4px solid rgb(141, 211, 187);
+                        .change-comp__favourites-block {
+                            position: relative;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding-right: 20px;
+                            height: 30%;
+                            margin-right: 0px;
+                            border-right: 3px solid $primary_black;
+                            .change-description__length-favourites-item {
+                                position: absolute;
+                                top: -18%;
+                                right: 80%;
+                                z-index: 1000;
+                                color: red;
+                            }
+                            .change-comp__image-favourites {
+                                margin-right: 10px;
+                            }
+                            .change-comp__description-fav {
+                                /* Montserrat/Semibold/14px */
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 17px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                        }
+                        .change-comp__block-main-modal {
+                            position: absolute;
+                            background: #fff;
+                            z-index: 10000;
+                            top: 100%;
+                            right: 50%;
+                            display: flex;
+                            /* flex-direction: row; */
+                            flex-direction: column;
+                            padding: 40px;
+                            border-radius: 12px;
+                            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+                            background: rgb(255, 255, 255);
+                            width: 380px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            .change-comp__block-descriptions {
+
+                                .change-comp__header-description {
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    margin-bottom: 15px;
+                                }
+                                .change-comp__description-navigation-user {
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    margin-bottom: 20px;
+                                }
+                                .change-comp__link-for-search {
+                                    border-radius: 4px;
+                                    background: $color2;
+                                    color: $primary_fff;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    padding: 10px 20px;
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                            }
+                            .change-comp__block-with-image {
+                                .change-comp__image-null-products {
+                                    width: 100px;
+                                    height: 100px;
+                                }
+                            }
+                        }
+                    }
+                    .change-comp__block-favourites-outside {
+                        display: flex;
+                        flex-direction: row;
+                        height: 100%;
+                        align-items: center;
+                        .change-comp__favourites-block {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding-right: 20px;
+                            position: relative;
+                            height: 30%;
+                            margin-right: 0px;
+                            border-right: 3px solid $primary_black;
+                            .change-description__length-favourites-item {
+                                position: absolute;
+                                top: -18%;
+                                right: 80%;
+                                z-index: 1000;
+                                color: red;
+                            }
+                            .change-comp__image-favourites {
+                                margin-right: 10px;
+                            }
+                            .change-comp__description-fav {
+                                /* Montserrat/Semibold/14px */
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 16px;
+                                font-weight: 600;
+                                line-height: 17px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                        }
+                        .change-comp__block-main-modal {
+                            position: absolute;
+                            background: #fff;
+                            z-index: 10000;
+                            top: 100%;
+                            right: 50%;
+                            display: flex;
+                            /* flex-direction: row; */
+                            flex-direction: column;
+                            padding: 40px;
+                            border-radius: 12px;
+                            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+                            background: rgb(255, 255, 255);
+                            width: 380px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            .change-comp__block-descriptions {
+
+                                .change-comp__header-description {
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    margin-bottom: 15px;
+                                }
+                                .change-comp__description-navigation-user {
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    margin-bottom: 20px;
+                                }
+                                .change-comp__link-for-search {
+                                    border-radius: 4px;
+                                    background: $color2;
+                                    color: $primary_fff;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    padding: 10px 20px;
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                            }
+                            .change-comp__block-with-image {
+                                .change-comp__image-null-products {
+                                    width: 100px;
+                                    height: 100px;
+                                }
+                            }
+                        }
+                    }
+                    .change-comp__user-block {
+                        margin-left: 30px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .change-comp__block-images {
+                            position: relative;
+                            margin-right: 10px;
+                            .change-comp__image-main {
+                                height: 50px;
+                                width: 50px;
+                                /* border: 1px solid red; */
+                                border-radius: 50%;
+                                background: #fff;
+                                box-sizing: border-box;
+                                border: 1px solid rgb(255, 134, 130);
+                                box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+                            }
+                            .change-comp__image-secondary {
+                            bottom: 0;
+                            right: 0;
+                            position: absolute;
+                            }
+                        }
+                        .change-comp__description-userName {
+                            /* Montserrat/Semibold/14px */
+                            color: rgb(17, 34, 17);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 17px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                    }
+                    .header-fly__block-main-modal {
+                        position: absolute;
+                        background: #fff;
+                        z-index: 10000;
+                        top: 100%;
+                        right: 0%;
+                        display: flex;
+                        /* flex-direction: row; */
+                        width: 340px;
+                        flex-direction: column;
+                        padding: 40px;
+                        border-radius: 12px;
+                        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+                        background: rgb(255, 255, 255);
+                        width: 380px;
+                        .header-fly__block-short-info {
+                            border-bottom: 1px solid hsl(0, 0%, 80%);
+                            margin-bottom: 30px;
+                            padding-bottom: 30px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .header-fly__block-image-changes {
+                                margin-right: 20px;
+                                .header-fly__modal-image-profile {
+                                    height: 50px;
+                                    width: 50px;
+                                    /* border: 1px solid red; */
+                                    border-radius: 50%;
+                                    background: #ebebeb;
+                                    box-sizing: border-box;
+                                    border: 1px solid rgb(255, 134, 130);
+                                    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+                                    background: #fff;
+                                
+                                }
+                            }
+                            .header-fly__block-description-short-info {
+                                .header-fly__description-user-name {
+                                    /* Montserrat/Semibold/16px */
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    line-height: 20px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    margin-bottom: 10px;
+                                }
+                                .header-fly__description-online-query {
+                                    /* Montserrat/Regular/14px */
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    opacity: 0.6;
+                                }
+                            }
+                        }
+                        .header-fly__block-params {
+                            border-bottom: 1px solid hsl(0, 0%, 80%);
+                            margin-bottom: 30px;
+                            padding-bottom: 30px;
+                            .header-fly__block-option-user {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                                position: relative;
+                                &:not(:last-child) {
+                                    margin-bottom: 20px;
+                                }
+                                .header-fly__block-name-option {
+                                    display: flex;
+                                    flex-direction: row;
+                                    align-items: center;
+                                    .header-fly__image-option {
+                                        margin-right: 10px;
+                                    }
+                                    .header-fly__description-option {
+                                        /* Montserrat/Medium/14px */
+                                        color: rgb(17, 34, 17);
+                                        font-family: "Montserrat", sans-serif;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        line-height: 17px;
+                                        letter-spacing: 0%;
+                                        text-align: left;
+                                    }
+                                }
+                                .header-fly__icon-arrow {
+    
+                                }
+                                .header-fly__block-modal-insides-options {
+                                    position: absolute;
+                                    width: 161px;
+                                    right: -160px;
+                                    border-radius: 12px;
+                                    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+                                    background: rgb(255, 255, 255);
+                                    padding: 20px;
+                                    .header-fly__block-single-option {
+                                        &:not(:last-child) {
+                                            margin-bottom: 15px;
+                                        }
+                                        a {
+                                            color: rgb(17, 34, 17);
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            line-height: 17px;
+                                            letter-spacing: 0%;
+                                            text-align: left;
+                                        }
+                                        .header-fly__description-not-avaible {
+                                            color: rgb(17, 34, 17);
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            line-height: 17px;
+                                            letter-spacing: 0%;
+                                            text-align: left;
+                                            opacity: 0.5;
+                                        }
+                                    }
+                                    .header-fly__block-list-box-options {
+                                        .header-fly__block-single-option {
+                                            &:not(:last-child) {
+                                                margin-bottom: 15px;
+                                            }
+                                            a {
+                                                color: rgb(17, 34, 17);
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 16px;
+                                                font-weight: 500;
+                                                line-height: 17px;
+                                                letter-spacing: 0%;
+                                                text-align: left;
+                                            }
+                                            .header-fly__description-not-avaible {
+                                                color: rgb(17, 34, 17);
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 16px;
+                                                font-weight: 500;
+                                                line-height: 17px;
+                                                letter-spacing: 0%;
+                                                text-align: left;
+                                                opacity: 0.5;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .header-fly__block-logout {
+                            .header-fly__block-support {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                                &:not(:last-child) {
+                                    margin-bottom: 20px;
+                                }
+                                .header-fly__block-support-inside {
+                                    display: flex;
+                                    flex-direction: row; 
+                                    align-items: center;
+                                    .header-fly__icon-option {
+                                        margin-right: 10px;
+                                    }
+                                    .header-fly__description-name-option {
+                                        /* Montserrat/Medium/14px */
+                                        color: rgb(17, 34, 17);
+                                        font-family: "Montserrat", sans-serif;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        line-height: 17px;
+                                        letter-spacing: 0%;
+                                        text-align: left;
+                                    }
+                                }
+                                .header-fly__icon-arrow {
+    
+                                }
+                                .header-fly__block-modal-insides-options {
+                                    position: absolute;
+                                    width: 161px;
+                                    right: -120px;
+                                    border-radius: 12px;
+                                    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+                                    background: rgb(255, 255, 255);
+                                    padding: 20px;
+                                    .header-fly__block-single-option {
+                                        &:not(:last-child) {
+                                            margin-bottom: 15px;
+                                        }
+                                        a {
+                                            color: rgb(17, 34, 17);
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            line-height: 17px;
+                                            letter-spacing: 0%;
+                                            text-align: left;
+                                        }
+                                        .header-fly__description-not-avaible {
+                                            color: rgb(17, 34, 17);
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            line-height: 17px;
+                                            letter-spacing: 0%;
+                                            text-align: left;
+                                            opacity: 0.5;
+                                        }
+                                    }
+                                }
+                            }
+                            .header-fly__block-support-logout {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: space-between;
+                                &:not(:last-child) {
+                                    margin-bottom: 20px;
+                                }
+                                .header-fly__block-support-inside {
+                                    display: flex;
+                                    flex-direction: row; 
+                                    align-items: center;
+                                    .header-fly__icon-option {
+                                        margin-right: 10px;
+                                    }
+                                    .header-fly__description-name-option {
+                                        /* Montserrat/Medium/14px */
+                                        color: rgb(17, 34, 17);
+                                        font-family: "Montserrat", sans-serif;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        line-height: 17px;
+                                        letter-spacing: 0%;
+                                        text-align: left;
+                                    }
+                                }
+                                .header-fly__icon-arrow {
+    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

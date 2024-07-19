@@ -1,0 +1,285 @@
+@import './../vars/mixins';
+@import './../vars/colors';
+
+.main_cl-login {
+    height: 100%;
+    .container {
+        height: 100%;
+        .login__block-main {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .login__block { 
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                .login__block-form-authorization {
+                    width: 35%;
+                    .login__image {
+                        margin-bottom: 75px;
+                    }
+                    .login__form-authorization-inside {
+                        .login__name-header {
+                            /* TradeGothic/Bold/40px */
+                            color: $color_1;
+                            @extend %l_700;
+                            font-size: 44px;
+                            line-height: 51px;
+                            text-align: left;
+                            margin-bottom: 20px;
+                        }
+                        .login__description-name {
+                            margin-bottom: 55px;
+                            /* Montserrat/Regular/16px */
+                            color: $primary_black;
+                            @extend %m_400;
+                            font-size: 18px;
+                            line-height: 20px;
+                            text-align: left;
+                            opacity: 0.7;
+                        }
+                        form {
+                            .login__form-block-field {
+                                margin-bottom: 30px;
+                                position: relative;
+                                .login__input {
+                                    width: 100%;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 18px;
+                                    color: $primary_black;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    padding: 10px 20px;
+                                    height: 60px;
+                                    border: 1px solid hsl(0, 0%, 80%);
+                                    border-radius: 4px;
+                                    background: $primary_fff;
+                                    &::placeholder {
+                                        color: rgb(121, 116, 126);
+                                        font-size: 18px;
+                                    }
+                                }
+                                .login__label {
+                                    display: inline-block;
+                                    opacity: 0.5;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 20px;
+                                    color: $primary_black;
+                                    font-weight: 400;
+                                    line-height: 17px;
+                                    letter-spacing: 2%;
+                                    text-align: left;
+                                    margin-bottom: 10px !important;
+                                }
+                                .login__image-toggle-eye {
+                                    position: absolute;
+                                    top: 51%;
+                                    right: 4%;
+                                }
+                            }
+                            .login__error-block {
+                                margin-bottom: 25px;
+                                .login__description-error {
+                                    background: #ffebea;
+                                    border-radius: 8px;
+                                    color: #cc2e12;
+                                    font-size: 16px;
+                                    letter-spacing: .2px;
+                                    line-height: 20px;
+                                    padding: 20px 12px 20px 17px;
+                                    font-family: "Montserrat", sans-serif;
+                                    font-weight: 500;
+                                }
+                            }
+                            .login__check-block {
+                                margin-bottom: 45px;
+                                display: flex;
+                                justify-content: space-between;
+                                .login__check-block-input {
+                                    display: flex;
+                                    align-items: baseline;
+                                    .login__checkbox-field {
+                                        margin-right: 10px;
+                                    }
+                                    .login__remember {
+                                        /* Montserrat/Medium/14px */
+                                        color: $primary_black;
+                                        @extend %m_500;
+                                        font-size: 16px;
+                                        line-height: 17px;
+                                        text-align: left;
+                                    }
+                                }
+                                .login__forgot {
+                                    /* Montserrat/Medium/14px */
+                                    color: $color2;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    text-align: right;
+                                }
+                            }
+                        }
+                        .login__btn-submit {
+                            height: 56px;
+                            margin-bottom: 20px;
+                            color: $primary_black;
+                            @extend %m_600;
+                            font-size: 18px;
+                            line-height: 17px;
+                            text-align: left;
+                            padding: 15px 15px;
+                            width: 100%;
+                            text-align: center;
+                            border-radius: 4px;
+                            background: $color_3;
+                        }
+                        .login__instructions-create-account {
+                            /* [object Object] */
+                            @extend %m_600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            text-align: center;
+                            margin-bottom: 45px;
+                            .login__btn-sign {
+                                color: $color2;
+                                @extend %m_500;
+                                font-size: 16px;
+                                line-height: 17px;
+                                text-align: right;
+                                margin-left: 10px;
+                            }
+                        }
+                        .login__block-options-login-with {
+                            margin-bottom: 45px;
+                            margin-bottom: 35px;
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            hr {
+                                height: 2px;
+                                position: absolute;
+                                top: 8px;
+                                /* background: red; */
+                                width: 100%;
+                                background-color: $color_1;
+                                opacity: 0.25;
+                            }
+                            .login__login-with {
+                                @extend %m_400;
+                                font-size: 16px;
+                                line-height: 17px;
+                                text-align: left;
+                                z-index: 200;
+                                /* display: flex; */
+                                position: relative;
+                                text-align: center;
+                                /* width: 70%; */
+                                padding: 0px 10px;
+                                background: $primary_fff;
+                                color: rgb(161 161 161);
+                            }
+                        }
+                        .login__block-options-log {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            .login__block-facebook {
+                                width: 31.33%;
+                                display: flex;
+                                justify-content: center;
+                                padding: 15px 25px;
+                                height: 60px;
+                                box-sizing: border-box;
+                                border: 1px solid $color_3;
+                                border-radius: 4px;
+
+                            }
+                            .login__block-google {
+                                width: 31.33%;
+                                display: flex;
+                                justify-content: center;
+                                padding: 15px 25px;
+                                height: 60px;
+                                box-sizing: border-box;
+                                border: 1px solid $color_3;
+                                border-radius: 4px;
+                            }
+                            .login__block-apple {
+                                width: 31.33%;
+                                display: flex;
+                                justify-content: center;
+                                padding: 15px 25px;
+                                height: 60px;
+                                box-sizing: border-box;
+                                border: 1px solid $color_3;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
+                .login__image-slider {
+                    width: 55%;
+                    border-radius: 35px;
+                    .swiper-pagination-bullet-active {
+                        border-radius: 5px;
+                        background: $color_3 !important;
+                        opacity: 1;
+                        width: 32px;
+                    }
+                    .swiper-pagination-bullet {
+                        background: $primary_fff;
+                        opacity: 1;
+                    }
+                    .login__image-slider {
+                        width: 100%;
+                    }
+                }
+            } 
+        }
+    }
+}
+.block-for-loader {
+    position: fixed;
+    z-index: 3000;
+    top: 45%;
+    right: 46%;
+    box-shadow: 0px 0px 8px 10000px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    .loader {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        } 
+}
+.check__form-danger {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .check__form-image {
+        margin-right: 10px;
+    }
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: $color2;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 2%;
+    }
+}

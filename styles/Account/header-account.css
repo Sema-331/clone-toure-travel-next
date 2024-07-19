@@ -1,0 +1,98 @@
+/*Main fonts*/
+header .header-account .header-account__nav .header-account__block-user .header-account__block-user-image .header-account__user-name, header .header-account .header-account__nav .header-account__block-user .header-account__block-favourites-item .header-account__name-favourites, header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link .header-account__descritpion-hotel, header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user .header-account__descripion-user {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+header .header-account {
+  margin-bottom: 60px;
+}
+header .header-account .header-account__nav {
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user {
+  margin-right: 40px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user .header-account__image-user {
+  margin-right: 8px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user .header-account__descripion-user {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link .header-account__image-hotel {
+  margin-right: 8px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link .header-account__descritpion-hotel {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+header .header-account .header-account__nav .header-account__block-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-favourites-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 35px;
+  border-right: 3px solid rgb(0, 0, 0);
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-favourites-item .header-account__image-favourites {
+  margin-right: 10px;
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-favourites-item .header-account__name-favourites {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-user-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 35px;
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-user-image .header-account__image-user {
+  width: 45px;
+  height: 45px;
+  padding: 9px;
+  border-radius: 50px;
+  background: #ebebeb;
+  margin-right: 10px;
+}
+header .header-account .header-account__nav .header-account__block-user .header-account__block-user-image .header-account__user-name {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}/*# sourceMappingURL=header-account.css.map */

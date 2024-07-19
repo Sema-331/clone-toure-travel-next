@@ -1,0 +1,115 @@
+/*Main fonts*/
+.options .options__block-places .options__block-places-inside .options__btn-mode-details, .options .options__block-places .options__block-places-inside .options__block-content .options__price-place, .options .options__block-places .options__block-places-inside .options__block-content .options__block-content-name .options__description-single-place, .options .options__block-places .options__block-places-inside .options__block-content .options__block-content-name .options__header-single-place, .options .options__block-headers .options__block-inside .options__header-inside {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.options .options__block-headers .reviews__btn-block .reviews__btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.options .options__block-headers .options__block-inside .options__description-inside {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.options .options__block-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 50px;
+}
+.options .options__block-headers .options__block-inside .options__header-inside {
+  /* Montserrat/Semibold/32px */
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  line-height: 39px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.options .options__block-headers .options__block-inside .options__description-inside {
+  /* Montserrat/Regular/16px */
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  width: 69%;
+}
+.options .options__block-headers .reviews__btn-block .reviews__btn {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  box-sizing: border-box;
+  /* Mint Green */
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+.options .options__block-places {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.options .options__block-places .options__block-places-inside {
+  height: 480px;
+  width: 24%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  padding: 30px;
+}
+.options .options__block-places .options__block-places-inside .options__image-place {
+  z-index: -1;
+}
+.options .options__block-places .options__block-places-inside .options__block-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.options .options__block-places .options__block-places-inside .options__block-content .options__block-content-name .options__header-single-place {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.options .options__block-places .options__block-places-inside .options__block-content .options__block-content-name .options__description-single-place {
+  color: #fff;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: left;
+}
+.options .options__block-places .options__block-places-inside .options__block-content .options__price-place {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+}
+.options .options__block-places .options__block-places-inside .options__btn-mode-details {
+  width: 100%;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}/*# sourceMappingURL=option.css.map */

@@ -1,0 +1,205 @@
+.alls .alls__block-main .alls__block-uu {
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview {
+  margin-bottom: 40px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview .alls__header-block-overview {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-description-overview .alls__description-main {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews {
+  border-radius: 12px;
+  margin-right: 25px;
+  background: rgb(141, 211, 187);
+  width: 180px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 64px 16px 16px;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__description-float-count {
+  /* TradeGothic/Bold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__block-uu-float .alls__description-mark-overview {
+  /* Montserrat/Bold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-overviews .alls__block-view-overview .alls__block-uu-float .alls__description-total-count-review {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 12px;
+  width: 180px;
+  padding: 16px 64px 16px 16px;
+  height: 155px;
+  justify-content: space-between;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview:not(:last-child) {
+  margin-right: 25px;
+}
+.alls .alls__block-main .alls__block-uu .alls__block-uu-main .alls__block-uu-second .alls__block-another-overview .alls__description-overview {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 70px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__header-avaible {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms {
+  display: flex;
+  flex-direction: column;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms:not(:last-child) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 25px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room .alls__image-room {
+  width: 70px;
+  height: 70px;
+  margin-right: 25px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-image-room .alls__description-room {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__description-final-price {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 70px;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__description-final-price span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.alls .alls__block-main .alls__block-avaible .alls__list-box-rooms .alls__block-list-item-rooms .alls__block-more-info-detailed .alls__btn-detailed-info {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  width: 165px;
+  text-align: center;
+}/*# sourceMappingURL=alls.css.map */

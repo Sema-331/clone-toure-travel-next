@@ -1,0 +1,273 @@
+@import './../vars/colors';
+@import './../vars/mixins';
+
+
+.tender__block {
+    margin-bottom: 300px;
+    .options__block-headers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        margin-bottom: 50px;
+        .options__block-inside {
+            .options__header-inside {
+                /* Montserrat/Semibold/32px */
+                color: $color_1;
+                @extend %m_600;
+                font-size: 35px;
+                line-height: 39px;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+            .options__description-inside {
+                /* Montserrat/Regular/16px */
+                color: $color_1;
+                @extend %m_400;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: left;
+                width: 69%;
+            }
+        }
+        .reviews__btn-block {
+            .reviews__btn {
+                /* Montserrat/Medium/14px */
+                color: $primary_black;
+                @extend %m_500;
+                font-size: 16px;
+                line-height: 17px;
+                text-align: left;
+                box-sizing: border-box;
+                /* Mint Green */
+                border: 1px solid $color_3;
+                border-radius: 4px;
+                padding: 15px 25px;
+            }
+        }
+    }
+    .tender__block-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .tender__block-main-description {
+            border-radius: 20px;
+            background: $color_3;
+            width: 45%;
+            padding: 35px;
+            .tender__block-header-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-bottom: 35px;
+                .tender__header-main {
+                    /* TradeGothic/Bold/40px */
+                    color: $primary_black;
+                    @extend %l_700;
+                    font-size: 42px;
+                    line-height: 51px;
+                    text-align: left;
+                    width: 55%;
+                }
+                .tender__block-description-price {
+                    border-radius: 8px;
+                    background: $primary_fff;
+                    padding: 12px;
+                    width: 83px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .tender__price-of {
+                        /* TradeGothic/Regular/14px */
+                        color: $primary_black;
+                        font-family: 'Trade Gothic LT Std', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-bottom: 10px;
+                    }
+                    .tender__price {
+                        /* Montserrat/Semibold/20px */
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 22px;
+                        line-height: 24px;
+                        text-align: left;
+                    }
+                }
+            }
+            .tender__main-description {
+                /* Montserrat/Regular/14px */
+                color: $primary_black;
+                @extend %m_400;
+                font-size: 16px;
+                line-height: 25px;
+                text-align: left;
+                margin-bottom: 120px;
+            }
+            .tender__btn-more-details {
+                /* Montserrat/Medium/14px */
+                color: $primary_black;
+                @extend %m_500;
+                font-size: 16px;
+                line-height: 17px;
+                border-radius: 4px;
+                background-color: $primary_fff;
+                padding: 15px 25px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .tender__block-images {
+            display: flex;
+            width: 51%;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            // .tender__list-box-item {
+            //     position: relative;
+            //     .tender__place-image {
+            //         width: 390px;
+            //         height: 230px;
+            //         z-index: 1;
+            //         position: relative;
+            //         backface-visibility: hidden;
+            //         transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+            //         &:hover {
+            //             transform: rotateY(0deg);
+            //             z-index: 2;
+            //         }
+            //     }
+            //     .card__back{
+            //         z-index: 0;
+            //         position: absolute;
+            //         top: 0;
+            //         width: 100%;
+            //         height: 100%;
+            //         text-align: center;
+            //         backface-visibility: hidden;
+            //         background-color: orange;
+            //         transform: rotateY(-180deg);
+            //         transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+            //         &:hover {
+            //             transform: rotateY(180deg);
+            //             z-index: -1;
+            //         }
+            //     }
+            // }
+            .tender__list-box-item {
+            position: relative;
+            width: 390px;
+            height: 230px;
+            color: white;
+            &:not(:nth-last-child(-n + 2)) {
+                margin-bottom: 20px;
+            }
+            &:hover {
+                .tender__list-box-item-back {
+                    transform: rotateY(0deg);
+                    z-index: 2;
+                }
+                .tender__list-box-item-front {
+                    transform: rotateY(180deg);
+                    z-index: -1;
+                }
+            }
+            .tender__list-box-item-front{
+                z-index: 1;
+                position: relative;
+                height: 100%;
+                text-align: center;
+                backface-visibility: hidden;
+                transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+                .tender__place-image {
+                    width: 390px;
+                    height: 230px;
+                    background-image: url('/public/images/Rectangle 3 (3).png');
+                    &.tender__place-image-first {
+                        margin-bottom: 20px;
+                    }
+                    &.tender__place-image-second {
+                        margin-bottom: 20px;
+                    }
+                }
+                }
+                .tender__list-box-item-back{
+                    border-radius: 15px;
+                    z-index: 0;
+                    position: absolute;
+                    backdrop-filter: blur(10px);
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    backface-visibility: hidden;
+                    transform: rotateY(-180deg);
+                    transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+                    .tender__place-image {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .tender__description-image {
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        backdrop-filter: blur(10px);
+                        border-radius: 15px;
+                        color: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            // .tender__list-box-item:hover .tender__list-box-item-back {
+            // transform: rotateY(0deg);
+            // z-index: 2;
+            // }
+            // .tender__list-box-item:hover .tender__list-box-item-front {
+            // transform: rotateY(180deg);
+            // z-index: -1;
+            // }
+        }
+        // .card {
+        //     position: relative;
+        //     width: 300px;
+        //     height: 100px;
+        //     color: white;
+        //     }
+        //     .card__front{
+        //     z-index: 1;
+        //     position: relative;
+        //     background-color: cyan;
+        //     height: 100%;
+        //     text-align: center;
+        //     backface-visibility: hidden;
+        //     transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+        //     }
+        //     .card__back{
+        //     z-index: 0;
+        //     position: absolute;
+        //     top: 0;
+        //     width: 100%;
+        //     height: 100%;
+        //     text-align: center;
+        //     backface-visibility: hidden;
+        //     background-color: orange;
+        //     transform: rotateY(-180deg);
+        //     transition: transform .3s cubic-bezier(.2,.85,.4,1.275);
+        //     }
+        //     .card:hover .card__back {
+        //     transform: rotateY(0deg);
+        //     z-index: 2;
+        //     }
+        //     .card:hover .card__front {
+        //     transform: rotateY(180deg);
+        //     z-index: -1;
+        //     }
+    }
+}

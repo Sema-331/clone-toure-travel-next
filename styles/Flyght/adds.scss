@@ -1,0 +1,305 @@
+@import './../vars/colors';
+@import './../vars/mixins';
+
+.sec_adds-block-main {
+    .adds {
+        .adds__block-main {
+            @extend %back_font;
+            padding: 15px 25px 15px 25px;
+            margin-bottom: 25px;
+            .adds__block-select-card-active {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                border-radius: 12px;
+                background: $color_3;
+                padding: 25px;
+                .adds__block-info-card {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .adds__image-logo-card {
+                        margin-right: 40px;
+                    }
+                    .adds__description-card-num {
+                        margin-right: 10px;
+                        /* TradeGothic/Bold/16px */
+                        color: $primary_black;
+                        @extend %l_700;
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                    .adds__description-date-num {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                    }
+                }   
+                .adds__input {
+
+                }
+            }
+            .adds__block-add-new-card {
+                width: 100%;
+                box-sizing: border-box;
+                border: 2px dashed $color_3;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 230px;
+                .adds__image-add-card {
+                    margin-bottom: 15px;
+                }
+                .adds__description-add-card {
+                    /* Montserrat/Medium/12px */
+                    color: $primary_black;
+                    @extend %m_500;
+                    font-size: 16px;
+                    line-height: 15px;
+                    text-align: left;
+                }
+            }
+        }
+        .card-active__btn-pay-product {
+            .card-active__btn-pay-success {
+                border-radius: 4px;
+                background: rgb(141, 211, 187);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 16px 20px;
+                width: 100%;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                justify-content: center;
+                font-size: 18px;
+            }
+            .card-active__btn-pay-disabled {
+                border-radius: 4px;
+                background: rgb(141, 211, 187);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 16px 20px;
+                width: 100%;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                justify-content: center;
+                font-size: 18px;
+                opacity: 0.45;
+            }
+        }
+    }
+    .adds__block-uu-modal {
+        .create__block-main {
+        border-radius: 12px;
+        position: fixed;
+        top: 30%;
+        box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+        background: $primary_fff;
+        z-index: 100;
+        left: 25%;
+        width: 800px;
+        padding: 75px;
+        .create__block-image {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            .create__image-close {
+
+            }
+        }
+        .create__block-form-add-credit-card {
+            .create__header-modal {
+                color: $color_1;
+                @extend %l_700;
+                font-size: 42px;
+                line-height: 51px;
+                text-align: left;
+                margin-bottom: 56px;
+            }
+            form {
+                .create__block-main-fileds-card {
+                    .create__block-form-field {
+                        position: relative;
+                        margin-bottom: 30px;
+                        .create__input-field {
+                            width: 100%;
+                            @extend %input_form;
+                        }
+                        .create__label-field {
+                            @extend %label_form;
+                        }
+                        .create__input-field:focus + .create__label-field, .create__input-field:valid + .create__label-field {
+                            top: -10px;
+                            background-color: $primary_fff;
+                            font-size: 18px;
+                            color: $primary_black;
+                            opacity: 1;
+                        }
+                        .create__input-field:valid + .create__label-field {
+                            color: orange;
+                        }
+                        .create__image-open-country-list-item {
+                            position: absolute;
+                            top: 16px;
+                            width: 30px;
+                            height: 30px;
+                            right: 10px;
+                        }
+                    }
+                    .create__block-two-field {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: baseline;
+                        margin-bottom: 30px;
+                        .create__block-field-date {
+                            position: relative;
+                            width: 44%;
+                            .create__block-uu-fields {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .create__input-field {
+                                    width: 100%;
+                                    @extend %input_form;
+                                    margin-right: 10px;
+                                }   
+                                .create__input-field-second {
+                                    width: 100%;
+                                    @extend %input_form;
+                                }
+                            }
+                            .create__label-field {
+                                @extend %label_form;
+                            }
+                            .create__input-field:focus + .create__label-field, .create__input-field:valid + .create__label-field {
+                                top: -10px;
+                                background-color: $primary_fff;
+                                font-size: 18px;
+                                color: $primary_black;
+                                opacity: 1;
+                            }
+                            .create__input-field:valid + .create__label-field {
+                                color: orange;
+                            }
+                        }
+                        .create__block-field-cvc {
+                            position: relative;
+                            width: 48%;
+                            .create__input-field {
+                                width: 100%;
+                                @extend %input_form;
+                            }
+                            .create__label-field {
+                                @extend %label_form;
+                            }
+                            .create__input-field:focus + .create__label-field, .create__input-field:valid + .create__label-field {
+                                top: -10px;
+                                background-color: $primary_fff;
+                                font-size: 18px;
+                                color: $primary_black;
+                                opacity: 1;
+                            }
+                            .create__input-field:valid + .create__label-field {
+                                color: orange;
+                            }
+                        }
+                    }
+                }
+                .create__block-agree {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 50px;
+                    .create__input-agree {
+                        margin-right: 15px;
+                    }
+                    .create__description-agree {
+                        /* Montserrat/Medium/14px */
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                    }
+                }
+                .create__btn-add-card {
+                    margin-bottom: 20px;
+                    border-radius: 4px;
+                    background: $color_3;
+                    height: 56px;
+                    padding: 15px 25px;
+                    width: 100%;
+                    /* Montserrat/Semibold/14px */
+                    color: $primary_black;
+                    @extend %m_600;
+                    font-size: 16px;
+                    line-height: 17px;
+                    text-align: center;
+                }
+            }
+            .create__description-footer {
+                /* Montserrat/Regular/12px */
+                color: $primary_black;
+                @extend %m_400;
+                font-size: 16px;
+                line-height: 21px;
+                text-align: center;
+                opacity: 0.6;
+            }
+        }
+        }
+    }
+}
+form {
+    .payment__input-form-fill {
+        &:invalid {
+            border-color: $color2 !important;
+        }
+    }
+}
+.error {
+    @extend %m_500;
+    color: $primary_black;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: $color2;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+.block-for-loader {
+    position: fixed;
+    z-index: 3000;
+    top: 45%;
+    right: 46%;
+    box-shadow: 0px 0px 8px 10000px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    .loader {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+        } 
+}

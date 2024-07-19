@@ -1,0 +1,540 @@
+@import './../vars/mixins';
+@import './../vars/colors';
+
+
+.main_cl-login {
+    height: 100%;
+    .container {
+        height: 100%;
+        .payment {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .payment__block-inside {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                .pay__block-side-inside {
+                    display: flex;
+                    flex-direction: column;
+                    width: 55%;
+                    .pay__schema-first {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: flex-start;
+                        position: relative;
+                        .front-card {
+                            background: url("/public/images/bg-card-front.png") no-repeat center/cover;
+                            border-radius: 10px;
+                            width: 500px;
+                            height: 300px;
+                            z-index: 20;
+                            position: relative;
+                            padding: 25px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            .pay__image-font {
+                                z-index: -1;
+                            }
+                            .pay__side-iamge {
+                                height: 50px;
+                                width: 100px;
+                            }
+                            .pay__block-card-num {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: end;
+                                .pay__heade-card-num {
+                                    margin-bottom: 30px;
+                                    @extend %m_400;
+                                    line-height: 16px;
+                                    text-align: left;
+                                    color: #fff;
+                                    font-size: 30px;
+                                }
+                                .pay__list-box-info-user {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    .pay__list-item-name-user {
+                                        @extend %m_400;
+                                        font-weight: 400;
+                                        line-height: 16px;
+                                        text-align: left;
+                                        color: #fff;
+                                        font-size: 20px;
+                                    }
+                                    .pay__list-item-date-user {
+                                        @extend %m_400;
+                                        font-size: 16px;
+                                        line-height: 16px;
+                                        text-align: left;
+                                        color: #fff;
+                                        font-size: 20px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .pay__block-schema-second {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: end;
+                        .back-card {
+                            border: 1px solid #eaeaea;
+                            background: url("/public/images/bg-card-back.png") no-repeat center/cover;
+                            border-radius: 10px;
+                            z-index: 20;
+                            width: 20px;
+                            height: 20px;
+                            width: 500px;
+                            transform: translateX(-180px);
+                            height: 300px;
+                            position: relative;
+                            .pay__back-card-description {
+                                position: absolute;
+                                right: 43px;
+                                top: 46.8%;
+                                @extend %m_400;
+                                line-height: 16px;
+                                text-align: left;
+                                color: #fff;
+                                font-size: 20px;
+                                right: 60px;
+                                font-style: italic;
+                            }
+                        }
+                    }
+                }
+                .payment__image-slider {
+                    width: 40%;
+                    border-radius: 35px;
+                    .swiper-pagination-bullet-active {
+                        border-radius: 5px;
+                        background: $color_3!important;
+                        opacity: 1;
+                        width: 32px;
+                    }
+                    .swiper-pagination-bullet {
+                        background: #fff;
+                        opacity: 1;
+                    }
+                    .payment__image-slider {
+                        width: 100%;
+                    }
+                }
+                .payment__block-content-card {
+                    width: 50%;
+                    .payment__image-logo {
+                        margin-bottom: 70px;
+                    }
+                    .payment__block-go-back {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        margin-bottom: 25px;
+                        align-items: center;
+                        .payment__description-name {
+                            /* Montserrat/Medium/14px */
+                            color: $primary_black;
+                            @extend %m_500;
+                            font-size: 16px;
+                            line-height: 17px;
+                            text-align: left;
+                        }
+                        .payment__icon-back {
+                            width: 28px;
+                            height: 28px;
+                            margin-right: 10px;
+                        }
+                    }
+                    .payment__register-card-user {
+                        .login__name-header {
+                            /* TradeGothic/Bold/40px */
+                            color: $color_1;
+                            @extend %l_700;
+                            font-size: 44px;
+                            line-height: 51px;
+                            text-align: left;
+                            margin-bottom: 20px;
+                        }
+                        .login__description-name {
+                            margin-bottom: 55px;
+                            /* Montserrat/Regular/16px */
+                            color: $primary_black;
+                            @extend %m_400;
+                            font-size: 18px;
+                            line-height: 20px;
+                            text-align: left;
+                            margin-bottom: 55px;
+                            opacity: 0.7;
+                        }
+                        form {
+                            margin-bottom: 20px;
+                            .payment__block-form-main-card {
+                                margin-bottom: 35px;
+                                .payment__block-form-user-data-card {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    .payment__block-field-card-number {
+                                        width: 100%;
+                                        position: relative;
+                                        margin-bottom: 30px;
+                                        .payment__block-input-inside-with-images {
+                                            position: relative;
+                                            .payment__input-form-fill {
+                                                width: 100%;
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 18px;
+                                                color: $primary_black;
+                                                font-weight: 400;
+                                                line-height: 25px;
+                                                padding: 10px 20px;
+                                                height: 60px;
+                                                border: 1px solid rgb(121, 116, 126);
+                                                border-radius: 4px;
+                                                background: $primary_fff;
+                                                &::placeholder {
+                                                    color: rgb(121, 116, 126);
+                                                    font-size: 18px;
+                                                }
+                                            }
+                                            .payment__image-card-name {
+                                                position: absolute;
+                                                right: 1%;
+                                                top: 37%;
+                                            }
+                                        }
+                                        .payment__label-form-fill {
+                                            display: inline-block;
+                                            opacity: 0.5;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 20px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 17px;
+                                            letter-spacing: 2%;
+                                            text-align: left;
+                                            margin-bottom: 10px !important;
+                                        }
+                                    }
+                                    .payment__block-uu {
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: baseline;
+                                        justify-content: space-between;
+                                        width: 100%;
+                                        .payment__blb-inside {
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: flex-start;
+                                            width: 50%;
+                                            margin-right: 50px;
+                                            margin-bottom: 30px;
+                                            .payment__label {
+                                                display: inline-block;
+                                                opacity: 0.5;
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 20px;
+                                                color: $primary_black;
+                                                font-weight: 400;
+                                                line-height: 17px;
+                                                letter-spacing: 2%;
+                                                text-align: left;
+                                                margin-bottom: 10px !important;
+                                            }
+                                            .payment__lals {
+                                                display: flex;
+                                                flex-direction: row;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                                .payment__input-date {
+                                                    width: 48%;
+                                                    font-family: "Montserrat", sans-serif;
+                                                    font-size: 18px;
+                                                    color: $primary_black;
+                                                    font-weight: 400;
+                                                    line-height: 25px;
+                                                    padding: 10px 20px;
+                                                    height: 60px;
+                                                    border: 1px solid rgb(121, 116, 126);
+                                                    border-radius: 4px;
+                                                    background: $primary_fff;
+                                                    &:invalid {
+                                                        border-color: $color2!important;
+                                                    }
+                                                    &::placeholder {
+                                                        color: rgb(121, 116, 126);
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                                .payment__input-month {
+                                                    width: 48%;
+                                                    font-family: "Montserrat", sans-serif;
+                                                    font-size: 18px;
+                                                    color: $primary_black;
+                                                    font-weight: 400;
+                                                    line-height: 25px;
+                                                    padding: 10px 20px;
+                                                    height: 60px;
+                                                    border: 1px solid rgb(121, 116, 126);
+                                                    border-radius: 4px;
+                                                    background: $primary_fff;
+                                                    &:invalid {
+                                                        border-color: $color2 !important;
+                                                    }
+                                                    &::placeholder {
+                                                        color: rgb(121, 116, 126);
+                                                        font-size: 18px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .payment__block-field-data {
+                                            width: 48%;
+                                            position: relative;
+                                            margin-bottom: 30px;
+                                            .payment__input-form-fill-uu {
+                                                width: 100%;
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 18px;
+                                                color: $primary_black;
+                                                font-weight: 400;
+                                                line-height: 25px;
+                                                padding: 10px 20px;
+                                                height: 60px;
+                                                border: 1px solid rgb(121, 116, 126);
+                                                border-radius: 4px;
+                                                background: $primary_fff;
+                                                &:invalid {
+                                                    border-color: $color2 !important;
+                                                }
+                                                &::placeholder {
+                                                    color: rgb(121, 116, 126);
+                                                    font-size: 18px;
+                                                }
+                                            }
+                                            .payment__label-form-fill-uu {
+                                                display: inline-block;
+                                                opacity: 0.5;
+                                                font-family: "Montserrat", sans-serif;
+                                                font-size: 20px;
+                                                color: $primary_black;
+                                                font-weight: 400;
+                                                line-height: 17px;
+                                                letter-spacing: 2%;
+                                                text-align: left;
+                                                margin-bottom: 10px !important;
+                                            }
+                                        }
+                                    }
+                                    .payment__block-field-name-card-user {
+                                        width: 100%;
+                                        position: relative;
+                                        margin-bottom: 30px;
+                                        .payment__input-form-fill {
+                                            width: 100%;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 18px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 25px;
+                                            padding: 10px 20px;
+                                            height: 60px;
+                                            border: 1px solid rgb(121, 116, 126);
+                                            border-radius: 4px;
+                                            background: $primary_fff;
+                                            &::placeholder {
+                                                color: rgb(121, 116, 126);
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        .payment__label-form-fill {
+                                            display: inline-block;
+                                            opacity: 0.5;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 20px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 17px;
+                                            letter-spacing: 2%;
+                                            text-align: left;
+                                            margin-bottom: 10px !important;
+                                        }
+                                    }
+                                    .payment__block-field-country {
+                                        width: 100%;
+                                        position: relative;
+                                        .payment__input-form-fill {
+                                            width: 100%;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 18px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 25px;
+                                            padding: 10px 20px;
+                                            height: 60px;
+                                            border: 1px solid rgb(121, 116, 126);
+                                            border-radius: 4px;
+                                            background: $primary_fff;
+                                            &::placeholder {
+                                                color: rgb(121, 116, 126);
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        .payment__label-form-fill {
+                                            display: inline-block;
+                                            opacity: 0.5;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 20px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 17px;
+                                            letter-spacing: 2%;
+                                            text-align: left;
+                                            margin-bottom: 10px !important;
+                                        }
+                                        .payment__arrow-image {
+                                            position: absolute;
+                                            top: 45px;
+                                            right: 14px;                                        
+                                        }
+                                    }
+                                }
+                                .sign__block-user-password {
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    .sign__block-user-password-fill {
+                                        width: 100%;
+                                        margin-bottom: 30px;
+                                        position: relative;
+                                        .sign__input-form-fill-password {
+                                            width: 100%;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 18px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 25px;
+                                            padding: 10px 20px;
+                                            height: 60px;
+                                            border: 1px solid rgb(121, 116, 126);
+                                            border-radius: 4px;
+                                            background: $primary_fff;
+                                            &::placeholder {
+                                                color: rgb(121, 116, 126);
+                                                font-size: 18px;
+                                            }
+                                        }
+                                        .sign__label-for-password {
+                                            display: inline-block;
+                                            opacity: 0.5;
+                                            font-family: "Montserrat", sans-serif;
+                                            font-size: 20px;
+                                            color: $primary_black;
+                                            font-weight: 400;
+                                            line-height: 17px;
+                                            letter-spacing: 2%;
+                                            text-align: left;
+                                            margin-bottom: 10px !important;
+                                        }
+                                        .sign__input-form-fill-password:focus + .sign__label-for-password, .sign__input-form-fill-password:valid + .sign__label-for-password {
+                                            top: -10px;
+                                            background-color: $primary_fff;
+                                            font-size: 18px;
+                                            color: $primary_black;
+                                            opacity: 1;
+                                        }
+                                        .sign__input-form-fill-password:valid + .sign__label-for-password {
+                                            color: orange;
+                                        }
+                                    }
+                                }
+                            }
+                            .payment__block-agree {
+                                margin-bottom: 50px;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .payment__agree-checked {
+                                    margin-right: 10px;
+                                }
+                                .payment__description-content {
+                                    @extend %m_600;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    text-align: left;
+                                    margin-bottom: 0px;
+                                }
+                            }
+                            .login__btn-submit {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                                height: 56px;
+                                color: $primary_black;
+                                @extend %m_600;
+                                font-size: 18px;
+                                line-height: 17px;
+                                text-align: left;
+                                padding: 15px 15px;
+                                width: 100%;
+                                text-align: center;
+                                border-radius: 4px;
+                                background: $color_3;
+                                .payment__image-success {
+                                    margin-right: 10px;
+                                }
+                                .payment__description-variant-success {
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 20px;
+                                    color: $primary_black;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 2%;
+                                }
+                            }
+                        }
+                        .payment__description-footer {
+                            /* Montserrat/Regular/12px */
+                            color: $primary_black;
+                            margin: 0px;
+                            @extend %m_400;
+                            font-size: 15px;
+                            line-height: 24px;
+                            text-align: center;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+form {
+    .payment__input-form-fill {
+        &:invalid {
+            border-color: $color2 !important;
+        }
+    }
+}
+.error {
+    @extend %m_500;
+    color: $primary_black;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: $color2;
+    line-height: 16px;
+    letter-spacing: 0em;
+}

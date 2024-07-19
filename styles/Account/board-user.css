@@ -1,0 +1,135 @@
+/*Main fonts*/
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__full-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__upload-new-font .board-user__btn-upload .board-user__description-upload-btn, .board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__upload-new-font .board-user__btn-upload {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__email-adress {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.board-user {
+  margin-bottom: 230px;
+  margin-top: 60px;
+}
+.board-user .board-user__main-block {
+  position: relative;
+  background-size: cover;
+  height: 400px;
+}
+.board-user .board-user__main-block .board-user__change-background-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  /* height: 400px; */
+  background-size: cover;
+  z-index: -1;
+}
+.board-user .board-user__main-block .board-user__block-information {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 0px 40px;
+  /* width: 56%; */
+  position: relative;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 00px; */
+  position: absolute;
+  bottom: -169px;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__images-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__images-block .image__change {
+  color: transparent;
+  height: 160px;
+  width: 160px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  background: #ebebeb;
+  box-sizing: border-box;
+  border: 4px solid rgb(255, 134, 130);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__images-block .board-user__image-min {
+  height: 160px;
+  width: 160px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  /* background: #ebebeb; */
+  box-sizing: border-box;
+  border: 4px solid rgb(255, 134, 130);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+  color: transparent;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__images-block .board-user__btn-change-user-image #file-input {
+  display: none;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__images-block .board-user__btn-change-user-image .board-user__pen-image {
+  position: absolute;
+  bottom: 5px;
+  right: -7%;
+  border-radius: 45px;
+  background: rgb(255, 134, 130);
+  height: 55px;
+  width: 55px;
+  padding: 15px;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__full-name {
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 29px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__content-user .board-user__email-adress {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  opacity: 0.5;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__upload-new-font .board-user__btn-upload {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 56px;
+  padding: 15px 25px;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__upload-new-font .board-user__btn-upload .board-user__image-upload {
+  margin-right: 15px;
+}
+.board-user .board-user__main-block .board-user__block-information .board-user__block-uut .board-user__upload-new-font .board-user__btn-upload .board-user__description-upload-btn {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}/*# sourceMappingURL=board-user.css.map */

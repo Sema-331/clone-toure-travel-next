@@ -1,0 +1,431 @@
+/*Main fonts*/
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::-moz-placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill::placeholder, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__label-txt, .comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__label-txt {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+.comment {
+  margin-bottom: 300px;
+}
+.comment .comment__block-main .comment__block-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.comment .comment__block-main .comment__block-header .comment__header-block {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__btn-add-your-review {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 20px;
+  height: 56px;
+  width: 180px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review {
+  position: fixed;
+  right: 30%;
+  top: 20%;
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.6);
+  padding: 35px 25px;
+  background: #fff;
+  z-index: 100;
+  border-radius: 5px;
+  width: 800px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__btn-close-modal {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers {
+  margin-bottom: 25px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers .comment__header-block {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-headers .comment__description-step-count {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info {
+  margin-bottom: 35px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-rate-hotel {
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__label-header-txt .comment__input-fill {
+  height: 46px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-description-txt .comment__input-fill {
+  height: 150px;
+  resize: none;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-main-first-page-info .comment__block-userName-txt .comment__input-fill {
+  height: 46px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 11px 25px;
+  height: 49px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside .comment__image-arrow-left {
+  margin-right: 10px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-more-option .comment__btn-more-options-inside .comment__description-name-back {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-modal-add-review .comment__block-form-modal form .comment__block-btn-options-uu .comment__btn-submit-modal {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in {
+  position: fixed;
+  right: 30%;
+  top: 20%;
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  z-index: 100;
+  border-radius: 5px;
+  width: 800px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside {
+  position: relative;
+  padding: 35px 25px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__btn-image-close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__header-need-sign {
+  margin-bottom: 25px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content {
+  margin-right: 50px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__description-options-for-user {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 5px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__mid-description {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__btn-log-in-user {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content span {
+  margin: 0px 15px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+.comment .comment__block-main .comment__block-header .comment__main-block-uus .comment__block-main-need-sign-in .comment__block-main-need-sign-in-inside .comment__block-need-sign-content .comment__block-description-content .comment__btn-sign-in-for-user {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-float-count-mark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-main-mark {
+  margin-right: 20px;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-main-mark .comment__description-mark {
+  color: rgb(17, 34, 17);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 63px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-uu-inside .comment__description-short-review {
+  /* Montserrat/Semibold/20px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.comment .comment__block-main .comment__block-float-count-mark .comment__block-uu-inside .comment__description-count-review {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-image-user {
+  margin-right: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark .comment__description-mark {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark hr {
+  border-right: 2px solid #000;
+  height: 17px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__block-user-mark .comment__description-main-review {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 20px;
+}
+.comment .comment__block-main .commnet__block-list-box .comment__list-item-block .comment__block-description-review .comment__main-secr {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 92%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-interactive-review {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__arrow-left {
+  margin-right: 15px;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__active-page {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.comment .comment__block-main .comment__block-interactive-review .comment__arrow-right {
+  margin-left: 15px;
+}
+
+.check__form-danger {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  color: #fff;
+  background-color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 17px;
+  letter-spacing: 0%;
+  border: 1px solid rgb(17, 34, 17);
+  padding: 15px 25px;
+}/*# sourceMappingURL=comment.css.map */

@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    // "types": ["jest", "@testing-library/jest-dom"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/FlyghtOption/Header",
+    "test/**/*.ts",
+    "jest.config.ts",
+    "jest.setup.ts",
+    "test/Home.test.js",
+    "test/user.test.js",
+    "test/Home.test.jsx"
+  ],
+  // "type": ["@testing-library/jest-dom"],
+  "exclude": ["node_modules"]
+}

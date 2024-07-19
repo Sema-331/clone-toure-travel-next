@@ -1,0 +1,121 @@
+@import './colors';
+
+
+/*Main fonts*/
+
+%m_600 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0%;
+}
+
+%m_500 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+
+%m_400 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+%l_700 {
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0%;
+}
+
+/*Background*/ 
+
+%back_font {
+    border-radius: 12px;
+    box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+    background: $primary_fff;
+}
+
+/**Btn**/
+
+%btn_fill {
+    height: 52px;
+    border-radius: 4px;
+    background: $color_3;
+}
+
+%btn_unfill {
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid $color_3;
+    border-radius: 4px;
+
+}
+
+/*Main fonts*/
+
+%second_font {
+    /* TradeGothic/Bold/16px */
+    color: $primary_black;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+%first_font {
+    /* Montserrat/Medium/14px */
+    color: $primary_black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    text-align: left;
+  };
+
+@mixin fonts__sec {
+    color: $primary_fff;
+    letter-spacing: 0%;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+%input_form {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: $primary_black;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px 20px;
+    height: 56px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 4px;
+    background: $primary_fff;
+    &::placeholder {
+        color: rgb(121, 116, 126);
+        font-size: 18px;
+    }
+}
+%label_form {
+    display: inline-block;
+    opacity: 0.5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: $primary_black;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-bottom: 10px !important;
+}
+%ff {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0%;
+    color: $primary_black
+}
+%fonts__option {
+    color: $primary_fff;
+    letter-spacing: 0%;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}

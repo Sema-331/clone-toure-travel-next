@@ -1,0 +1,1010 @@
+@use './../vars/mixins';
+@import './../vars/colors';
+
+
+.favourites {
+    margin: 60px 0px 300px 0px;
+    .favourites__block {
+        .favourites__main-header {
+            color: $color_1;
+            @extend %l_700;
+            font-size: 35px;
+            line-height: 40px;
+            margin-bottom: 30px;
+        }
+        .favourites__block-type-favourites {
+            @extend %back_font;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 50px;
+            .favourites__type-flyght {
+                border-right: 1px solid $border_color;
+                width: 50%;
+                padding: 20px 40px 0px 40px;
+                .favourites__block-inside-uu-active {
+                    border-bottom: 4px solid $color_3;
+                    padding-bottom: 20px;
+                    height: 75px;
+                    .favourites__descrption-name {
+                        /* Montserrat/Semibold/16px */
+                        @extend %m_600;
+                        color: $primary_black;
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+                    .favourites__description-count-favourite-item {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        opacity: 0.4;
+                    }
+                }
+                .favourites__block-inside-uu {
+                    padding-bottom: 20px;
+                    height: 75px;
+                    .favourites__descrption-name {
+                        /* Montserrat/Semibold/16px */
+                        @extend %m_600;
+                        color: $primary_black;
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+                    .favourites__description-count-favourite-item {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        opacity: 0.4;
+                    }
+                }
+            }
+            .favourites__type-hotel {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                padding-left: 40px;
+                padding-right: 40px;
+                height: 100%;
+                padding: 20px 40px 0px 40px;            
+                .favourites__block-inside-uu-active {
+                    width: 100%;
+                    padding: 0px 40px 0px 0px;
+                    border-bottom: 4px solid $color_3;
+                    border-bottom: 4px solid rgb(141, 211, 187);
+                    padding-bottom: 23px;
+                    .favourites__description-name {
+                        /* Montserrat/Semibold/16px */
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+                    .favourites__description-count-length-hotel-item {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        opacity: 0.4;
+                    }
+                }
+                .favourites__block-inside-uu {
+                    width: 100%;
+                    padding: 0px 40px 0px 0px;
+                    height: 75px;
+                    .favourites__description-name {
+                        /* Montserrat/Semibold/16px */
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 18px;
+                        line-height: 20px;
+                        margin-bottom: 15px;
+                    }
+                    .favourites__description-count-length-hotel-item {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        opacity: 0.4;
+                    }
+                }
+            }
+        }
+        .fly-res__list-item-ticket-buy {
+            border-radius: 12px;
+            box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+            background: $primary_fff;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+        .fly-res__block-image-ticket {
+            padding-right: 40px;
+            height: 100%;
+            border-right: 1px solid $border_color;
+            width: 22%;
+            display: flex;
+            justify-content: center;
+            .fly-res__main-image-ticket {
+                width: 200px;
+            }
+        }
+        .fly-res__block-main-info-about-ticket {
+            width: 75%;
+            .fly-res__block-bjb {
+                display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+border-bottom: 1px solid $border_color;
+margin-bottom: 20px;
+padding-bottom: 20px;
+
+            .fly-res__block-inside-info {
+                .fly-res__block-rat-price {
+                    display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 25px;
+                    .fly-res__block-rat {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                       .fly-res__block-main-rat {
+                        margin-right: 15px;
+                        border: 1px solid $color_3;
+                        border-radius: 4px;
+                        padding: 10px 14px;
+color: $primary_black;
+@extend %m_500;
+font-size: 14px;
+line-height: 15px;
+text-align: left;
+                       }
+                        .fly-res__description-gg {
+                            /* [object Object] */
+color: $primary_black;
+@extend %m_400;
+font-size: 14px;
+line-height: 15px;
+text-align: left;
+                            span {
+                                margin-right: 10px;
+/* [object Object] */
+color: $primary_black;
+@extend %m_600;
+font-size: 14px;
+line-height: 15px;
+text-align: left;
+                            }
+                        }
+                    }
+                }
+                .fly-res__block-time-flight {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: baseline;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .fly-res__input-time-fly-select {
+                        margin-right: 20px;
+                        &[type=checkbox] {
+                            accent-color: $color_3;
+                        }
+                    }
+                    .fly-res__time-fly-block-inside {
+                        .fly-res__block-time-fly-detailed {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-bottom: 5px;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            .fly-res__block-insides-times {
+                                margin-bottom: 10px;
+                            margin-right: 45px;
+                            display: flex;
+                            align-items: center;
+                        
+                            .fly-res__description-info-fly-time {
+                                margin-right: 10px;
+                                /* Montserrat/Semibold/16px */
+                                color: $primary_black;
+                                @extend %m_600;
+                                font-size: 18px;
+                                line-height: 20px;
+                                text-align: left;
+                            }
+                            hr {
+                                border-bottom: 3px solid $border_color;
+                                width: 10px;
+                                height: 5px;
+                                margin: 0px 15px;
+                            }
+                            .fly-res__description-info-fly-time-right {
+                                margin-left: 10px;
+                                /* Montserrat/Semibold/16px */
+                                color: $primary_black;
+                                @extend %m_600;
+                                font-size: 18px;
+                                line-height: 20px;
+                                text-align: left;
+                            }
+                        }
+                        .fly-res__description-company-airlines {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                        opacity: 0.4;
+                            }
+                        }
+                    }
+                    .fly-res__description-stopped {
+                        margin-right: 45px;
+                        /* Montserrat/Semibold/14px */
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                        opacity: 0.7;
+                    }
+                    .fly-res__block-tt {
+                        .fly-res__description-tt-first {
+                        /* Montserrat/Semibold/16px */
+                        color: $primary_black;
+                        margin-bottom: 10px;
+                        @extend %m_600;
+                        font-size: 18px;
+                        line-height: 20px;
+                        text-align: left;
+                        opacity: 0.7;
+                        }
+                        .fly-res__description-tt-second {
+                        /* Montserrat/Regular/14px */
+                        color: $primary_black;
+                        @extend %m_400;
+                        font-size: 16px;
+                        line-height: 17px;
+                        text-align: left;
+                        opacity: 0.4;
+                        }
+                    }
+                }
+            }
+                }
+                .fly-res__block-price {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    .fly-res__description-price-start {
+                        /* Montserrat/Medium/12px */
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 14px;
+                        line-height: 15px;
+                        text-align: left;
+                        opacity: 0.6;
+                    } 
+                    .fly-res__price-finaly {
+                        /* Montserrat/Bold/24px */
+                        color: $color2;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 26px;
+                        font-weight: 700;
+                        line-height: 29px;
+                        letter-spacing: 0%;
+                        text-align: right;
+                    }
+                 }
+                 .fly-res__more-info-detailed-ticket {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-right: 20px;
+                    .fly-res__favourites-btn {
+                        padding: 15px;
+                        width: 48px;
+                        height: 48px;
+                        box-sizing: border-box;
+                        border: 1px solid rgb(141, 211, 187);
+                        border-radius: 4px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 20px;
+                    }
+                    .fly-res__block-modal-uu {
+                        .fly-res__favourites-btn {
+                            width: 48px;
+                            height: 48px;
+                            box-sizing: border-box;
+                            border: 1px solid $color_3;
+                            border-radius: 4px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 20px;
+                        }
+                        .fly-res__block-modal-need-auth {
+                            position: fixed;
+                            padding: 30px 50px;
+                            top: 50%;
+                            border-radius: 12px;
+                            background: rgb(255, 255, 255);
+                            box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+                            z-index: 100;
+                            width: 415px;
+                            .fly-res__close-icon-modal {
+                                position: absolute;
+                                top: 10px;
+                                right: 10px;
+                            }
+                            .fly-res__header-fav-list {
+                                color: $primary_black;
+                                @extend %m_500;
+                                font-size: 22px;
+                                line-height: 20px;
+                                text-align: left;
+                                margin-bottom: 20px;
+                            }
+                            .fly-res__instructions-for-add-fav {
+                                margin-bottom: 25px;
+                                .fly-res__description-go-to-login {
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    text-align: left;
+                                    margin-bottom: 10px;
+                                    span {
+                                        color: $primary_black;
+                                        @extend %m_600;
+                                        font-size: 16px;
+                                        line-height: 17px;
+                                        text-align: left;
+                                    }
+                                }
+                                .fly-res__description-go-to-register {
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    text-align: left;
+                                    span {
+                                        color: $primary_black;
+                                        @extend %m_600;
+                                        font-size: 16px;
+                                        line-height: 17px;
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                            .fly-res__block-btn-for-auth {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                .fly-res__btn-login {
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    border-radius: 4px;
+                                    background: rgb(141, 211, 187);
+                                    padding: 15px 26px;
+                                    width: 100%;
+                                    margin-right: 20px;
+                                }
+                                .fly-res__btn-register {
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 17px;
+                                    border-radius: 4px;
+                                    background: rgb(141, 211, 187);
+                                    padding: 15px 26px;
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .fly-res__btn-view-detailed {
+border-radius: 4px;
+    background: $color_3;
+    color: $primary_black;
+    @extend %m_600;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: left;
+    padding: 15px 26px;
+    width: 100%;
+    text-align: center;
+                            }
+                        }
+            }
+        }
+        .history-account__block-list-box-item {
+            border-radius: 16px;
+            box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+            background: $primary_fff;
+            padding: 40px 35px;
+            &:not(:last-child) {
+                margin-bottom: 25px;
+            }
+            .history-account__list-item {
+                display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+                .history-account__block-date-info {
+                    display: flex;
+    flex-direction: row;
+    align-items: center;
+                    .history-account__block-road-info {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .history-account__image-logo-ticket {
+                            margin-right: 40px;
+                            width: 110px;
+                            height: 110px;
+                        }
+                        .history-account__block-lot {
+                            display: flex;
+                            align-items: center;
+                            border-right: 2px solid $border_color;
+                            /* margin-right: 20px; */
+                            padding-right: 30px;
+                            margin-right: 30px;
+                            .history-account__block-infro-from {
+                                margin-right: 20px;
+                                .history-accoun__name-city {
+                                        /* Montserrat/Regular/16px */
+                                    color: $primary_black;
+                                    @extend %m_400;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                    margin-bottom: 15px;
+                                }
+                                .history-account__time-departure {
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 22px;
+                                    line-height: 24px;
+                                    text-align: left;
+                                }
+                            }
+                            .history-account__block-alias {
+                                hr {
+                                    width: 20px;
+                                    border: 2px solid $color_1;
+                                    opacity: 0.3;
+                                }
+                            }
+                            .history-account__block-to-user {
+                                margin-left: 30px;
+                                .history-accoun__name-city-to-arrival {
+                                    /* Montserrat/Regular/16px */
+                                    color: $primary_black;
+                                    @extend %m_400;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                    margin-bottom: 20px;
+                                }
+                                .history-account__time-arrival {
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 22px;
+                                    line-height: 24px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                    .history-account__block-ticket-detailed-info {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 40%;
+                        margin-top: 15px;
+                        .history-account__block-date-detailed {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: row;
+                            /* justify-content: space-between; */
+                            align-items: center;
+                            margin-bottom: 20px;
+                            margin-right: 20px;
+                            .history-account__image-date {
+                                margin-right: 20px;
+                                height: 45px;
+                                width: 45px;
+                            }
+                            .history-account__block-date-detailed-inside {
+                                .history-account__description-date {
+                                    opacity: 0.5;
+                                    margin-bottom: 6px;
+                                    /* Montserrat/Semibold/12px */
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    text-align: left;
+                                }
+                                .history-account__description-date-time {
+                                    /* Montserrat/Medium/16px */
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .history-account__block-gate-detailed {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: row;
+                            /* justify-content: space-between; */
+                            align-items: center;
+                            margin-bottom: 20px;
+                            margin-right: 20px;
+                            .history-account__image-gate {
+                                margin-right: 20px;
+                                height: 45px;
+                                width: 45px;
+                            }
+                            .history-account__block-gate-detailed-inside {
+                                .history-account__description-gate {
+                                    opacity: 0.5;
+                                    margin-bottom: 6px;
+                                    /* Montserrat/Semibold/12px */
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    text-align: left;
+                                }
+                                .history-account__description-gate-num {
+                                    /* Montserrat/Medium/16px */
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .history-account__block-flight-time-detailed {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: row;
+                            /* justify-content: space-between; */
+                            align-items: center;
+                            margin-bottom: 20px;
+                            margin-right: 20px;
+                           .history-account__image-flight-time {
+                            margin-right: 20px;
+                            height: 45px;
+                            width: 45px;
+                           } 
+                           .history-account__block-flight-time-detailed-inside {
+                                .history-account__description-flight-time {
+                                    opacity: 0.5;
+                                    margin-bottom: 6px;
+                                    /* Montserrat/Semibold/12px */
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    text-align: left;
+                                }
+                                .history-account__description-flight-time-time {
+                                    /* Montserrat/Medium/16px */
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .history-account__block-seat-num-detailed {
+                            width: 45%;
+                            display: flex;
+                            flex-direction: row;
+                            /* justify-content: space-between; */
+                            align-items: center;
+                            margin-bottom: 20px;
+                            margin-right: 20px;
+                            .history-account__image-seat-num {
+                                margin-right: 20px;
+                                height: 45px;
+                                width: 45px;
+                            }
+                            .history-account__block-seat-num-detailed-inside {
+                                .history-account__name-seat-num {
+                                    opacity: 0.5;
+                                    margin-bottom: 6px;
+                                    /* Montserrat/Semibold/12px */
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    text-align: left;
+                                }
+                                .history-account__description-seat-num  {
+                                    /* Montserrat/Medium/16px */
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+                .history-account__block-download-ticket {
+                    display: flex;
+                    flex-direction: row;
+                    .history-account__btn-upload {
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 18px;
+                        line-height: 17px;
+                        text-align: left;
+                        border-radius: 4px;
+                        background: $color_3;
+                        padding: 15px 25px;
+                        height: 56px;
+                        margin-right: 20px;
+                    }
+                    .history-account__block-arrows {
+                        border: 1px solid $color_3;
+                        border-radius: 4px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 56px;
+                        height: 56px;
+                        .history-account__arrow-right {
+    
+                        }
+                    }
+                }
+            }
+        }
+        .favourites__block-no-ticket {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .favourites__block-description-txt-ticket {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .favourites__header-info-ticket {
+                    color: $primary_black;
+                    @extend %m_600;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: left;
+                    margin-bottom: 30px;
+                }
+                .favourites__description-info-ticket {
+                    color: $primary_black;
+                    @extend %m_500;
+                    font-size: 18px;
+                    line-height: 17px;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+                .favourites__btn-go-to-ticket {
+                    color: $primary_black;
+                    @extend %m_500;
+                    font-size: 18px;
+                    line-height: 17px;
+                    text-align: left;
+                    border-radius: 4px;
+                    background: $color_3;
+                    padding: 15px 25px;
+                    height: 56px;
+                    margin-right: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            .favourites__block-image-uu-ticket {
+          
+            }
+        }
+        .favourites__block-list-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .favourites__block-no-hotel {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                .favourites__block-description-txt {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    .favourites__header-info {
+                        color: $primary_black;
+                        @extend %m_600;
+                        font-size: 24px;
+                        line-height: 30px;
+                        text-align: left;
+                        margin-bottom: 30px;
+                    }
+                    .favourites__description-info {
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 18px;
+                        line-height: 17px;
+                        text-align: left;
+                        margin-bottom: 15px;
+                    }
+                    .favourites__btn-go-to {
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 18px;
+                        line-height: 17px;
+                        text-align: left;
+                        border-radius: 4px;
+                        background: $color_3;
+                        padding: 15px 25px;
+                        height: 56px;
+                        margin-right: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .favourites__block-image-uu {
+                    .favourites__image-uu {
+
+                    }
+                }
+            }
+            .hotel__list-item-ticket-buy {
+                width: 100%;
+                @extend %back_font;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                &:not(:last-child) {
+                    margin-bottom: 40px;
+                }
+            .hotel__block-image-ticket {
+                width: 33%;
+                height: 350px;
+                position: relative;
+                .hotel__btn-view-images {
+                    z-index: 100;
+                    position: absolute;
+                    right: 6%;
+                    padding: 10px;
+                    top: 6%;
+                    color: $primary_black;
+                    @extend %m_500;
+                    border-radius: 8px;
+                    backdrop-filter: blur(4px);
+                    background: rgba(255, 255, 255, 0.5);
+                }
+                .hotel__main-image-ticket {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px 0px 0px 8px;
+                }
+            }
+            .hotel__block-main-info-about-ticket {
+                width: 75%;
+                padding: 30px 20px;
+                .hotel__block-info-inside {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    border-bottom: 1px solid $border_color;
+                    padding-bottom: 30px;
+                    margin-bottom: 30px;
+                    .hotel__block-name-info {
+                        .hotel__header-name {
+                            /* TradeGothic/Bold/20px */
+                            color: $primary_black;
+                            @extend %l_700;
+                            font-size: 24px;
+                            line-height: 25px;
+                            margin-bottom: 20px;
+                        }
+                        .hotel__block-loaction-info {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-bottom: 20px;
+                            .hotel__loaction-image {
+                                margin-right: 10px;
+                            }
+                            .hotel__location-description {
+                                /* Montserrat/Medium/12px */
+                                color: $primary_black;
+                                @extend %m_500;
+                                font-size: 16px;
+                                line-height: 15px;
+                            }
+                        }
+                        .hotel__block-options-hotels {
+                            display: flex;
+                            flex-direction: row;
+                            margin-bottom: 15px;
+                            align-items: center;
+                            .hotel__block-stars-rat {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .hotel__star-count {
+
+                                }
+                                .hotel__description-count-stars {
+                                    /* Montserrat/Medium/12px */
+                                    color: $primary_black;
+                                    @extend %m_500;
+                                    font-size: 16px;
+                                    line-height: 15px;
+                                    margin-left: 10px;
+                                    margin-right: 40px;
+                                }
+                            }
+                            .hotel__block-aminities {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                .hotel__image-coffee {
+                                    margin-right: 10px;
+                                }
+                                .hotel__description-main {
+                                    color: $primary_black;
+                                    @extend %m_400;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 15px;
+                                    span {
+                                        color: $primary_black;
+                                        @extend %m_600;
+                                        font-size: 16px;
+                                        line-height: 15px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .hotel__block-rat-reviews-users {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            .hotel__block-float-count-rat {
+                                /* Montserrat/Medium/12px */
+                                color: $primary_black;
+                                @extend %m_500;
+                                font-size: 16px;
+                                line-height: 15px;
+                                box-sizing: border-box;
+                                border: 1px solid $color_3;
+                                border-radius: 4px;
+                                padding: 15px 20px;
+                                margin-right: 20px;
+                            }
+                            .hotel__description-user-opinion {
+                                /* [object Object] */
+                                color: $primary_black;
+                                @extend %m_400;
+                                font-size: 16px;
+                                line-height: 15px;
+                                span {
+                                    /* [object Object] */
+                                    color: $primary_black;
+                                    @extend %m_600;
+                                    font-size: 16px;
+                                    line-height: 15px;
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                    .hotel__block-price-info {
+                        .hotel__description-startig-from {
+                            /* Montserrat/Medium/12px */
+                            color: $primary_black;
+                            @extend %m_500;
+                            font-size: 16px;
+                            line-height: 15px;
+                            opacity: 0.6;
+                        }
+                        .hotel__description-total-price-hotel {
+                            /* [object Object] */
+                            color: $color2;
+                            @extend %m_600;
+                            font-size: 26px;
+                            line-height: 25px;
+                            margin: 5px 0px 5px 0px;
+                            span {
+                                color: $color2;
+                                @extend %m_600;
+                                font-size: 16px;
+                            }
+                        }
+                        .hotel__description-tax {
+                            /* Montserrat/Medium/12px */
+                            color: $primary_black;
+                            @extend %m_500;
+                            font-size: 16px;
+                            line-height: 15px;
+                            opacity: 0.6;
+                        }
+                    }
+                }
+                     .hotel__more-info-detailed-ticket {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-right: 20px;
+                        .fly-res__favourites-btn {
+                            width: 48px;
+                            height: 48px;
+                            box-sizing: border-box;
+                            border: 1px solid $color_3;
+                            border-radius: 4px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 20px;
+                        }
+                        .hotel__btn-view-detailed {
+                            border-radius: 4px;
+                            background: $color_3;
+                            color: $primary_black;
+                            @extend %m_600;
+                            font-size: 16px;
+                            line-height: 17px;
+                            padding: 15px 26px;
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+            }
+            .hotel__modal-block-view-all-images {
+                width: 300px;
+                height: 300px;
+                border-radius: 12px;
+                position: fixed;
+                top: 30%;
+                box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+                background: #fff;
+                z-index: 100;
+                left: 25%;
+                width: 800px;
+                padding: 75px;
+            }
+            }
+        }
+    }
+}

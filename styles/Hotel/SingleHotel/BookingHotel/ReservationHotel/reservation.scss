@@ -1,0 +1,516 @@
+.reservation {
+    margin-top: 60px;
+    margin-bottom: 300px;
+    .reservation__main-block {
+        .reservation_info-block {
+            margin-bottom: 35px;
+            .reservation__block-info-plane {  
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 25px;
+                .reservation__header-name-plane {
+                    /* TradeGothic/Bold/24px */
+                    color: rgb(17, 34, 17);
+                    font-family: 'Trade Gothic LT Std', sans-serif;
+                    font-size: 26px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .reservation__description-price-ticket {
+                    /* Montserrat/Bold/32px */
+                    color: rgb(255, 134, 130);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 39px;
+                    letter-spacing: 0%;
+                    text-align: right;
+                }
+            }
+            .reservation__block-uu-options {     
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .reservation__block-location {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .reservation__image-geo {
+                        margin-right: 10px;
+                    }
+                    .reservation__description-location-geo {
+                        /* Montserrat/Medium/14px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        opacity: 0.6;
+                    }
+                }
+                .reservation__block-interactive {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .reservation__share-btn {
+                        padding: 15px 20px;
+                        height: 56px;
+                        margin-right: 20px;
+                        box-sizing: border-box;
+                        border: 1px solid rgb(141, 211, 187);
+                        border-radius: 4px;
+
+                        .reservation__image-share {
+
+                        }
+                    }
+                    .reservation__download-ticket {
+                        /* Montserrat/Semibold/14px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        border-radius: 4px;
+                        background: rgb(141, 211, 187);
+                        height: 56px;
+                        padding: 15px 25px;
+                        width: 165px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .reservation__main-ticket {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 70px;
+            .reservation__block-time {
+                background: rgb(235, 246, 242);
+                padding: 35px;
+                width: 25%;
+                box-sizing: border-box;
+                /* border: 1px solid rgb(234, 234, 234); */
+                /* border-radius: 16px; */
+                /* background: rgb(255, 255, 255); */
+                border-radius: 16px 0px 0px 16px;
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                .reservation__block-time-inside {
+                    .reservation__time-fly {
+                        margin-bottom: 20px;
+                        .reservation__description-time {
+                            /* Montserrat/Semibold/32px */
+                            color: rgb(17, 34, 17);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 35px;
+                            font-weight: 600;
+                            line-height: 39px;
+                            letter-spacing: 0%;
+                            margin-bottom: 5px;
+
+                        }
+                        .reservation__description-name {
+                            /* Montserrat/Medium/12px */
+                            color: rgb(17, 34, 17);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 15px;
+                            letter-spacing: 0%;
+
+                        }
+                    }
+                }
+                .reservation__block-image-plane {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .reservation__image-vector-first {
+                        margin-bottom: 10px;
+                    }
+                    .reservation__image-plane {
+
+                    }
+                    .reservation__image-vector-second {
+                        margin-top: 10px;
+                    }
+                }
+                .reservation__time-fly {
+                    margin-top: 20px;
+                    .reservation__description-time {
+                        /* Montserrat/Semibold/32px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 35px;
+                        font-weight: 600;
+                        line-height: 39px;
+                        letter-spacing: 0%;
+                        margin-bottom: 5px;
+
+                    }
+                    .reservation__description-name {
+                        /* Montserrat/Medium/12px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 15px;
+                        letter-spacing: 0%;
+
+                    }
+                }
+            }
+            .reservation__blockinfo-ticket-with-user {
+                width: 50%;
+                .reservation__block-info-user {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: rgb(141, 211, 187);
+                    padding: 35px;
+                    border-radius: 0px 16px 0px 0px;
+                    .reservation__block-user-image-name {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .reservation__image-user-default {
+                            margin-right: 20px;
+                            height: 50px;
+                            width: 50px;
+                            /* border: 1px solid red; */
+                            border-radius: 50%;
+                            background: #fff;
+                            box-sizing: border-box;
+                            border: 1px solid rgb(255, 134, 130);
+                            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);                        
+                        }
+                        .reservation__image-user {
+                            margin-right: 20px;
+                            height: 50px;
+                            width: 50px;
+                            /* border: 1px solid red; */
+                            border-radius: 50%;
+                            background: #fff;
+                            box-sizing: border-box;
+                            border: 1px solid rgb(255, 134, 130);
+                            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08); 
+                        }
+                        .reservation__block-uu-description {
+                            .reservation__description-user-name {
+                                /* TradeGothic/Bold/20px */
+                                color: rgb(17, 34, 17);
+                                font-family: 'Trade Gothic LT Std', sans-serif;
+                                font-size: 22px;
+                                font-weight: 700;
+                                line-height: 25px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                margin-bottom: 5px;
+                                                        }
+                                                        .reservation__description-user-num {
+                                /* Montserrat/Regular/14px */
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 17px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                                        }
+                        }
+                    }
+                    .reservation__description-class-ticket {
+                        /* TradeGothic/Bold/14px */
+                        color: rgb(17, 34, 17);
+                        font-family: 'Trade Gothic LT Std', sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        text-align: right;
+                    }
+                }
+                .reservation__detailed-info-ticket {
+                    padding: 35px;
+                    box-sizing: border-box;
+                    border: 1px solid rgb(234, 234, 234);
+                    border-radius: 16px 0px 16px 0px;
+                    background: rgb(255, 255, 255);
+                    .reservation__block-detailed-info-ticket-inside {
+                        display: flex;
+                        margin-bottom: 40px;
+                        .reservation__list-item {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            width: 250px;
+                            .reservation__image-icon {
+                                margin-right: 15px;
+                                width: 40px;
+                                height: 40px;
+                            }
+                            .reservation__inf-ticket-user {
+                                .reservation__description-name {
+                                    /* Montserrat/Semibold/14px */
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    line-height: 17px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                    opacity: 0.6;
+                                    margin-bottom: 10px;
+                                }
+                                .reservation__description-value {
+                                    /* Montserrat/Medium/16px */
+                                    color: rgb(17, 34, 17);
+                                    font-family: "Montserrat", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 20px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                    .reservation__block-barcode {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+                        .reservation__block-description-barcode {
+                            .reservation__description-name-barcode {
+                                /* Montserrat/Semibold/32px */
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 34px;
+                                font-weight: 600;
+                                line-height: 39px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                            .reservation__description-value-barcode {
+                                /* Montserrat/Medium/12px */
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 14px;
+                                font-weight: 500;
+                                line-height: 15px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                opacity: 0.6;
+                            }
+                        }
+                        img {
+
+                        }
+                    }
+                }
+            }
+            .reservation__block-fly-images {
+                width: 25%;
+                box-sizing: border-box;
+                border: 1px solid rgb(234, 234, 234);
+                border-radius: 16px;
+                background: rgb(255, 255, 255);
+                padding: 35px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .reservation__block-hight {
+                    position: relative;
+                    display: flex;
+                    width: 100px;
+                    height: 100px;
+                    width: 100%;
+                    height: 100%;
+                    justify-content: end;
+                    flex-direction: row;
+                    z-index: 30000;
+                    .reservation__block-user-uu {
+                        .reservation__image-travel-logo {
+
+                        }
+                        .reservation__block-description-user-uu {
+                            .reservation__desc-user-name-uu {
+
+                            }
+                            .reservation__description-user-ticket-num {
+
+                            }
+                        }
+                        .reservation__block-lnl {
+                            position: absolute;
+                            top: -83px;
+                            right: -56px;
+                            width: 200px;
+                            height: 200px;
+                            z-index: -1;
+                            .reservation__image-ellips {
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                                z-index: -1;
+                                width: 200px;
+                            }
+                            .reservation__image-content {
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                                z-index: -1;
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+                .reservation__block-low {
+                    position: relative;
+                    justify-content: center;
+                    display: flex;
+                    width: 100px;
+                    height: 100px;
+                    width: 100%;
+                    height: 100%;
+                    flex-direction: row;
+                    z-index: 100;
+                    align-items: center;
+                    .reservation__block-user-uu {
+                        .reservation__image-travel-logo {
+
+                        }
+                        .reservation__block-description-user-uu {
+                            .reservation__desc-user-name-uu {
+
+                            }
+                            .reservation__description-user-ticket-num {
+
+                            }
+                        }
+                        .reservation__block-lnl {
+                            position: absolute;
+                            position: absolute;
+                            top: -46px;
+                            left: -37px;
+                            width: 200px;
+                            height: 200px;
+                            z-index: -1;
+                            .reservation__image-ellips {
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                                z-index: -1;
+                                width: 200px;
+                            }
+                            .reservation__image-content {
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                                z-index: -1;
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .reservation__block-uul {
+            .reservation__block-terms {
+                .reservation__header-term {
+                    margin-bottom: 40px;
+                    /* Montserrat/Semibold/24px */
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 26px;
+                    font-weight: 600;
+                    line-height: 29px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .reservation__block-descr {
+                    margin-bottom: 40px;
+                    .reservation__header-block-description {
+                        margin-bottom: 20px;
+                        /* Montserrat/Medium/20px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                    .reservation__list-box {
+                        margin-bottom: 30px;
+                        padding: 0px 30px;
+                        .reservation__list-item {
+                            list-style-type: disc !important;
+                            margin-bottom: 10px;
+                            .reservation__description-main-term {
+                                width: 80%;
+                                line-height: 20px;
+                                color: rgb(17, 34, 17);
+                                font-family: "Montserrat", sans-serif;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                opacity: 0.6;
+                            }
+                        }
+                    }
+                }
+            }
+            .reservation__block-contacts {
+                .reservation__header-block-contact {
+                    margin-bottom: 20px;
+                    /* Montserrat/Medium/20px */
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .reservation__description-contact {
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    opacity: 0.6;
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

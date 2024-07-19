@@ -1,0 +1,327 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// model User {
+//   id Int @id @default(autoincrement())
+//   email String @unique
+//   userName String @unique
+//   password String
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+//   lastName String
+//   passwordResetTokens PasswordResetToken[]
+//   // reviews Reviews_users[]
+//   // favourites_hotel Favourites_hotel[]
+//   // favourites_fly_ticket Favourites_fly_ticket[]
+// }
+// model PasswordResetToken {
+//   id        Int       @id @default(autoincrement())
+//   token     String    @unique
+//   createdAt DateTime  @default(now())
+//   resetAt   DateTime?
+
+//   user   User @relation(fields: [userId], references: [id])
+//   userId Int
+// }
+
+model Account {
+  id                 String  @id @default(cuid())
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?  @db.Text
+  access_token       String?  @db.Text
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?  @db.Text
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id String @id @default(uuid())
+  userName String @unique
+  password String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastName String?
+  // passwordResetTokens PasswordResetToken[]
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  phoneNumber String?
+  backgroundImage String?
+  adress String?
+  date_birth String?
+  // subscribe_to_updates subscribe_to_updates[]
+  accounts      Account[]
+  sessions      Session[]
+  favourites_hotel Favourites_hotel[]
+  favourites_fly_ticket Favourites_fly_ticket[]
+  table_Reviews Table_Reviews[]
+  history_table_hotel history_table_hotel[]
+  review_table_single_hotel review_table_single_hotel[]
+  credit_card_users credit_card_users[]
+  table_ticket Table_ticket[]
+  table_history_fly table_history_fly[]
+  table_favourites_fly table_favourites_fly[]
+  review_table_single_fly review_table_single_fly[]
+}
+
+model VerificationToken {
+  identifier String @id @default(cuid())
+  token      String   @unique
+  expires    DateTime
+  email String
+  @@unique([identifier, token])
+}
+
+model TwoFactorToken {
+  id String @id @default(cuid())
+  email String
+  token String @unique
+  expires DateTime
+
+  @@unique([email, token])
+}
+
+model Hotel {
+  id Int @id @default(autoincrement())
+  info_Hotel String
+  name_hotel String
+  //
+  // favourites_hotel Favourites_hotel[]
+  //
+  table_room_hotel table_room_hotel[]
+  // table_type_room table_type_room[]
+}
+model Favourites_hotel {
+  user  User @relation(fields: [userId], references: [id])
+  userId String
+  hotel table_room_hotel @relation(fields: [hotelId], references: [id])
+  hotelId Int
+  @@id([userId, hotelId])
+}
+
+model Favourites_fly_ticket {
+  id Int @id @default(autoincrement())
+  user  User @relation(fields: [userId], references: [id])
+  userId String
+  id_table_ticket Table_ticket @relation(fields: [tableTicketId], references: [id])
+  tableTicketId Int
+}
+
+model Table_Airport {
+  id Int @id @default(autoincrement())  
+  name_airport String
+  table_route_from Table_route[] @relation("RouteFromAirport")
+  table_route_to Table_route[] @relation("RouteToAirport")
+}
+
+model Table_route {
+  id Int @id @default(autoincrement())
+  from_airport Table_Airport @relation("RouteFromAirport", fields: [from_airport_fly], references: [id])
+  to_airport Table_Airport @relation("RouteToAirport", fields: [to_airport_fly], references: [id])
+  from_airport_fly Int
+  to_airport_fly Int
+  price Float
+  time_fly_from DateTime
+  time_fly_to DateTime
+  count_places String
+  name_plane String
+  trips String[]
+  rate String[]
+  type_class String[]
+  id_table_comp table_company @relation(fields: [idTableComp], references: [id])
+  idTableComp Int
+  Table_ticket Table_ticket[]
+  image_plane String
+  geo_airplane String
+  slider_image String[]
+  idTypeClass table_type_class[]
+  table_history_fly table_history_fly[]
+  table_favourites_fly table_favourites_fly[]
+  review_table_single_fly review_table_single_fly[]
+}
+
+model Table_ticket {
+  id Int @id @default(autoincrement())
+  id_table_route Table_route @relation(fields: [idTableRoute], references: [id])
+  id_user  User @relation(fields: [idUser], references: [id])
+  idUser String
+  idTableRoute Int
+  place String 
+  row String
+  Favourites_fly_ticket Favourites_fly_ticket[] 
+  classTypeTicket table_type_class[]
+}
+
+model table_history_fly {
+  id Int @id @default(autoincrement())
+  id_table_route_history Table_route @relation(fields: [idTableRoute], references: [id])
+  id_user_history  User @relation(fields: [idUser], references: [id])
+  idUser String
+  idTableRoute Int
+  place String 
+  row String
+  id_type_class table_type_class @relation(fields: [typeClass], references: [id])
+  typeClass Int
+}
+
+model table_favourites_fly {
+  id Int @id @default(autoincrement())
+  id_table_route_history Table_route @relation(fields: [idTableRoute], references: [id])
+  id_user_history  User @relation(fields: [idUser], references: [id])
+  idUser String
+  idTableRoute Int
+}
+
+model table_type_class {
+  id Int @id @default(autoincrement())
+  name_type String
+  price Int
+  id_table_route Table_route @relation(fields: [idClassType], references: [id])
+  idClassType Int
+  id_table_ticket Table_ticket @relation(fields: [idClassTypeTicket], references: [id])
+  idClassTypeTicket Int
+  table_history_fly table_history_fly[]
+}
+
+model Table_Reviews {
+  id Int @id @default(autoincrement())
+  id_user User @relation(fields: [idUser], references: [id])
+  idUser String
+  header_txt String
+  description_txt String
+  image_review String?
+  mark String
+}
+
+model table_room_hotel {
+  id Int @id @default(autoincrement())
+  star_hotel String?
+  check_in_date DateTime
+  check_out_date DateTime
+  room_number Int
+  price Float
+  name_hotel String
+  rate String
+  geo_hotel String
+  freebies_options String[]
+  //
+  favourites_hotel Favourites_hotel[]
+  //
+  images_slider String[]
+  // table_type table_room_type[]
+  table_type_room table_type_room[]
+  review_table_single_hotel review_table_single_hotel[]
+  history_table_hotel history_table_hotel[]
+  main_image String
+  amenities_option String[]
+  variaty_hotel String
+  id_hotel Hotel @relation(fields: [idHotel], references: [id])
+  idHotel Int
+}
+
+model table_company {
+  id Int @id @default(autoincrement())
+  name_company String
+  Table_route Table_route[]
+  image_company String
+}
+
+model table_type_room {
+  id Int @id @default(autoincrement())
+  description_type_room String
+  price_type_room_hotel Int
+  id_hotel table_room_hotel @relation(fields: [id_hotel_tpye_room], references: [id])
+  id_hotel_tpye_room Int
+  history_table_hotel history_table_hotel[]
+}
+
+model subscribe_to_updates {
+  id String @id @default(uuid())
+  email String @unique 
+  // idUser User @relation(fields: [id_user], references: [id])
+  // id_user String
+}
+
+model test {
+  id  Int @id @default(autoincrement())
+  image String
+}
+
+model history_table_hotel {
+  user  User @relation(fields: [userId], references: [id])
+  userId String
+  hotel table_room_hotel @relation(fields: [hotelId], references: [id])
+  hotelId Int
+  room_id table_type_room @relation(fields: [type_room_hotel_id], references: [id])
+  type_room_hotel_id Int
+  @@id([userId, hotelId])
+}
+
+model review_table_single_hotel {
+  id Int @id @default(autoincrement())
+  rating Float
+  description_review String
+  user User @relation(fields: [userId], references: [id])
+  userId String
+  hotel table_room_hotel @relation(fields: [hotelId], references: [id])
+  hotelId Int
+}
+
+model review_table_single_fly {
+  id Int @id @default(autoincrement())
+  rating Float
+  description_review String
+  user User @relation(fields: [userId], references: [id])
+  userId String
+  fly_route Table_route @relation(fields: [fly_route_id], references: [id])
+  fly_route_id Int
+}
+
+model credit_card_users {
+  id Int @id @default(autoincrement())
+  cardholderName String
+  cvc String
+  expMonth String
+  expYear String
+  card_number String
+  country_of_region String?
+  id_user User @relation(fields: [idUser], references: [id])
+  idUser String
+}
+// model table_room_type {
+//   id Int @id @default(autoincrement())
+//   id_hotel table_room_hotel @relation(fields: [id], references: [id])
+//   idHotel Int
+//   name_room_type String
+//   type_room String
+// }

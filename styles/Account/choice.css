@@ -1,0 +1,419 @@
+.choice {
+  margin-bottom: 300px;
+}
+.choice .choice__block .choice__dashboard-block {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  /* Neutrals */
+  background: rgb(255, 255, 255);
+  height: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90px;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account {
+  height: 100%;
+  width: 30.33%;
+  transform: translateY(-3px);
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account .choice__block-dashboard-description-account {
+  justify-content: flex-start;
+  padding: 14px 0px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account .choice__block-dashboard-description-account .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 14px; */
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account-active {
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account-active .choice__block-dashboard-description-account {
+  justify-content: flex-start;
+  padding: 14px 0px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-account-active .choice__block-dashboard-description-account .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 14px; */
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  height: 100%;
+  width: 30.33%;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history .choice__block-dashboard-description-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history .choice__block-dashboard-description-history .choice__name-opt {
+  text-align: start;
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid rgb(228, 228, 228);
+  border-left: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history-active {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  /* Mint Green */
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history-active .choice__block-dashboard-description-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-history-active .choice__block-dashboard-description-history .choice__name-opt {
+  text-align: start;
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid rgb(228, 228, 228);
+  border-left: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  /* Mint Green */
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active .choice__block-dashboard-description-pay-method {
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active .choice__block-dashboard-description-pay-method .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  height: 100%;
+  width: 30.33%;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method .choice__block-dashboard-description-pay-method {
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.choice .choice__block .choice__dashboard-block .choice__block-dashboard-inside-pay-method .choice__block-dashboard-description-pay-method .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.choice .choice__block-account-user-info .choice__header-name-block {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside {
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 40px 35px;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes {
+  display: flex;
+  flex-direction: column;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 20px;
+  width: 36%;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside .choice__description-name {
+  margin-bottom: 10px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside .choice__description-value {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside-active {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(17, 34, 17);
+  padding-bottom: 20px;
+  width: 36%;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside-active .choice__description-name {
+  margin-bottom: 10px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.5;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside-active .choice__description-name-active {
+  margin-bottom: 10px;
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-inside-active .choice__description-value {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__btn-change-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__btn-change-value .choice__image-btn {
+  color: aliceblue;
+  margin-right: 10px;
+  transform: translateY(-2px);
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__btn-change-value .choice__name-btn {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-uu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-uu .choice__btn-add-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 25px;
+  margin-right: 15px;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-uu .choice__btn-add-email .choice__image-btn {
+  margin-right: 10px;
+  transform: translateY(-2px);
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-uu-changes .choice__block-more-info-user .choice__block-uu .choice__btn-add-email .choice__name-btn {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-save-changes {
+  display: flex;
+  justify-content: end;
+}
+.choice .choice__block-account-user-info .choice__block-account-user-info-inside .choice__block-save-changes .choice__btn-save {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(141, 211, 187); */
+  border-radius: 4px;
+  padding: 15px 25px;
+  width: 135px;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  background: rgb(141, 211, 187);
+}/*# sourceMappingURL=choice.css.map */

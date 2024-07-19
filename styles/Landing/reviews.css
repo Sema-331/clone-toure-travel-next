@@ -1,0 +1,141 @@
+/*Main fonts*/
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside, .reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full, .reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.reviews {
+  margin-bottom: 300px;
+}
+.reviews .reviews__block-main .reviews__block-see {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-header {
+  /* Montserrat/Semibold/32px */
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__block-names .reviews__name-description {
+  /* Montserrat/Regular/16px */
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 20px;
+}
+.reviews .reviews__block-main .reviews__block-see .reviews__btn-block .reviews__btn {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 17px;
+  box-sizing: border-box;
+  /* Mint Green */
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+.reviews .reviews__block-main .reviews__block-feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box {
+  width: 30.33%;
+  box-shadow: 35px 35px 8px 0px rgba(141, 211, 187, 0.35);
+  border-radius: 16px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside {
+  border-radius: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  background: #fff;
+  padding: 30px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__feedback-header {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__description-inside {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 25px;
+  opacity: 0.5;
+  margin-bottom: 16px;
+  flex-basis: 130px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-description-feedback .reviews__btn-feedback-full {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: right;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user {
+  margin-bottom: 45px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__name-user {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__studio-user {
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 15px;
+  opacity: 0.5;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-image {
+  margin-right: 10px;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .reviews__block-name-user .reviews__system-user-block .reviews__system-name {
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  opacity: 0.4;
+}
+.reviews .reviews__block-main .reviews__block-feedback .reviews__block-main-list-box .reviews__block-inside .image_place {
+  width: 100%;
+}/*# sourceMappingURL=reviews.css.map */

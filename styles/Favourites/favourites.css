@@ -1,0 +1,646 @@
+/*Main fonts*/
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu-active .favourites__descrption-name, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu .favourites__descrption-name, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu-active .favourites__description-name, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu .favourites__description-name, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-account__time-departure, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-account__time-arrival, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__name-seat-num, .favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__header-info-ticket, .favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__header-info, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main span, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion span, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel span, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .hotel__btn-view-detailed {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date-time, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate-num, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time-time, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__description-seat-num, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__btn-upload, .favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__description-info-ticket, .favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__btn-go-to-ticket, .favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__description-info, .favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__btn-go-to, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info .hotel__location-description, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-stars-rat .hotel__description-count-stars, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__block-float-count-rat, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-startig-from, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-tax {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu-active .favourites__description-count-favourite-item, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu .favourites__description-count-favourite-item, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu-active .favourites__description-count-length-hotel-item, .favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu .favourites__description-count-length-hotel-item, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-accoun__name-city, .favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-accoun__name-city-to-arrival, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.favourites .favourites__block .favourites__main-header, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__header-name {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+.favourites .favourites__block .favourites__block-type-favourites, .favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+}
+
+/**Btn**/
+/*Main fonts*/
+.favourites {
+  margin: 60px 0px 300px 0px;
+}
+.favourites .favourites__block .favourites__main-header {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.favourites .favourites__block .favourites__block-type-favourites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght {
+  border-right: 1px solid rgb(228, 228, 228);
+  width: 50%;
+  padding: 20px 40px 0px 40px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu-active {
+  border-bottom: 4px solid rgb(141, 211, 187);
+  padding-bottom: 20px;
+  height: 75px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu-active .favourites__descrption-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu-active .favourites__description-count-favourite-item {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  opacity: 0.4;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu {
+  padding-bottom: 20px;
+  height: 75px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu .favourites__descrption-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-flyght .favourites__block-inside-uu .favourites__description-count-favourite-item {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  opacity: 0.4;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 100%;
+  padding: 20px 40px 0px 40px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu-active {
+  width: 100%;
+  padding: 0px 40px 0px 0px;
+  border-bottom: 4px solid rgb(141, 211, 187);
+  border-bottom: 4px solid rgb(141, 211, 187);
+  padding-bottom: 23px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu-active .favourites__description-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu-active .favourites__description-count-length-hotel-item {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  opacity: 0.4;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu {
+  width: 100%;
+  padding: 0px 40px 0px 0px;
+  height: 75px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu .favourites__description-name {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-type-favourites .favourites__type-hotel .favourites__block-inside-uu .favourites__description-count-length-hotel-item {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  opacity: 0.4;
+}
+.favourites .favourites__block .history-account__block-list-box-item {
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+  padding: 40px 35px;
+}
+.favourites .favourites__block .history-account__block-list-box-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__image-logo-ticket {
+  margin-right: 40px;
+  width: 110px;
+  height: 110px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid rgb(228, 228, 228);
+  /* margin-right: 20px; */
+  padding-right: 30px;
+  margin-right: 30px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from {
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-accoun__name-city {
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-account__time-departure {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-alias hr {
+  width: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user {
+  margin-left: 30px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-accoun__name-city-to-arrival {
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-account__time-arrival {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-top: 15px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__image-date {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date-time {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__image-gate {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate-num {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__image-flight-time {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time-time {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__image-seat-num {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__name-seat-num {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__description-seat-num {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket {
+  display: flex;
+  flex-direction: row;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__btn-upload {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  height: 56px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__block-arrows {
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+}
+.favourites .favourites__block .favourites__block-no-ticket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__header-info-ticket {
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__description-info-ticket {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-no-ticket .favourites__block-description-txt-ticket .favourites__btn-go-to-ticket {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  height: 56px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favourites .favourites__block .favourites__block-list-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__header-info {
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__description-info {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.favourites .favourites__block .favourites__block-list-box .favourites__block-no-hotel .favourites__block-description-txt .favourites__btn-go-to {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  height: 56px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy:not(:last-child) {
+  margin-bottom: 40px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-image-ticket {
+  width: 33%;
+  height: 350px;
+  position: relative;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__btn-view-images {
+  z-index: 100;
+  position: absolute;
+  right: 6%;
+  padding: 10px;
+  top: 6%;
+  color: rgb(17, 34, 17);
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.5);
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-image-ticket .hotel__main-image-ticket {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket {
+  width: 75%;
+  padding: 30px 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__header-name {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info .hotel__loaction-image {
+  margin-right: 10px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-loaction-info .hotel__location-description {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-stars-rat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-stars-rat .hotel__description-count-stars {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__image-coffee {
+  margin-right: 10px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-options-hotels .hotel__block-aminities .hotel__description-main span {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  margin-right: 5px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__block-float-count-rat {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin-right: 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-name-info .hotel__block-rat-reviews-users .hotel__description-user-opinion span {
+  /* [object Object] */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  margin-right: 5px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-startig-from {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  opacity: 0.6;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel {
+  /* [object Object] */
+  color: rgb(255, 134, 130);
+  font-size: 26px;
+  line-height: 25px;
+  margin: 5px 0px 5px 0px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-total-price-hotel span {
+  color: rgb(255, 134, 130);
+  font-size: 16px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__block-info-inside .hotel__block-price-info .hotel__description-tax {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 15px;
+  opacity: 0.6;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .fly-res__favourites-btn {
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__block-main-info-about-ticket .hotel__more-info-detailed-ticket .hotel__btn-view-detailed {
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  padding: 15px 26px;
+  width: 100%;
+  text-align: center;
+}
+.favourites .favourites__block .favourites__block-list-box .hotel__list-item-ticket-buy .hotel__modal-block-view-all-images {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  position: fixed;
+  top: 30%;
+  box-shadow: 4px 4px 8px 10000px rgba(0, 0, 0, 0.65);
+  background: #fff;
+  z-index: 100;
+  left: 25%;
+  width: 800px;
+  padding: 75px;
+}/*# sourceMappingURL=favourites.css.map */

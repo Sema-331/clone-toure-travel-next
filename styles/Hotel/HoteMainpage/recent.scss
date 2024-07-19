@@ -1,0 +1,118 @@
+$color_1: rgb(0, 0, 0);
+$color_2: rgb(17, 34, 17);
+
+
+%ff {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0%;
+    color: $color_2
+}
+
+
+.recent__block-main {
+    margin-bottom: 80px;
+    .recent__block-headers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+            .recent__header-block {
+                @extend %ff;
+                font-size: 35px;
+                font-weight: 600;
+                line-height: 39px;
+            }
+            .recent__description-block {
+                @extend %ff;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+        .recent__btn-more-placeses {
+            @extend %ff;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 17px;
+            padding: 12px 18px;
+            box-sizing: border-box;
+            border: 1px solid rgb(141, 211, 187);
+            border-radius: 4px;
+        }
+    }
+    .recent__block-placeses {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .recent__block-places-list-box {
+            width: 24.33%;
+            padding: 16px;
+            border-radius: 16px;
+            /* Cards Shadow */
+            box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+            /* Neutrals */
+            background: rgb(255, 255, 255);
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .recent__block-places-image {
+                margin-right: 20px;
+                .recent__images-places {
+
+                }   
+            }
+            .recent__block-description-place {
+                display: flex;
+                flex-direction: column;
+                .recent__header-places-block {
+                    /* Montserrat/Semibold/16px */
+color: rgb(17, 34, 17);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+                    /* Montserrat/Semibold/16px */
+                    @extend %ff;
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 20px;
+                }
+                    .recent__description-places {
+                        /* Montserrat/Medium/14px */
+                        /* Montserrat/Regular/12px */
+                        color: rgb(17, 34, 17);
+                        opacity: 0.6;
+                        font-weight: 400;
+                        line-height: 15px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        @extend %ff;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        &:not(:last-child) {
+                            margin-right: 20px;
+                        }
+                        ::before {
+                                    content: "•";
+                                }
+                        // &:not(:last-child) {
+                        //     ::before {
+                        //         content: "•";
+                        //         display: block;
+                        //         float: left;
+                        //         margin-left: 20px;
+                        //         margin-right: 20px;
+                        //     }
+                        // }
+                }
+            }
+    }
+}

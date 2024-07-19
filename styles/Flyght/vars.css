@@ -1,0 +1,222 @@
+/*Main fonts*/
+.vars .vars__block-uu .vars__time-from-to .vars__block-time-to .vars__time-to-description, .vars .vars__block-uu .vars__time-from-to .vars__time-from .vars__time-from-description, .vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item .vars__block-info-company-plane .vars__nmae-company-fly {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.vars .vars__block-uu .vars__time-from-to .vars__block-time-to .vars__description-name-to, .vars .vars__block-uu .vars__time-from-to .vars__time-from .vars__description-name, .vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item .vars__block-info-company-plane .vars__name-plane-fly, .vars .vars__block-uu .vars__block-uu-date .vars__description-info-flyght-time, .vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-second .vars__description-rule, .vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-first .vars__description-rule {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.vars .vars__block-uu .vars__block-uu-date .vars__description-info-date-num, .vars .vars__main-block .vars__block-policies .vars__header-policies {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.vars {
+  margin-bottom: 300px;
+}
+.vars .vars__main-block .vars__block-policies {
+  border-radius: 8px;
+  background: rgba(141, 211, 187, 0.6);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.vars .vars__main-block .vars__block-policies .vars__header-policies {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-first {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-first .vars__image-rule {
+  margin-right: 20px;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-first .vars__description-rule {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-second {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-second .vars__image-rule {
+  margin-right: 20px;
+}
+.vars .vars__main-block .vars__block-policies .vars__block-unitific .vars__block-rules-second .vars__description-rule {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.vars .vars__block-uu {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+  padding: 40px 30px;
+}
+.vars .vars__block-uu .vars__block-uu-date {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.vars .vars__block-uu .vars__block-uu-date .vars__description-info-date-num {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 25px;
+  text-align: left;
+}
+.vars .vars__block-uu .vars__block-uu-date .vars__description-info-flyght-time {
+  /* Montserrat/Medium/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+  opacity: 0.6;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px solid rgb(141, 211, 187);
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px 35px;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item .vars__image-ticket {
+  width: 80px;
+  height: 55px;
+  margin-right: 30px;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item .vars__block-info-company-plane .vars__nmae-company-fly {
+  margin-bottom: 10px;
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 29px;
+  text-align: left;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-plane-list-item .vars__block-info-company-plane .vars__name-plane-fly {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  opacity: 0.6;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-comfortble-option {
+  width: 400px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 24px;
+  align-items: center;
+}
+.vars .vars__block-uu .vars__block-plane-comfortable .vars__block-comfortble-option .vars__block-inside-uu {
+  width: 19%;
+  border-right: 2px solid rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+}
+.vars .vars__block-uu .vars__time-from-to {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__time-from {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 90px;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__time-from .vars__time-from-description {
+  margin-right: 15px;
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 29px;
+  text-align: left;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__time-from .vars__description-name {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0.6;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-image-plane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-image-plane .vars__border {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 1px;
+  margin-right: 25px;
+  width: 40px;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-image-plane .vars__border-second {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 1px;
+  width: 40px;
+  margin-left: 25px;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-time-to {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 90px;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-time-to .vars__time-to-description {
+  margin-right: 15px;
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 29px;
+  text-align: left;
+}
+.vars .vars__block-uu .vars__time-from-to .vars__block-time-to .vars__description-name-to {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0.6;
+}/*# sourceMappingURL=vars.css.map */

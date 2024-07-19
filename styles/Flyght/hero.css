@@ -1,0 +1,375 @@
+/*Main fonts*/
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds, main .travel__main-block .travel__block-forms .travel__header-form {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+main .travel__main-block form .seacrh__block-options-users .search__btn-show-variants .search__description-variants, main .travel__main-block form .seacrh__block-options-users .search__add-promo .search__description-adds, main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code, main .travel__main-block .travel__headers-name .travel__description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+main .travel__main-block .travel__headers-name .travel__header {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo, main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff, main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff, main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff, main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff, main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 56px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::-moz-placeholder, main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff::-moz-placeholder, main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff::-moz-placeholder, main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff::-moz-placeholder, main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff::-moz-placeholder, main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo::placeholder, main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff::placeholder, main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff::placeholder, main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff::placeholder, main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff::placeholder, main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-label-modal-promo, main .travel__main-block form .search__block-form-field .search__label-fo .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-t .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-s .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-f .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-ff .search__label-forms {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+
+main .travel__block {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+main .travel__block .travel__image-font {
+  width: 600px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+}
+main .travel__main-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+main .travel__main-block .travel__headers-name {
+  padding: 95px 0px 0px 0px;
+  margin-bottom: 190px;
+}
+main .travel__main-block .travel__headers-name .travel__header {
+  color: #fff;
+  font-size: 47px;
+  line-height: 57px;
+  text-align: left;
+  width: 30%;
+  margin-bottom: 10px;
+}
+main .travel__main-block .travel__headers-name .travel__description {
+  /* Montserrat/Medium/20px */
+  color: #fff;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+main .travel__main-block .travel__block-forms {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 60px 48px 60px;
+}
+main .travel__main-block .travel__block-forms .travel__header-form {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+main .travel__main-block form .search__block-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+main .travel__main-block form .search__block-form-field .search__label-ff {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  width: 18%;
+}
+main .travel__main-block form .search__block-form-field .search__label-ff .css-13cymwt-control {
+  margin-right: 20px;
+  width: 100%;
+}
+main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff:focus + .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+main .travel__main-block form .search__block-form-field .search__label-ff .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+main .travel__main-block form .search__block-form-field .search__label-ff .search__image-swap {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+main .travel__main-block form .search__block-form-field .search__label-f {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  width: 18%;
+  padding-right: 30px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+main .travel__main-block form .search__block-form-field .search__label-f .search__label-forms .css-b62m3t-container {
+  padding-right: 30px;
+}
+main .travel__main-block form .search__block-form-field .search__label-f .search__label-forms .css-b62m3t-container .css-13cymwt-control {
+  margin-right: 20px;
+  width: 100%;
+}
+main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff:focus + .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+main .travel__main-block form .search__block-form-field .search__label-f .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+main .travel__main-block form .search__block-form-field .search__label-f .search__image-swap {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+main .travel__main-block form .search__block-form-field .search__label-s {
+  display: flex;
+  width: 11%;
+  flex-direction: column;
+  position: relative;
+  margin-right: 30px;
+  width: 18%;
+  padding-right: 30px;
+  border-right: 1px solid rgb(228, 228, 228);
+}
+main .travel__main-block form .search__block-form-field .search__label-s .search__label-forms .css-b62m3t-container {
+  padding-right: 30px;
+}
+main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff:focus + .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+main .travel__main-block form .search__block-form-field .search__label-s .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+main .travel__main-block form .search__block-form-field .search__label-s .search__image-arrows {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+main .travel__main-block form .search__block-form-field .search__label-t {
+  margin-right: 15px;
+  width: 18%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+main .travel__main-block form .search__block-form-field .search__label-t .date__select {
+  width: 100%;
+}
+main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff:focus + .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  top: -15px;
+  background-color: #fff;
+  padding: 5px 8px;
+  font-size: 16px;
+  opacity: 1;
+  color: rgb(17, 34, 17);
+}
+main .travel__main-block form .search__block-form-field .search__label-t .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+main .travel__main-block form .search__block-form-field .search__label-t .search__image-dates {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+main .travel__main-block form .search__block-form-field .search__label-fo {
+  display: flex;
+  width: 23%;
+  position: relative;
+  flex-direction: column;
+}
+main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff:focus + .search__label-forms, main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  top: -10px;
+  background-color: #fff;
+  font-size: 16px;
+  color: rgb(17, 34, 17);
+  opacity: 1;
+}
+main .travel__main-block form .search__block-form-field .search__label-fo .search__input-ff:valid + .search__label-forms {
+  color: orange;
+}
+main .travel__main-block form .search__block-form-field .search__label-fo .search__image-ticket {
+  right: 3%;
+  position: absolute;
+  top: 20%;
+  width: 28px;
+  height: 28px;
+}
+main .travel__main-block form .seacrh__block-options-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo {
+  border-radius: 16px;
+  box-shadow: 0px 9px 20px rgba(13, 38, 76, 0.19);
+  background: #fff;
+  padding: 32px 30px 32px 30px;
+  position: absolute;
+  top: 126%;
+  width: 420px;
+  right: 8%;
+  border: 1px solid #c7c7c7;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .lucide-x {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-input-promo {
+  margin-right: 20px;
+  height: 50px !important;
+  border-color: hsl(0, 0%, 80%);
+}
+main .travel__main-block form .seacrh__block-options-users .search-xx .search__btn-block-modal-add-promo .search__btn-block-input-promo .search__btn-add-promo-code {
+  padding: 15px 16px;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 50px;
+  font-size: 16px;
+  width: 80px;
+}
+main .travel__main-block form .seacrh__block-options-users .search__add-promo {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  justify-content: center;
+}
+main .travel__main-block form .seacrh__block-options-users .search__add-promo .search__image-adds {
+  margin-right: 5px;
+}
+main .travel__main-block form .seacrh__block-options-users .search__add-promo .search__description-adds {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+main .travel__main-block form .seacrh__block-options-users .search__btn-show-variants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 16px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+main .travel__main-block form .seacrh__block-options-users .search__btn-show-variants .search__image-variants {
+  margin-right: 5px;
+}
+main .travel__main-block form .seacrh__block-options-users .search__btn-show-variants .search__description-variants {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1.3rem;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__navigation--next span::before {
+  border-color: #0073ff;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container {
+  padding: 15px;
+}
+.react-datepicker__tab-loop .react-datepicker-popper .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+  background-color: #fff;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #0073ff;
+  color: #fff;
+}/*# sourceMappingURL=hero.css.map */

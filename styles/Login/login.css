@@ -1,0 +1,289 @@
+/*Main fonts*/
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__instructions-create-account, .main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__btn-submit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__instructions-create-account .login__btn-sign, .main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__forgot, .main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__check-block-input .login__remember {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-login-with .login__login-with, .main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__description-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__name-header {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.main_cl-login {
+  height: 100%;
+}
+.main_cl-login .container {
+  height: 100%;
+}
+.main_cl-login .container .login__block-main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main_cl-login .container .login__block-main .login__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization {
+  width: 35%;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__image {
+  margin-bottom: 75px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__name-header {
+  /* TradeGothic/Bold/40px */
+  color: rgb(0, 0, 0);
+  font-size: 44px;
+  line-height: 51px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__description-name {
+  margin-bottom: 55px;
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0.7;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field {
+  margin-bottom: 30px;
+  position: relative;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field .login__input {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 20px;
+  height: 60px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  background: #fff;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field .login__input::-moz-placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field .login__input::placeholder {
+  color: rgb(121, 116, 126);
+  font-size: 18px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field .login__label {
+  display: inline-block;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: rgb(17, 34, 17);
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 2%;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__form-block-field .login__image-toggle-eye {
+  position: absolute;
+  top: 51%;
+  right: 4%;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__check-block-input {
+  display: flex;
+  align-items: baseline;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__check-block-input .login__checkbox-field {
+  margin-right: 10px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__check-block-input .login__remember {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside form .login__check-block .login__forgot {
+  /* Montserrat/Medium/14px */
+  color: rgb(255, 134, 130);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: right;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__btn-submit {
+  height: 56px;
+  margin-bottom: 20px;
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  padding: 15px 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__instructions-create-account {
+  /* [object Object] */
+  font-size: 16px;
+  line-height: 17px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__instructions-create-account .login__btn-sign {
+  color: rgb(255, 134, 130);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: right;
+  margin-left: 10px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-login-with {
+  margin-bottom: 45px;
+  margin-bottom: 35px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-login-with hr {
+  height: 2px;
+  position: absolute;
+  top: 8px;
+  /* background: red; */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.25;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-login-with .login__login-with {
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  z-index: 200;
+  /* display: flex; */
+  position: relative;
+  text-align: center;
+  /* width: 70%; */
+  padding: 0px 10px;
+  background: #fff;
+  color: rgb(161, 161, 161);
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-log .login__block-facebook {
+  width: 31.33%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-log .login__block-google {
+  width: 31.33%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.main_cl-login .container .login__block-main .login__block .login__block-form-authorization .login__form-authorization-inside .login__block-options-log .login__block-apple {
+  width: 31.33%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.main_cl-login .container .login__block-main .login__block .login__image-slider {
+  width: 55%;
+  border-radius: 35px;
+}
+.main_cl-login .container .login__block-main .login__block .login__image-slider .swiper-pagination-bullet-active {
+  border-radius: 5px;
+  background: rgb(141, 211, 187) !important;
+  opacity: 1;
+  width: 32px;
+}
+.main_cl-login .container .login__block-main .login__block .login__image-slider .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+}
+.main_cl-login .container .login__block-main .login__block .login__image-slider .login__image-slider {
+  width: 100%;
+}
+
+.block-for-loader {
+  position: fixed;
+  z-index: 3000;
+  top: 45%;
+  right: 46%;
+  box-shadow: 0px 0px 8px 10000px rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+}
+.block-for-loader .loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.check__form-danger {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-danger .check__form-image {
+  margin-right: 10px;
+}
+.check__form-danger p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 134, 130);
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 2%;
+}/*# sourceMappingURL=login.css.map */

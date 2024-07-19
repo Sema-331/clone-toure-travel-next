@@ -1,0 +1,78 @@
+header {
+  margin: 0px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+}
+header .header-account .header-account__nav {
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user {
+  margin-right: 40px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user .header-account__image-user {
+  margin-right: 8px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-user .header-account__link-user .header-account__descripion-user {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link .header-account__image-hotel {
+  margin-right: 8px;
+}
+header .header-account .header-account__nav .header-account__block-options .header-account__block-hotel .header-account__hotel-link .header-account__descritpion-hotel {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+header .header-account .header-account__nav .header-account__block-log .header-account__authorization-log {
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-right: 40px;
+}
+header .header-account .header-account__nav .header-account__block-log .header-account__authorization-sign-up {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 15px 25px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}/*# sourceMappingURL=header-accout.css.map */

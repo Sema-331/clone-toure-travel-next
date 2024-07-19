@@ -1,0 +1,264 @@
+@import './../vars/colors';
+@import  './../vars/mixins';
+
+footer {
+    background: $color_3;
+.footer__block-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 65px;
+    .footer__block-uu {
+        transform: translateY(-145px);
+        height: 264px;
+        width: 100%;
+        .footer__subscribe-main {
+            display: flex;
+            background: blue;
+            width: 100%;
+            justify-content: space-between;
+            border-radius: 20px;
+            box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+            background: rgb(205, 234, 225);        
+            .footer__description-block {
+                padding: 24px 0px 30px 24px;
+                width: 60%;
+                .footer__header-subscribe {
+                    width: 40%;
+                    @extend %l_700;
+                    margin-bottom: 30px;
+                    color: $primary_black;
+                    font-size: 44px;
+                    line-height: 54px;
+                }
+                .footer__description-name-block {
+                    margin-bottom: 20px;
+                    .footer__head-name {
+                        margin-bottom: 10px;
+                        @extend %l_700;
+                        /* TradeGothic/Bold/20px */
+                        color: $primary_black;
+                        font-size: 20px;
+                        line-height: 25px;
+                    }
+                    .footer__descriprion-name {
+                        /* Montserrat/Medium/16px */
+                        color: $primary_black;
+                        @extend %m_500;
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                }
+                .footer__block-input {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: baseline;
+                    .footer__block-checking {
+                        width: 70%;
+                        margin-right: 20px;
+                        .footer__input-mail {
+                            color: $primary_black;
+                            @extend %m_500;
+                            font-size: 18px;
+                            line-height: 20px;
+                            height: 56px;
+                            padding: 8px 0px 8px 16px;
+                            width: 100%;
+                            margin-bottom: 5px;
+                            border-radius: 5px;
+                            &::placeholder {
+                                /* Montserrat/Regular/16px */
+                                color: rgb(28, 27, 31);
+                                @extend %m_400;
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    .footer__block-pup-up-uu {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .footer__submit {
+                            background: $color_1;
+                            @extend %m_600;
+                            height: 56px;
+                            padding: 10px 20px;
+                            border-radius: 5px;
+                            /* Montserrat/Semibold/14px */
+                            color: $primary_fff;
+                            font-size: 16px;
+                        }
+                        .footer__pop-up-timout {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 10px 20px;
+                            height: 56px;
+                            border-radius: 5px;
+                            background: #00c5004f;
+                            margin-left: 20px;
+                            position: absolute;
+                            width: 300px;
+                            right: 28%;                        
+                            .footer__pop-up-successful {
+                                margin-right: 10px;
+                            }
+                            .footer__description-txt-operation {
+                                color: green;
+                                @extend %m_500;
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+                        .footer__pop-up-timout-error {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 10px 20px;
+                            height: 56px;
+                            border-radius: 5px;
+                            background: $color2;
+                            margin-left: 20px;
+                            position: absolute;
+                            width: 300px;
+                            right: 28%;
+                            .footer__pop-up-successful-error {
+                                margin-right: 10px;
+                            }
+                            .footer__description-txt-operation-error {
+                                color: red;
+                                @extend %m_500;
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer__subscribe-block-image {
+                display: flex;
+                align-items: center;
+                padding: 0px 24px 0px 0px;
+                .footer__image-subscribe {
+                    height: 100%;
+                }   
+            }
+        }
+    }
+    .footer__blocks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .footer__block-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .footer__logo-image {
+                margin-bottom: 30px;
+            }
+            .footer__block-icons-social-media {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                .footer__list-box-icons {
+                    .footer__icons-image {
+
+                    }
+                }
+            }
+        }
+        .footer__block-navigation {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 74%;
+            .footer__block-list-item {
+                display: flex;
+                flex-direction: column;
+                .footer__name-nav {
+                    margin-bottom: 20px;
+                    @extend %second_font;
+                }
+                .footer__link {
+                    margin-bottom: 15px;
+                    @extend %first_font;
+                }
+            }
+            .footer__block-uu-reviews {
+                width: 28%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .footer__block-uu-reviews-inside {
+                    display: flex;
+                    /* flex-direction: row; */
+                    justify-content: space-between;
+                    width: 100%;
+                    .footer__block-list-item {
+                        display: flex;
+                        flex-direction: column;
+                        .footer__name-nav {
+                            margin-bottom: 20px;
+                            @extend %second_font;
+                        }
+                        .footer__link {
+                            margin-bottom: 15px;
+                            @extend %first_font;
+                        }
+                    }
+                }
+                .footer__block-reviews-go {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    .footer__description-rev {
+                        color: rgb(17, 34, 17);
+                        font-family: "Trade Gothic LT Std", sans-serif;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                    .footer__btn-rev-go {
+                        @extend %m_500;
+                        width: 100px;
+                        font-size: 18px;
+                        line-height: 20px;
+                        background: rgb(0, 0, 0);
+                        height: 56px;
+                        padding: 10px 20px;
+                        border-radius: 5px;
+                        color: #fff;
+                        font-size: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+.check__form-danger {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .check__form-image {
+        margin-right: 10px;
+    }
+    p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: $color2;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 2%;
+    }
+}

@@ -1,0 +1,133 @@
+@import './../vars/colors';
+
+%fonts__option {
+    color: $primary_fff;
+    letter-spacing: 0%;
+    font-family: 'Trade Gothic LT Std', sans-serif;
+}
+
+
+.options {
+    margin-bottom: 80px;
+    .options__block-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .options__flights-block {
+            position: relative;
+            height: 560px;
+            width: 48.5%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            .option__image-fight {
+                object-fit: cover;
+                background-position: center;
+                height: 100%;
+                border-radius: 24px 24px 24px 24px;
+                background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(18, 18, 18, 0.75) 48.674%);
+                filter: brightness(0.75);
+                z-index: -1;
+            }
+            .option__flight-block-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 60px;
+                .option__header-flight {
+                    @extend %fonts__option;
+                    font-size: 44px;
+                    font-weight: 700;
+                    line-height: 51px;
+                    margin-bottom: 10px;
+                }
+                .option__description-flight {
+                    @extend %fonts__option;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                }
+                .option__btn-fligth {
+                    height: 56px;
+                    border-radius: 4px;
+                    background: $color_3;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 16px 20px;
+                    .option__btn-flight-inside {
+                        margin-right: 8px;
+                    }
+                    .option__btn-fligth-name {
+                        color: $primary_black;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .options__hotels-block {
+            position: relative;
+            height: 560px;
+            width: 48.5%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            .option__image-hotel {
+                object-fit: cover;
+                background-position: center;
+                height: 100%;
+                border-radius: 24px 24px 24px 24px;
+                background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(18, 18, 18, 0.75) 48.674%);
+                filter: brightness(0.75);
+                z-index: -1;
+            }
+            .option__hotel-block-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 60px;
+                .option__header-hotel {
+                    @extend %fonts__option;
+                    font-size: 44px;
+                    font-weight: 700;
+                    line-height: 51px;
+                    margin-bottom: 10px;
+                }
+                .option__description-hotel {
+                    @extend %fonts__option;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                }
+                .option__btn-hotel {
+                    border-radius: 4px;
+                    background: $color_3;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 16px 20px;
+                    .option__btn-hotel-inside {
+                        margin-right: 8px;
+                    }
+                    .option__btn-hotel-name {
+                        color: $primary_black;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 17px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import "./HoteMainpage/hoteMainPage.scss";
+@import "./HoteMainpage/recent.scss";
+
+/**searchHotel**/
+
+@import "./SearchHotel/searchHotel.scss";
+
+/**singleHotel**/
+
+@import "./SingleHotel/singleHotel.scss";
+@import "./SingleHotel/alls.scss";
+@import "./SingleHotel/location.scss";
+@import "./SingleHotel/comment.scss";
+@import "./SingleHotel/HotelModal.scss";
+@import "./SingleHotel/ModalCard.scss";
+
+/**booking**/
+
+@import "./SingleHotel/BookingHotel/ReservationHotel/reservation.scss";

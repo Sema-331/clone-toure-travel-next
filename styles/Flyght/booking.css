@@ -1,0 +1,401 @@
+/*Main fonts*/
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__header-term, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .bookign__block-barcode .booking__block-description-barcode .booking__description-name-barcode, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item .booking__inf-ticket-user .booking__description-name, .booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__time-fly .booking__description-time, .booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__block-time-inside .bookign__time-fly .booking__description-time, .booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-interactive .bookign__download-ticket {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.booking .booking__main-block .bookign__block-uul .booking__block-contacts .booking__header-block-contact, .booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__header-block-description, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .bookign__block-barcode .booking__block-description-barcode .booking__description-value-barcode, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item .booking__inf-ticket-user .booking__description-value, .booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__time-fly .bookign__description-name, .booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__block-time-inside .bookign__time-fly .bookign__description-name, .booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-location .bookign__description-location-geo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.booking .booking__main-block .bookign__block-uul .booking__block-contacts .booking__description-contact, .booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__list-box .booking__list-item .booking__description-main-term, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name .booking__block-uu-description .booking__description-user-num {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .bookign__description-class-ticket, .booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name .booking__block-uu-description .booking__description-user-name, .booking .booking__main-block .booking_info-block .bookign__block-info-plane .booking__header-name-plane {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+/**Btn**/
+/*Main fonts*/
+.booking {
+  margin-top: 60px;
+  margin-bottom: 300px;
+}
+.booking .booking__main-block .booking_info-block {
+  margin-bottom: 35px;
+}
+.booking .booking__main-block .booking_info-block .bookign__block-info-plane {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.booking .booking__main-block .booking_info-block .bookign__block-info-plane .booking__header-name-plane {
+  /* TradeGothic/Bold/24px */
+  color: rgb(17, 34, 17);
+  font-size: 26px;
+  line-height: 30px;
+  text-align: left;
+}
+.booking .booking__main-block .booking_info-block .bookign__block-info-plane .booking__description-price-ticket {
+  /* Montserrat/Bold/32px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-location .bookign__image-geo {
+  margin-right: 10px;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-location .bookign__description-location-geo {
+  /* Montserrat/Medium/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  opacity: 0.6;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-interactive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-interactive .booking__share-btn {
+  padding: 15px 20px;
+  height: 56px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+}
+.booking .booking__main-block .booking_info-block .booking__block-uu-options .bookign__block-interactive .bookign__download-ticket {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  height: 56px;
+  padding: 15px 25px;
+  width: 165px;
+  text-align: center;
+}
+.booking .booking__main-block .bookign__main-ticket {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time {
+  background: rgb(235, 246, 242);
+  padding: 35px;
+  width: 25%;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(234, 234, 234); */
+  /* border-radius: 16px; */
+  /* background: rgb(255, 255, 255); */
+  border-radius: 16px 0px 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__block-time-inside .bookign__time-fly {
+  margin-bottom: 20px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__block-time-inside .bookign__time-fly .booking__description-time {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-size: 35px;
+  line-height: 39px;
+  margin-bottom: 5px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__block-time-inside .bookign__time-fly .bookign__description-name {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__time-fly {
+  margin-top: 20px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__time-fly .booking__description-time {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-size: 35px;
+  line-height: 39px;
+  margin-bottom: 5px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__block-time .bookign__time-fly .bookign__description-name {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user {
+  width: 50%;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(141, 211, 187);
+  padding: 35px;
+  border-radius: 0px 16px 0px 0px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name .booking__image-user {
+  margin-right: 20px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name .booking__block-uu-description .booking__description-user-name {
+  /* TradeGothic/Bold/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .booking__block-user-image-name .booking__block-uu-description .booking__description-user-num {
+  /* Montserrat/Regular/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__block-info-user .bookign__description-class-ticket {
+  /* TradeGothic/Bold/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 18px;
+  text-align: right;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket {
+  padding: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 16px 0px 16px 0px;
+  background: rgb(255, 255, 255);
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside {
+  display: flex;
+  margin-bottom: 40px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item .booking__image-icon {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item .booking__inf-ticket-user .booking__description-name {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .booking__block-detailed-info-ticket-inside .bookign__list-item .booking__inf-ticket-user .booking__description-value {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .bookign__block-barcode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .bookign__block-barcode .booking__block-description-barcode .booking__description-name-barcode {
+  /* Montserrat/Semibold/32px */
+  color: rgb(17, 34, 17);
+  font-size: 34px;
+  line-height: 39px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__main-ticket .bookign__blockinfo-ticket-with-user .bookign__detailed-info-ticket .bookign__block-barcode .booking__block-description-barcode .booking__description-value-barcode {
+  /* Montserrat/Medium/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+  opacity: 0.6;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images {
+  width: 25%;
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 16px;
+  background: #fff;
+  padding: 35px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-hight {
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  flex-direction: row;
+  z-index: 30000;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-hight .booking__block-user-uu .booking__block-lnl {
+  position: absolute;
+  top: -83px;
+  right: -56px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-hight .booking__block-user-uu .booking__block-lnl .booking__image-ellips {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-hight .booking__block-user-uu .booking__block-lnl .booking__image-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-low {
+  position: relative;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+  justify-content: end;
+  flex-direction: row;
+  z-index: 30000;
+  align-items: center;
+  justify-content: flex-start;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-low .booking__block-user-uu .booking__block-lnl {
+  position: absolute;
+  position: absolute;
+  top: -46px;
+  left: -37px;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-low .booking__block-user-uu .booking__block-lnl .booking__image-ellips {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.booking .booking__main-block .bookign__main-ticket .booking__block-fly-images .booking__block-low .booking__block-user-uu .booking__block-lnl .booking__image-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  color: transparent;
+  z-index: -1;
+  width: 200px;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__header-term {
+  margin-bottom: 40px;
+  /* Montserrat/Semibold/24px */
+  color: rgb(17, 34, 17);
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr {
+  margin-bottom: 40px;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__header-block-description {
+  margin-bottom: 20px;
+  /* Montserrat/Medium/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__list-box {
+  margin-bottom: 30px;
+  padding: 0px 30px;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__list-box .booking__list-item {
+  list-style-type: disc !important;
+  margin-bottom: 10px;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-terms .booking__block-descr .bookign__list-box .booking__list-item .booking__description-main-term {
+  width: 80%;
+  line-height: 20px;
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  opacity: 0.6;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-contacts .booking__header-block-contact {
+  margin-bottom: 20px;
+  /* Montserrat/Medium/20px */
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-contacts .booking__description-contact {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  opacity: 0.6;
+}
+.booking .booking__main-block .bookign__block-uul .booking__block-contacts .booking__description-contact:not(:last-child) {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=booking.css.map */

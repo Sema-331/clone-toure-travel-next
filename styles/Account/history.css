@@ -1,0 +1,690 @@
+/*Main fonts*/
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__name-seat-num, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-account__time-arrival, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-account__time-departure, .history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history .history-account__name-history, .history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history-active .history-account__name-history, .history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history .history-account__name-history, .history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history-active .history-account__name-history, .history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__show-sorts .history-account__name-sort {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0%;
+}
+
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__btn-upload, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__description-seat-num, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time-time, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate-num, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date-time, .history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-all-res .history-account__description-name, .history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-past-res .history-account__description-name, .history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-upcoming .history-account__description-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0%;
+}
+
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-accoun__name-city-to-arrival, .history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-accoun__name-city {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__header-block {
+  font-family: "Trade Gothic LT Std", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
+
+/*Background*/
+.history-account .history-account__block-history-user-pay .history-account__block-option-view {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+}
+
+/**Btn**/
+/*Main fonts*/
+.history-account {
+  margin-bottom: 300px;
+}
+.history-account .history-account__block-main .choice__dashboard-block {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  /* Neutrals */
+  background: rgb(255, 255, 255);
+  height: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90px;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account {
+  height: 100%;
+  width: 30.33%;
+  transform: translateY(-3px);
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account .choice__block-dashboard-description-account {
+  justify-content: flex-start;
+  padding: 14px 0px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account .choice__block-dashboard-description-account .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 14px; */
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account-active {
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account-active .choice__block-dashboard-description-account {
+  justify-content: flex-start;
+  padding: 14px 0px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-account-active .choice__block-dashboard-description-account .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 14px; */
+  border-right: 1px solid rgb(228, 228, 228);
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  height: 100%;
+  width: 30.33%;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history .choice__block-dashboard-description-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history .choice__block-dashboard-description-history .choice__name-opt {
+  text-align: start;
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid rgb(228, 228, 228);
+  border-left: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history-active {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  /* Mint Green */
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history-active .choice__block-dashboard-description-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-history-active .choice__block-dashboard-description-history .choice__name-opt {
+  text-align: start;
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid rgb(228, 228, 228);
+  border-left: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  /* Mint Green */
+  border-bottom: 4px solid rgb(141, 211, 187);
+  height: 100%;
+  width: 30.33%;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active .choice__block-dashboard-description-pay-method {
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method-active .choice__block-dashboard-description-pay-method .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method {
+  display: flex;
+  justify-content: center;
+  width: 30.33%;
+  height: 100%;
+  width: 30.33%;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method .choice__block-dashboard-description-pay-method {
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 30.33%;
+  padding: 0px 20px;
+  padding: 14px 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.history-account .history-account__block-main .choice__dashboard-block .choice__block-dashboard-inside-pay-method .choice__block-dashboard-description-pay-method .choice__name-opt {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  text-align: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__header-block {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  line-height: 40px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus {
+  position: relative;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__show-sorts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__show-sorts .history-account__name-sort {
+  /* Montserrat/Semibold/14px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: right;
+  margin-right: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort {
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: rgb(255, 255, 255);
+  padding: 15px 20px;
+  width: 200px;
+  position: absolute;
+  z-index: 100;
+  right: 0%;
+  /* bottom: 100%; */
+  top: 160%;
+  height: 150px;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-upcoming {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-upcoming .history-account__description-name {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-past-res {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-past-res .history-account__description-name {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-all-res {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-uu .history-account__block-uus .history-account__block-modal-sort .history-account__block-all-res .history-account__description-name {
+  color: rgb(17, 34, 17);
+  font-size: 16px;
+  line-height: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  position: relative;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history-active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 46%;
+  border-bottom: 4px solid rgb(141, 211, 187);
+  margin: 0px 35px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history-active .history-account__image-fly {
+  margin-right: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history-active .history-account__name-history {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 46%;
+  margin: 0px 35px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history .history-account__image-fly {
+  margin-right: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-fly-history .history-account__name-history {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__hr {
+  position: absolute;
+  width: 3px;
+  height: 60px;
+  top: 16%;
+  left: 50%;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__hr hr {
+  border-right: 3px solid rgb(228, 228, 228);
+  width: 3px;
+  height: 100%;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history-active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 4px solid rgb(141, 211, 187);
+  margin: 0px 35px;
+  width: 46%;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history-active .history-account__image-hotel {
+  margin-right: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history-active .history-account__name-history {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 35px;
+  width: 46%;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history .history-account__image-hotel {
+  margin-right: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-option-view .history-account__block-hotel-history .history-account__name-history {
+  /* Montserrat/Semibold/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item {
+  border-radius: 16px;
+  box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.25);
+  background: #fff;
+  padding: 40px 35px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__image-logo-ticket {
+  margin-right: 40px;
+  width: 110px;
+  height: 110px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid rgb(228, 228, 228);
+  /* margin-right: 20px; */
+  padding-right: 30px;
+  margin-right: 30px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from {
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-accoun__name-city {
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-infro-from .history-account__time-departure {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-alias hr {
+  width: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user {
+  margin-left: 30px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-accoun__name-city-to-arrival {
+  /* Montserrat/Regular/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-road-info .history-account__block-lot .history-account__block-to-user .history-account__time-arrival {
+  color: rgb(17, 34, 17);
+  font-size: 22px;
+  line-height: 24px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-top: 15px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__image-date {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-date-detailed .history-account__block-date-detailed-inside .history-account__description-date-time {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__image-gate {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-gate-detailed .history-account__block-gate-detailed-inside .history-account__description-gate-num {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__image-flight-time {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-flight-time-detailed .history-account__block-flight-time-detailed-inside .history-account__description-flight-time-time {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__image-seat-num {
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__name-seat-num {
+  opacity: 0.5;
+  margin-bottom: 6px;
+  /* Montserrat/Semibold/12px */
+  color: rgb(17, 34, 17);
+  font-size: 14px;
+  line-height: 15px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-date-info .history-account__block-ticket-detailed-info .history-account__block-seat-num-detailed .history-account__block-seat-num-detailed-inside .history-account__description-seat-num {
+  /* Montserrat/Medium/16px */
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket {
+  display: flex;
+  flex-direction: row;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__btn-upload {
+  color: rgb(17, 34, 17);
+  font-size: 18px;
+  line-height: 17px;
+  text-align: left;
+  border-radius: 4px;
+  background: rgb(141, 211, 187);
+  padding: 15px 25px;
+  height: 56px;
+  margin-right: 20px;
+}
+.history-account .history-account__block-history-user-pay .history-account__block-list-box-item .history-account__list-item .history-account__block-download-ticket .history-account__block-arrows {
+  border: 1px solid rgb(141, 211, 187);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+}/*# sourceMappingURL=history.css.map */

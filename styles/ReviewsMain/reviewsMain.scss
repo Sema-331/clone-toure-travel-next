@@ -1,0 +1,402 @@
+@import './../vars/mixins';
+@import './../vars/colors';
+
+
+.reviews_company-block {
+    margin-bottom: 300px;
+    margin-top: 50px;
+    .reviews__block-company-inside {
+        .reviews__header-page {
+            color: rgb(17, 34, 17);
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .reviews__description-think {
+            color: rgb(17, 34, 17);
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .reviews__form-block {
+            margin-bottom: 60px;
+            .reviews__label-form {
+                display: inline-block;
+                opacity: 0.5;
+                font-family: "Montserrat", sans-serif;
+                font-size: 20px;
+                color: $primary_black;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 2%;
+                text-align: left;
+                margin-bottom: 10px !important;
+            }
+            .reviews__block-rate-hotel {
+                margin-bottom: 20px;
+                .reviews__btn-rate-change {
+                    .reviews__modal-rate-star {
+
+                    }   
+                }
+            }
+            .reviews__block-field-form {
+                margin-bottom: 30px;
+                .reviews__label-form {
+                    display: inline-block;
+                    opacity: 0.5;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 20px;
+                    color: $primary_black;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 2%;
+                    text-align: left;
+                    margin-bottom: 10px !important;
+                }
+                .reviews__input-field {
+                    width: 100%;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    color: $primary_black;
+                    font-weight: 400;
+                    line-height: 25px;
+                    padding: 10px 20px;
+                    height: 60px;
+                    border: 1px solid rgb(121, 116, 126);
+                    border-radius: 4px;
+                    background: $primary_fff;
+                    &::placeholder {
+                        color: rgb(121, 116, 126);
+                        font-size: 18px;
+                    }
+                    &:invalid {
+                        border-color: $color2 !important;
+                    }
+                }
+            }
+            .reviews__block-field-form-side {
+                margin-bottom: 30px;
+                .reviews__label-form {
+                    display: inline-block;
+                    opacity: 0.5;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 20px;
+                    color: $primary_black;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 2%;
+                    text-align: left;
+                    margin-bottom: 10px !important;
+                }
+                .reviews__input-field {
+                    width: 100%;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    color: $primary_black;
+                    font-weight: 400;
+                    line-height: 25px;
+                    padding: 10px 20px;
+                    height: 60px;
+                    border: 1px solid rgb(121, 116, 126);
+                    border-radius: 4px;
+                    background: $primary_fff;
+                    &::placeholder {
+                        color: rgb(121, 116, 126);
+                        font-size: 18px;
+                    }
+                    &:invalid {
+                        border-color: $color2 !important;
+                    }
+                }
+            }
+            .reviews__block-select-image {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 20px;
+                .reviews__description-name {
+                    display: inline-block;
+                    opacity: 0.5;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 20px;
+                    color: $primary_black;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 2%;
+                    text-align: left;
+                    margin-bottom: 10px !important;
+                    span {
+                        display: inline-block;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 20px;
+                        color: $primary_black;
+                        font-weight: 400;
+                        line-height: 17px;
+                        letter-spacing: 2%;
+                        text-align: left;
+                        margin-bottom: 10px !important;
+                    }
+                }
+                .reviews__btn-choose-photo {
+                    width: 100%;
+                    height: 300px;
+                    border: 1px dashed red;
+                    border-radius: 6px;
+                    .reviews__select-image {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+            .reviews__btn-submit-form {
+                height: 56px;
+                margin-bottom: 20px;
+                color: $primary_black;
+                @extend %m_600;
+                font-size: 18px;
+                line-height: 17px;
+                text-align: left;
+                padding: 15px 15px;
+                width: 100%;
+                text-align: center;
+                border-radius: 4px;
+                background: $color_3;
+            }
+        }
+    }
+    .reviews__block-all-views {
+        .reviews__header-view {
+            color: rgb(17, 34, 17);
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0%;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .comment__block-null {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;        
+            .comment__block-images-null {
+                margin-right: 80px;
+                .comment__image-null {
+                    width: 600px;
+                    height: 600px;
+                }
+            }
+            .comment__block-description-reviews-null {
+                width: 50%;
+                .comment__header-block-null-review {
+                    margin-bottom: 25px;
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 26px;
+                    font-weight: 600;
+                    line-height: 25px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .comment__description-review-null {
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0%;
+                    margin-bottom: 15px;
+                    text-align: left;
+                }   
+                .comment__btn-add-review {
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+            }
+        }
+        .reviews__block-inside-all {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid #dfdfdf;
+            .reviews__mark-company {
+                color: rgb(17, 34, 17);
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0%;
+                text-align: left;
+                box-sizing: border-box;
+                border: 1px solid rgb(141, 211, 187);
+                border-radius: 4px;
+                padding: 15px 20px;
+                width: fit-content;
+                margin-right: 20px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Trade Gothic LT Std", sans-serif;
+                font-size: 70px;
+            } 
+            .reviews__block-info-mark-company {  
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .reviews__block-description-mark-company {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .reviews__description-company-good {
+                        color: rgb(17, 34, 17);
+                        text-align: center;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-right: 15px;
+                    }
+                    .reviews__description-count-reviews {
+                        color: rgb(17, 34, 17);
+                        text-align: center;
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .reviews__main-block-list-item {
+            .reviews__list-item-block {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+                border-bottom: 1px solid #dfdfdf;
+                .reviews__block-uu {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                
+                    .reviews__block-image-user {
+                    margin-right: 20px;
+                    .reviews__image-user-exist {
+                        border-radius: 50%;
+                        background: #fff;
+                        box-sizing: border-box;
+                        border: 1px solid rgb(255, 134, 130);
+                        box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+
+                    }
+                    .reviews__image-user-null {
+                      border-radius: 50%;
+                      background: #ebebeb;
+                      box-sizing: border-box;
+                      border: 1px solid rgb(255, 134, 130);
+                      box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+                    }
+                    }
+                    .reviews__block-description-review {
+                    .reviews__block-user-mark {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        margin-bottom: 15px;
+                        .reviews__description-mark {
+                            /* Montserrat/Semibold/14px */
+                            color: rgb(17, 34, 17);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 17px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            margin-right: 20px;
+                        }
+                        hr {
+                            border-right: 2px solid #000;
+                            height: 17px;
+                        }
+                        .reviews__description-main-review {
+                            /* Montserrat/Regular/14px */
+                            color: rgb(17, 34, 17);
+                            font-family: "Montserrat", sans-serif;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 17px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            margin-left: 20px;
+                        }
+                    }
+                    .reviews__main-secr {
+                        /* Montserrat/Regular/14px */
+                        color: rgb(17, 34, 17);
+                        font-family: "Montserrat", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 23px;
+                        width: 92%;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                    }
+                }
+                .reviews__block-flag {
+                    .reviews__image-flag {
+
+                    }
+                }
+            } 
+            .comment__block-interactive-review {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                .comment__arrow-left {
+                    margin-right: 15px;
+                }
+                .comment__active-page {
+                    /* Montserrat/Regular/14px */
+                    color: rgb(17, 34, 17);
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 17px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                }
+                .comment__arrow-right {
+                    margin-left: 15px;
+                }
+            }  
+        }
+    }
+}
