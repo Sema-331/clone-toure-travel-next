@@ -34,7 +34,7 @@
     "jest.setup.ts",
     "test/Home.test.js",
     "test/user.test.js",
-    "test/Home.test.jsx"
+    "test/Home.test.js"
   ],
   // "type": ["@testing-library/jest-dom"],
   "exclude": ["node_modules"]

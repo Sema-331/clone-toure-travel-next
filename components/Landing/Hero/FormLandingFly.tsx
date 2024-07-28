@@ -169,6 +169,7 @@ const FormLandingFly = ({
               className="date__select"
               placeholderText="Select date"
               onChange={(date) => {
+                console.log(date);
                 console.log(formatDateString(date as any));
                 setDateStartFrom(formatDateString(date as any));
                 field.onChange(date);

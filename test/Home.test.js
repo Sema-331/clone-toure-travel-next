@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import FormFooter from "@/components/Landing/Footer/FormFooter";
 import AddPromoModal from "@/components/Landing/Hero/AddPromoModal";
 import ModalPromoCode from "@/components/Landing/Hero/ModalPromoCode";
+import { convertationTime } from "@/helpers/ConvertingTime";
 const searchParams = {
   search: "test",
   variaty: "type1",
@@ -135,6 +136,35 @@ describe("all home page test", () => {
     expect(btn).toBeInTheDocument();
     fireEvent.click(btn);
     // await expect(screen.queryByTestId("lolo")).toBeInTheDocument();
+  });
+  test("ghfjdks", () => {
+    const dateFirst = new Date("2024-07-25T12:00:00");
+    const dateSecond = new Date("2024-07-25T11:00:00");
+    const res = convertationTime(dateFirst, dateSecond);
+    expect(res).tobe(60);
+  });
+  test("gjfdk", () => {
+    const date1 = new Date("2024-07-25T11:00:00");
+    const date2 = new Date("2024-07-25T12:00:00");
+
+    const result = convertationTime(date1, date2);
+    expect(result).toBe(-60);
+  });
+
+  test("ghfjdksd", () => {
+    const date1 = new Date("2024-07-25T12:00:00");
+    const date2 = new Date("2024-07-25T12:00:00");
+
+    const result = convertationTime(date1, date2);
+    expect(result).toBe(0);
+  });
+
+  test("gfdjskmnf", () => {
+    const date1 = new Date("2024-07-25T12:00:00Z"); // UTC time
+    const date2 = new Date("2024-07-25T14:00:00+02:00"); // UTC+2 time
+
+    const result = convertationTime(date1, date2);
+    expect(result).toBe(0);
   });
   // test("lale", () => {
   //   const mockRegister = () => ({
