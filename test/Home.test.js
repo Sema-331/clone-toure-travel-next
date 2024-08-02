@@ -193,4 +193,10 @@ describe("all home page test", () => {
   //   // expect(elem).toBeInTheDocument();
   //   // expect(screen.queryByText("bobob")).toBeInTheDocument();
   // });
+  test("convertTets", () => {
+    const date =
+      "Sun Jul 28 2024 00:00:00 GMT+0500 (Екатеринбург, стандартное время)";
+    const fn = formatDateString(date);
+    expect(fn).toBe("2024/07/28");
+  });
 });
